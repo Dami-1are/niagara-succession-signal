@@ -399,3 +399,54 @@ We will not:
 - combine different geographic levels without explaining and justifying the method.
 
 Where municipality-level analysis is required, we will use the correct Census Subdivision (CSD) or verified municipality field where available.
+
+
+---
+
+# Key Variables and Their Correct Use
+
+During Week 2, we identified the main variables available from our selected sources.
+
+It is important that we only claim variables that are actually available or confirmed in each source.
+
+| Source | Confirmed / Relevant Variables | What It Can Help Us Understand | What It Cannot Prove |
+|---|---|---|---|
+| Canadian Business Counts – 33-10-1176-01 | Business location counts, employment-size ranges, NAICS | Number, size, industry and local distribution of employer businesses | Owner age, retirement intention, succession plan or reason for closure |
+| Canadian Business Counts – 33-10-1174-01 | Business location counts, employment-size ranges, NAICS | Ontario and Canada employer-business structure | Direct succession risk |
+| Canadian Business Counts – 33-10-1175-01 | Business location counts without employees, NAICS | Businesses without employees by industry | Direct succession risk |
+| Business Dynamics – 33-10-0087-01 | Business entrants, incumbents and exits by industry | Historical business entry and exit patterns | Why a business exited |
+| Business Dynamics – 33-10-0088-01 | Business entrants, incumbents and exits by firm size | How business dynamics differ by business size | Whether an exit was caused by retirement or lack of succession |
+| Employment Dynamics – 33-10-0089-01 | Employment creation and destruction connected with business dynamics | Employment effects associated with business changes | Direct jobs at risk from succession in Niagara |
+| Experimental Business Openings/Closures – 33-10-0270-01 | Business openings and closures, time, geography and industry-related breakdowns | Monthly opening and closure patterns | Reason for closure |
+| Experimental Openings/Closures by Employment Size – 33-10-0722-01 | Business openings and closures by employment size | Monthly patterns by business size | Succession-related closure |
+| Census Age Data – 98-10-0022-01 | Age, average age, median age and related demographic breakdowns | Age structure of Niagara and its municipalities | Age of individual business owners |
+| Census Class of Worker / Self-Employment – 98-10-0592-01 | Industry, labour-force status, age, gender and class of worker | Self-employment patterns by age and industry | That every self-employed person is a business owner |
+| Consolidated Niagara Employment Inventory | Business/employment information, NAICS and local Niagara business records; exact field list will be confirmed from the downloaded file in Week 3 | Local business structure, employment and industry patterns | Owner age, retirement intention, successor or succession-plan status unless those fields are confirmed in the acquired data |
+| 2026 Niagara Employment Inventory | Succession-planning questions were included in the 2026 survey | May provide more direct succession information if access to the responses is obtained | We cannot claim the succession-response variables are publicly available until access and fields are confirmed |
+| CFIB Succession Tsunami | Owner exit intentions, exit timelines, succession planning and barriers to succession | Canadian succession patterns and challenges | That the same percentages apply directly to Niagara |
+| Niagara Regional Quick Facts | Business and regional economic indicators | Niagara business and economic context | Direct succession risk |
+| Niagara Economic Indicators | Regional economic indicators | Economic context and later impact analysis | Which businesses face succession risk |
+| Niagara Labour Force | Employment and workforce information | Employment and sector context | Direct succession risk |
+| Niagara Economic Development Reports | Variables depend on the individual report | Supporting sector and economic context | Direct succession risk unless specifically supported by a report |
+
+## Variable Use Rule
+
+We will separate three things throughout this project:
+
+1. **What the dataset actually contains**
+2. **What we can reasonably learn from those variables**
+3. **What the variables cannot prove**
+
+We will not create or assume a variable simply because it would be useful for our project.
+
+For example:
+
+- Business exit does not automatically mean business failure.
+- Business closure does not automatically mean succession-related closure.
+- Self-employed does not automatically mean business owner.
+- Older population does not automatically mean older business owners.
+- Small business size does not automatically mean high succession risk.
+- A national succession percentage does not automatically represent Niagara.
+- A variable mentioned in a survey questionnaire will not be treated as available data until we confirm access to the actual responses.
+
+During Week 3, when the datasets are downloaded, we will compare these documented variables with the actual column names in each file and update this section where necessary.
