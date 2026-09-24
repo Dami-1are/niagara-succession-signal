@@ -357,3 +357,45 @@ Before combining or comparing sources in later stages, we will check:
 - whether unusual periods such as COVID-19 may affect interpretation.
 
 Historical coverage does not automatically mean that all years form one directly comparable time series.
+
+
+
+---
+
+# Geographic Coverage
+
+The sources identified during Week 2 cover different geographic levels. We will keep these differences clear throughout the project so that national, provincial or metropolitan data are not incorrectly presented as Niagara-specific data.
+
+| Source | Geographic Level | How We Will Treat It |
+|---|---|---|
+| Canadian Business Counts – 33-10-1176-01 | Census Metropolitan Area (CMA) and Census Subdivision (CSD) | Local business-count source. CSD data can support municipality-level analysis where the required Niagara CSD is available. |
+| Canadian Business Counts – 33-10-1174-01 | Canada, provinces and territories | Ontario/Canada benchmark only. |
+| Canadian Business Counts – 33-10-1175-01 | Canada, provinces and territories | Ontario/Canada benchmark for businesses without employees. |
+| Business Dynamics – 33-10-0087-01 | Canada, provinces and territories | Historical Ontario/Canada benchmark; not Niagara-specific. |
+| Business Dynamics – 33-10-0088-01 | Canada, provinces and territories | Ontario/Canada business-size benchmark; not Niagara-specific. |
+| Employment Dynamics – 33-10-0089-01 | Canada, provinces and territories | Ontario/Canada employment-flow context; not Niagara-specific. |
+| Experimental Business Openings/Closures – 33-10-0270-01 | Canada, provinces/territories and CMA | CMA-level information may provide local metropolitan context, but a CMA must not automatically be treated as the whole Niagara Region or as an individual municipality. |
+| Experimental Openings/Closures by Employment Size – 33-10-0722-01 | Canada, provinces/territories and CMA | Same geographic caution as above. |
+| Census Age Data – 98-10-0022-01 | Census Division (CD) and Census Subdivision (CSD), among other census geographies | Can support Niagara Region and municipality-level demographic analysis where the correct geography is selected. |
+| Census Class of Worker / Self-Employment – 98-10-0592-01 | Includes Census Division (CD) | Can provide Niagara census-division context; it should not automatically be described as municipality-level data. |
+| Consolidated Niagara Employment Inventory | Niagara Region / local business records | Primary Niagara-specific business source. Municipality fields can support local analysis after Week 3 audit confirms the values. |
+| 2026 Niagara Employment Inventory | Niagara Region | Niagara-specific survey, but access to succession-specific responses is still unconfirmed. |
+| CFIB Succession Tsunami | Canada | National succession evidence only. It must not be presented as Niagara-specific evidence. |
+| Niagara Regional Quick Facts | Niagara Region | Regional economic and business context. |
+| Niagara Economic Indicators | Niagara Region | Regional economic context. |
+| Niagara Labour Force | Niagara Region | Regional employment context. |
+| Niagara Economic Development Reports | Mainly Niagara Region; coverage depends on the individual report | Geography must be checked for each report before figures are used. |
+
+## Geographic Coverage Rule
+
+Before using any dataset, we will identify its exact geographic level.
+
+We will not:
+
+- present Canada-level findings as Niagara findings;
+- present Ontario-level findings as Niagara findings;
+- treat CMA data automatically as Niagara Region data;
+- treat Census Division data automatically as municipality data; or
+- combine different geographic levels without explaining and justifying the method.
+
+Where municipality-level analysis is required, we will use the correct Census Subdivision (CSD) or verified municipality field where available.
