@@ -299,3 +299,326 @@ We will therefore use the sources for different purposes:
 The team will not treat proxy or contextual information as direct evidence of succession risk.
 
 The final choice of variables and datasets used in the aggregated data layer will be made only after Week 3 data collection and audit.
+
+
+---
+
+# 14. Source-to-Deliverable Mapping
+
+This section shows how the data sources identified during Week 2 may support the required Founder Challenge deliverables.
+
+This is a **planned mapping**. Final use of each source will depend on the results of data collection, audit, cleaning and analysis.
+
+---
+
+## 4.1 — Aggregated Data Layer
+
+**Main sources planned:**
+
+- Consolidated Niagara Employment Inventory (NEI)
+- Statistics Canada Canadian Business Counts
+- Statistics Canada Business Dynamics
+- Statistics Canada Census data
+
+**Expected use:**
+
+These sources will form the main analytical data foundation of the project.
+
+The final aggregated data layer should combine relevant information at compatible levels such as:
+
+- municipality/geography;
+- sector or NAICS;
+- business size;
+- business counts;
+- business entries and exits;
+- employment; and
+- relevant demographic or succession indicators where justified.
+
+**Important:** Sources will only be joined at levels that are methodologically valid.
+
+---
+
+## 4.2 — Research Report
+
+**Sources planned:**
+
+All validated project sources may contribute to the research report.
+
+These include:
+
+- NEI;
+- Statistics Canada;
+- CFIB succession research;
+- Niagara economic sources; and
+- other validated supporting research.
+
+**Expected use:**
+
+The report will document:
+
+- research problem;
+- data sources;
+- methodology;
+- assumptions;
+- limitations;
+- analysis;
+- findings;
+- model results;
+- economic implications; and
+- recommendations.
+
+Every important claim should be traceable to either our analysis or a clearly identified source.
+
+---
+
+## 4.3 — Infographics & Visual Assets
+
+**Likely supporting sources:**
+
+- final aggregated data layer;
+- NEI;
+- Statistics Canada;
+- final model outputs; and
+- local-economy analysis.
+
+**Expected use:**
+
+The infographics will communicate important findings to a non-technical audience.
+
+Possible themes may include:
+
+- risk distribution;
+- sector exposure;
+- municipal differences;
+- business-size patterns;
+- jobs exposure; and
+- major succession findings.
+
+The final topics will be chosen only after analysis.
+
+---
+
+## 4.4 — Graphs & Exploratory Visuals
+
+**Main sources planned:**
+
+- NEI;
+- Statistics Canada Business Counts;
+- Statistics Canada Business Dynamics;
+- Census data; and
+- the final aggregated analytical dataset.
+
+**Expected use:**
+
+These sources may support:
+
+- distributions;
+- trends;
+- comparisons;
+- sector breakdowns;
+- municipal breakdowns;
+- relationships between variables;
+- model diagnostics; and
+- other exploratory analysis.
+
+Graphs used to support a claim must be based on the appropriate data and clearly labelled.
+
+---
+
+## 4.5 — Predictive Model for Forecasting Business Closures
+
+**Current status: FEASIBILITY NOT YET CONFIRMED**
+
+Potential supporting sources include:
+
+- NEI;
+- Statistics Canada Business Dynamics;
+- business opening/closure information;
+- business counts;
+- sector;
+- municipality;
+- business size; and
+- other variables confirmed during the data audit.
+
+### Important Modelling Rule
+
+At the end of Week 2, we have **not yet confirmed a direct business-level succession-risk target variable**.
+
+We will therefore not decide the final model target, features or algorithm until the data has been collected and audited.
+
+Business closure will also not automatically be interpreted as succession failure.
+
+During later project stages, we must clearly document:
+
+- target variable;
+- modelling unit;
+- forecast horizon;
+- assumptions;
+- baseline model;
+- validation method;
+- uncertainty;
+- limitations; and
+- interpretation of the model output.
+
+---
+
+## 4.6 — Business Acquisition / Succession Playbook
+
+**Likely supporting evidence:**
+
+- final analytical findings;
+- identified risk patterns;
+- CFIB succession research;
+- sector findings;
+- municipal findings;
+- business-size findings; and
+- relevant supporting literature.
+
+**Expected use:**
+
+The playbook will translate our findings into a general framework showing how an at-risk but otherwise healthy business could be positioned for acquisition or orderly succession.
+
+It will remain a general framework and will not provide advice about an identifiable individual business owner.
+
+---
+
+## 4.7 — Local-Economy Impact Analysis
+
+**Likely supporting sources:**
+
+- NEI employment-size information;
+- Statistics Canada Employment Dynamics where appropriate;
+- business counts;
+- sector composition;
+- municipal composition;
+- Niagara labour-force information;
+- Niagara economic indicators; and
+- modelled project outputs.
+
+**Expected use:**
+
+This analysis will examine the possible economic meaning of succession risk, including areas such as:
+
+- jobs exposed;
+- sector concentration;
+- municipal vulnerability;
+- economic knock-on effects; and
+- segments where early intervention may matter.
+
+The final impact measures will depend on the available data and model results.
+
+---
+
+## 4.8 — Government & Private-Sector Remediation Report
+
+**Evidence base planned:**
+
+This deliverable will mainly use the findings produced by the earlier analytical stages rather than rely on one individual dataset.
+
+Evidence may come from:
+
+- aggregated data layer;
+- exploratory analysis;
+- predictive model;
+- local-economy impact analysis;
+- CFIB succession research; and
+- relevant Niagara economic context.
+
+**Expected use:**
+
+Recommendations will be separated for:
+
+1. government/economic-development bodies; and
+2. private-sector actors such as buyers, lenders, brokers and chambers.
+
+Recommendations must be connected to specific findings from the analysis.
+
+---
+
+## 4.9 — Nice-to-Have Extensions
+
+The challenge identifies several possible innovation extensions.
+
+These include:
+
+- interactive dashboard or web tool;
+- succession-readiness index or scoring method;
+- buyer-business matching approach using aggregate/synthetic data;
+- comparative case study applying the method to a Nigerian or other African regional economy;
+- policy-brief version of the remediation report; and
+- reproducibility/replication package.
+
+### Week 2 Decision
+
+We will **not commit to every extension at this stage**.
+
+The team will first complete the core analytical work.
+
+Extensions will be selected based on:
+
+- data availability;
+- time;
+- technical feasibility;
+- usefulness;
+- quality of the core analysis; and
+- potential innovation value.
+
+Any extension selected must be clearly documented and must not compromise completion of the main project.
+
+---
+
+# Deliverable Dependency
+
+The project deliverables are connected.
+
+A simplified flow is:
+
+**Data Sources**
+
+↓
+
+**4.1 Aggregated Data Layer**
+
+↓
+
+**4.4 Exploratory Analysis**
+
+↓
+
+**4.5 Predictive Model**
+
+↓
+
+**4.7 Local-Economy Impact Analysis**
+
+↓
+
+**4.6 Succession Playbook + 4.8 Remediation Report**
+
+↓
+
+**4.2 Research Report + 4.3 Infographics**
+
+↓
+
+**4.9 Selected Innovation Extensions**
+
+This means the quality of the later deliverables depends heavily on the quality and documentation of the data collected at the beginning of the project.
+
+---
+
+# Current Week 2 Position
+
+At the end of Week 2:
+
+- data sources have been researched;
+- major sources have been evaluated;
+- Priority A datasets have been selected;
+- important limitations have been identified;
+- data licences have been documented;
+- an acquisition plan has been created;
+- a data dictionary structure has been prepared;
+- data risks have been recorded; and
+- each source now has a planned relationship to the challenge deliverables.
+
+Actual analytical claims will only be made after the relevant data has been collected, audited and analysed.
