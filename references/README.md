@@ -450,3 +450,57 @@ For example:
 - A variable mentioned in a survey questionnaire will not be treated as available data until we confirm access to the actual responses.
 
 During Week 3, when the datasets are downloaded, we will compare these documented variables with the actual column names in each file and update this section where necessary.
+
+
+---
+
+# File Format and Access Status
+
+During Week 2, we also checked whether the identified sources can actually be accessed and what file formats are available.
+
+For our main data analysis, we will prefer CSV where available because it can be easily loaded and processed using Python. Original downloaded files will be preserved unchanged in the appropriate raw-data location.
+
+| Source | Access Status | Preferred Format | Week 3 Action |
+|---|---|---|---|
+| Canadian Business Counts – 33-10-1176-01 | Publicly available | CSV | Download the required local business-count data and metadata |
+| Canadian Business Counts – 33-10-1174-01 | Publicly available | CSV | Download Ontario/Canada employer-business data if required |
+| Canadian Business Counts – 33-10-1175-01 | Publicly available | CSV | Download businesses-without-employees data if required |
+| Business Dynamics – 33-10-0087-01 | Publicly available | CSV | Download Ontario industry-level business dynamics data |
+| Business Dynamics – 33-10-0088-01 | Publicly available | CSV | Download Ontario firm-size business dynamics data |
+| Employment Dynamics – 33-10-0089-01 | Publicly available | CSV | Download relevant Ontario employment-flow data |
+| Experimental Business Openings/Closures – 33-10-0270-01 | Publicly available | CSV | Download relevant data after confirming the required geography |
+| Experimental Openings/Closures by Employment Size – 33-10-0722-01 | Publicly available | CSV | Download relevant data after confirming the required geography |
+| Census Age Data – 98-10-0022-01 | Publicly available | CSV | Download required Niagara CD/CSD data and metadata |
+| Census Class of Worker / Self-Employment – 98-10-0592-01 | Publicly available | CSV | Download required Niagara census-division data and metadata |
+| Consolidated Niagara Employment Inventory | Publicly available | CSV preferred; XLSX also available | Download and preserve an unchanged raw copy |
+| 2026 Niagara Employment Inventory succession responses | Access not yet confirmed | To be determined | Investigate whether succession-specific responses can be accessed |
+| CFIB Succession Tsunami | Public research report | PDF / report | Save as a reference source; do not treat it as a Niagara business-level dataset |
+| Niagara Regional Quick Facts | Public webpage | Web/reference | Record figures used together with their reference year and source |
+| Niagara Economic Indicators | Public webpage | Web/reference | Record relevant indicators and their reference years |
+| Niagara Labour Force | Public webpage | Web/reference | Record relevant employment figures and their reference years |
+| Niagara Economic Development Reports | Publicly available reports | PDF / report, depending on report | Save only reports that are relevant to the project |
+
+## File Handling Rule
+
+When Week 3 data collection begins:
+
+1. We will download data only from the official source.
+2. We will preserve the original downloaded file before making any changes.
+3. Tabular datasets will preferably be downloaded as CSV where available.
+4. Metadata supplied with Statistics Canada downloads will also be preserved.
+5. Research reports will be stored separately from datasets.
+6. We will record the date each dataset was downloaded.
+7. We will not rename columns, remove rows, fill missing values or otherwise clean the raw files before the initial data audit.
+8. If a dataset is available only by request or restricted access, we will document this instead of treating it as available.
+
+## Important Access Gap
+
+The main unresolved access issue from Week 2 is the succession-related information collected through the 2026 Niagara Employment Inventory.
+
+We have confirmed that succession-planning questions were included in the 2026 survey, but we have not yet confirmed public access to the resulting responses.
+
+Therefore, this source remains:
+
+**Access Status: To Be Investigated**
+
+until we receive or locate official confirmation.
