@@ -250,3 +250,52 @@ Week 3 will answer:
 **What data do we actually have, what is inside it, what is its quality, and what can it legitimately support?**
 
 We will only move from data collection into cleaning after we understand the datasets we have acquired.
+
+
+---
+
+# 13. Week 2 Data Source Decision Matrix
+
+This matrix summarises our final Week 2 decisions about the data sources researched by the team.
+
+It shows which sources we are carrying forward, why we need them, their main limitations, and what will happen to them in Week 3.
+
+| Data Source | Decision | Role in Project | Priority | Main Limitation | Week 3 Action |
+|---|---|---|---|---|---|
+| Consolidated Niagara Employment Inventory (NEI) | Keep | Main local business-level source for municipality, industry/NAICS, employment size and other business characteristics | A — Must Download | Public data inspected so far does not provide confirmed direct succession variables | Download CSV, preserve raw copy and audit all fields |
+| Canadian Business Counts — 33-10-1176-01 | Keep | Local business counts by geography, industry and employment size | A — Must Download | Business counts do not directly measure succession risk | Download CSV + metadata and audit |
+| Business Dynamics by Industry — 33-10-0087-01 | Keep | Historical business entry and exit patterns by industry | A — Must Download | Business exit does not tell us why the business exited | Download CSV + metadata and audit |
+| Business Dynamics by Firm Size — 33-10-0088-01 | Keep | Historical business entry/exit patterns by business size | A — Must Download | Mainly useful as broader benchmark/context rather than direct Niagara succession evidence | Download CSV + metadata and audit |
+| Census Age Data — 98-10-0022-01 | Keep | Niagara demographic age structure | A — Must Download | Population age is not the same as business-owner age | Download CSV + metadata and audit |
+| Census Class of Worker / Self-Employment — 98-10-0592-01 | Keep | Self-employment patterns by age and industry | A — Must Download | Self-employment is only a proxy and does not directly identify business owners | Download CSV + metadata and audit |
+| Canadian Business Counts — 33-10-1174-01 | Conditional | Ontario/Canada employer-business benchmark | B — Supporting | Broader geography than our main Niagara focus | Download only if required for comparison |
+| Canadian Business Counts — 33-10-1175-01 | Conditional | Businesses without employees | B — Supporting | Does not directly measure succession | Use if required for business-structure analysis |
+| Employment Dynamics — 33-10-0089-01 | Conditional | Jobs created/destroyed in business dynamics | B — Supporting | Does not directly identify succession-related employment loss | Use if required for local-economy/jobs-exposure analysis |
+| Experimental Business Openings/Closures — 33-10-0270-01 | Conditional | More recent opening and closure patterns | B — Supporting | Experimental series and closure reason is unknown | Use only if geography and methodology are suitable |
+| Experimental Openings/Closures by Employment Size — 33-10-0722-01 | Conditional | Recent opening/closure patterns by business size | B — Supporting | Experimental data and closure does not equal succession failure | Use if required after audit |
+| CFIB Succession Research | Keep as reference | Canadian succession-planning context, owner exit intentions and barriers | B — Reference | National findings cannot automatically be treated as Niagara findings | Preserve as reference material and cite appropriately |
+| Niagara Regional Quick Facts | Keep as reference | Local economic and business context | B — Reference | Contextual information rather than direct succession data | Extract only relevant figures with their reference year |
+| Niagara Economic Indicators | Keep as reference | Regional economic context | B — Reference | Does not directly measure business succession | Extract only relevant indicators |
+| Niagara Labour Force | Keep as reference | Employment and labour-market context | B — Reference | Labour-force statistics do not identify succession risk | Extract only relevant indicators |
+| Niagara Economic Development Reports | Keep selectively | Sector and regional economic context | B — Reference | Relevance varies by report | Keep only reports directly useful to the project |
+| 2026 NEI Succession Information | Investigate | Potential direct evidence of succession planning in Niagara | C — Access Pending / High Value | Public access to the succession-specific responses has not been confirmed | Investigate official access during Week 3 |
+
+---
+
+## Final Week 2 Data Decision
+
+Our Week 2 research shows that no single identified public source can answer the full succession-risk question by itself.
+
+We will therefore use the sources for different purposes:
+
+- **NEI** will provide the main local business structure.
+- **Statistics Canada Business Counts** will provide business-count benchmarks.
+- **Statistics Canada Business Dynamics** will provide entry and exit patterns.
+- **Census data** will provide demographic and self-employment context.
+- **CFIB research** will provide Canadian succession-planning context.
+- **Niagara economic sources** will provide local economic context.
+- **2026 NEI succession information** remains an important access gap that we will continue investigating.
+
+The team will not treat proxy or contextual information as direct evidence of succession risk.
+
+The final choice of variables and datasets used in the aggregated data layer will be made only after Week 3 data collection and audit.
