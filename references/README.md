@@ -316,3 +316,44 @@ We will not treat self-employment as direct proof of business ownership.
 We will not apply national succession percentages directly to Niagara without a valid method.
 
 We will not build a succession-risk model until the required datasets have been properly collected, audited and understood.
+
+---
+
+# Data Time Coverage
+
+The datasets identified during Week 2 cover different time periods. These differences must be considered before datasets are compared or combined.
+
+| Source | Time Period / Reference Period | Important Note |
+|---|---|---|
+| Canadian Business Counts – 33-10-1176-01 | June 2026 | Current local business-count snapshot |
+| Canadian Business Counts – 33-10-1174-01 | June 2026 | Current Canada/Ontario employer-business snapshot |
+| Canadian Business Counts – 33-10-1175-01 | June 2026 | Current Canada/Ontario businesses-without-employees snapshot |
+| Business Dynamics – 33-10-0087-01 | Annual historical series | Exact reference years to be confirmed during Week 3 data acquisition |
+| Business Dynamics – 33-10-0088-01 | Annual historical series | Exact reference years to be confirmed during Week 3 data acquisition |
+| Employment Dynamics – 33-10-0089-01 | Annual historical series | Exact reference years to be confirmed during Week 3 data acquisition |
+| Experimental Business Openings/Closures – 33-10-0270-01 | Monthly, from January 2015 | Experimental series |
+| Experimental Openings/Closures by Employment Size – 33-10-0722-01 | Monthly, from January 2015 | Experimental series |
+| Census Age Data – 98-10-0022-01 | 2016 and 2021 Census | Census years only |
+| Census Class of Worker / Self-Employment – 98-10-0592-01 | 2021 Census | 25% sample data; pandemic-period context must be considered |
+| Consolidated Niagara Employment Inventory | Multi-year dataset beginning in 2016 | 2020 and 2021 collection was affected by the COVID-19 period; exact acquired coverage will be confirmed in Week 3 |
+| 2026 Niagara Employment Inventory | 2026 survey | Succession-planning questions were added; public access to responses is not yet confirmed |
+| CFIB Succession Tsunami | Survey conducted June–August 2022; report published 2023 | National Canadian succession research |
+| Niagara Regional Quick Facts | Includes recent annual regional indicators | Exact reference year must be recorded for each figure used |
+| Niagara Economic Indicators | Multiple recent annual periods | Record the year beside every figure used |
+| Niagara Labour Force | Multiple recent annual periods | Record the year beside every figure used |
+| Niagara Economic Development Reports | Varies by individual report | Record each report's publication/reference year separately |
+
+## Time-Coverage Rule
+
+We will not assume that data from different years can be directly compared.
+
+Before combining or comparing sources in later stages, we will check:
+
+- the exact reference year or period;
+- whether definitions changed between years;
+- whether NAICS classifications changed;
+- whether geography changed;
+- whether business-size definitions changed; and
+- whether unusual periods such as COVID-19 may affect interpretation.
+
+Historical coverage does not automatically mean that all years form one directly comparable time series.
