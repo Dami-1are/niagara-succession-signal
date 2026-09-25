@@ -71,7 +71,86 @@ The Consolidated NEI will be one of our main local business datasets and will be
 
 ---
 
-# 2. Oluwatosin & Ohonba
+# 2. Theophilus & Emmanuella
+
+## Area
+
+**Statistics Canada — Canadian Business Counts (CBC) & Supporting Niagara Data**
+
+### Contribution
+
+Theophilus and Emmanuella investigated the business-count data needed to understand the structure and size of small businesses across Niagara Region.
+
+They proposed examining the period from **2016 to 2026** and identified Statistics Canada Canadian Business Counts sources including:
+
+- Table 33-10-1176-01;
+- Table 33-10-1174-01;
+- Table 33-10-0576-01;
+- Table 33-10-0269-01; and
+- Table 33-10-0037-01.
+
+Their research examined information relating to:
+
+- active business counts;
+- active establishments and operating locations;
+- employee-size categories;
+- micro and small businesses;
+- businesses with indeterminate employee counts;
+- NAICS industry classifications;
+- CMA geography;
+- Census Subdivision (CSD) / municipal geography; and
+- historical business-count coverage.
+
+They also examined the Niagara Employment Inventory as a possible local supporting source where Statistics Canada data does not provide sufficient municipal detail.
+
+Their research identified succession-related supporting sources such as:
+
+- Canadian Federation of Independent Business (CFIB); and
+- Statistics Canada Canadian Survey on Business Conditions (CSBC).
+
+They also confirmed that relevant Statistics Canada tables can be downloaded in formats including CSV and XLSX, while Niagara Employment Inventory/Open Data sources may be available in formats including PDF, CSV, XLSX and geospatial formats.
+
+### Important Finding
+
+They identified several important limitations.
+
+Canadian Business Counts does not directly contain information about:
+
+- business-owner age;
+- retirement intention;
+- succession plans;
+- identified successors; or
+- reasons for business closure.
+
+They also identified that historical Canadian Business Counts tables should not automatically be treated as one continuous time series because table definitions, classifications, reporting methods and underlying administrative procedures may change between releases.
+
+They further identified that:
+
+- detailed local information may sometimes be limited or suppressed;
+- the large "indeterminate" business category requires careful interpretation;
+- NEI does not capture every possible type of business activity; and
+- gaps between different data sources need to be considered before combining them.
+
+### Week 3 Decision
+
+**KEEP — Priority A**
+
+Selected Canadian Business Counts data will be acquired and audited in Week 3.
+
+Before historical tables are combined or compared, the team must first check:
+
+- table definitions;
+- geography;
+- NAICS versions;
+- employee-size definitions;
+- reference periods; and
+- comparability across releases.
+
+Canadian Business Counts will help us understand Niagara's business structure and small-business concentration, but it will not be treated as direct evidence of succession risk.
+
+---
+
+# 3. Oluwatosin & Ohonba
 
 ## Area
 
@@ -114,7 +193,7 @@ The Niagara succession-data gap remains open.
 
 ---
 
-# 3. Damilare & Lucky
+# 4. Damilare & Lucky
 
 ## Area
 
@@ -162,7 +241,7 @@ They will not independently determine whether a Niagara business is experiencing
 
 ---
 
-# 4. Precious & Ruth
+# 5. Precious & Ruth
 
 ## Area
 
@@ -207,7 +286,7 @@ They will not be presented as direct business-owner succession information.
 
 ---
 
-# 5. Team Lead — Joyce
+# 6. Team Lead — Joyce
 
 ## Area
 
@@ -237,7 +316,7 @@ A major focus of the review was making sure we do not claim that the available d
 
 ---
 
-# 6. Combined Week 2 Findings
+# 7. Combined Week 2 Findings
 
 When we combined the team's research, several important conclusions became clear.
 
@@ -245,21 +324,54 @@ When we combined the team's research, several important conclusions became clear
 
 The Consolidated NEI gives us an important local foundation for understanding Niagara businesses.
 
-### 2. We have useful Statistics Canada data
+### 2. We have useful Canadian Business Counts data
+
+Canadian Business Counts can help us understand:
+
+- the number of businesses;
+- business-size distribution;
+- micro and small-business concentration;
+- industry structure;
+- NAICS classifications; and
+- available geographic business patterns.
+
+Historical releases may also provide useful context, but comparability must be checked before they are treated as a continuous time series.
+
+### 3. We have useful Statistics Canada business-dynamics data
 
 Statistics Canada provides information that can help us understand:
 
-- business counts;
-- business entries and exits;
+- business entries;
+- business exits;
+- business survival;
 - business size;
-- demographic patterns; and
-- self-employment.
+- industry patterns; and
+- broader historical business dynamics.
 
-### 3. We have useful succession research
+### 4. We have useful demographic and self-employment data
 
-CFIB and other research can help us understand the wider Canadian succession problem, including retirement, exit intentions and succession barriers.
+Census information can help us understand:
 
-### 4. We still have a major data gap
+- Niagara's age structure;
+- self-employment;
+- labour-force characteristics;
+- industry;
+- occupation; and
+- geographic differences.
+
+These variables provide context and possible proxies, not direct succession information.
+
+### 5. We have useful succession research
+
+CFIB and other research can help us understand the wider Canadian succession problem, including:
+
+- retirement intentions;
+- exit intentions;
+- succession planning;
+- ownership-transfer considerations; and
+- succession barriers.
+
+### 6. We still have a major data gap
 
 The public sources identified so far do not give us a confirmed direct Niagara business-level dataset containing all the succession variables we would ideally want.
 
@@ -267,39 +379,55 @@ Examples include:
 
 - owner age;
 - retirement intention;
+- intended exit timeline;
 - identified successor;
 - succession-plan status; and
 - confirmed succession-related reason for closure.
 
-### 5. We must use proxies carefully
+### 7. We must use proxies carefully
 
 Variables such as:
 
 - population age;
 - self-employment;
 - business age;
-- business exits; and
-- employee size
+- business exits;
+- employee size;
+- indeterminate business counts; and
+- business closure/vacancy status
 
 may provide useful information, but they must not automatically be described as direct evidence of succession risk.
 
 ---
 
-# 7. Week 2 Team Decision
+# 8. Week 2 Team Decision
 
 Based on the combined research, our data sources have been grouped into:
 
-### Priority A — Core acquisition
+### Priority A — Core Acquisition
 
 Sources selected for Week 3 download and audit.
 
+These include selected sources relating to:
+
+- Niagara Employment Inventory;
+- Canadian Business Counts;
+- Business Dynamics; and
+- Census/demographic information.
+
 ### Priority B — Supporting / Conditional
 
-Sources that may provide benchmarks, context or additional analysis where needed.
+Sources that may provide:
+
+- benchmarks;
+- succession context;
+- supporting research;
+- economic context; or
+- additional analysis where needed.
 
 ### Priority C — Access Pending
 
-Potentially valuable information that still requires access investigation.
+Potentially valuable information that still requires access investigation, particularly direct Niagara succession-related information.
 
 The detailed acquisition decisions are documented in:
 
@@ -307,7 +435,7 @@ The detailed acquisition decisions are documented in:
 
 ---
 
-# 8. What Moves Into Week 3
+# 9. What Moves Into Week 3
 
 Week 3 will move from:
 
@@ -328,8 +456,9 @@ The team will:
 7. identify missing values and duplicates;
 8. examine geography, time coverage, NAICS and business-size definitions;
 9. identify legitimate possible joining keys;
-10. check again for direct succession variables; and
-11. document any new risks or data gaps.
+10. check again for direct succession variables;
+11. examine comparability where multiple historical tables or releases are involved; and
+12. document any new risks or data gaps.
 
 ---
 
@@ -337,8 +466,23 @@ The team will:
 
 Week 2 showed us that finding a dataset is not the same as finding the **right** dataset.
 
-Our research identified useful local, provincial and national sources, but it also showed us where the evidence is limited.
+The team's research identified useful local, provincial and national sources covering:
 
-Instead of hiding those limitations, we have documented them so that our next decisions are based on what the data can genuinely support.
+- Niagara businesses;
+- Canadian Business Counts;
+- business entries and exits;
+- demographics;
+- self-employment; and
+- business succession.
 
-Week 3 will now test these sources using the actual downloaded data before we move into cleaning, aggregation or modelling.
+It also showed us where the evidence is limited.
+
+In particular, the sources currently identified do not directly tell us which individual Niagara businesses will close because an owner is retiring without a successor.
+
+Instead of hiding these limitations or treating proxy variables as direct evidence, we have documented the gaps so that our next decisions are based on what the data can genuinely support.
+
+Week 3 will now test these sources using the actual downloaded data before we move into cleaning, aggregation, exploratory analysis or modelling.
+
+**Week 2 Status: COMPLETE**
+
+**Next: Week 3 — Data Collection & Audit**
