@@ -72,7 +72,7 @@ The actual fields will be confirmed during the Week 3 audit.
 **Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310117601
 **Original filename:** 33101176-eng.csv  
 **File format:** CSV + metadata included
-**Reference period:** June 2026  
+**Reference period:** January 2026  
 **Geographic coverage:** Census metropolitan areas and census subdivisions  
 **Date downloaded:** October 1, 2026  
 **Downloaded by:** Theophilus and Feranmi  
