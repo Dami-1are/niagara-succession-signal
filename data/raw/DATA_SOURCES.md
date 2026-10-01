@@ -83,46 +83,75 @@ The actual fields will be confirmed during the Week 3 audit.
 
 ---
 
-# 3. Business Dynamics by Industry â€” 33-10-0087-01
+# 3. Business Dynamics by Industry — 33-10-0087-01
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0087-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310008701  
+**Original downloaded filename:** 33100087-eng.zip  
+**Extracted raw data:** 33100087.csv  
+**Metadata:** 33100087_MetaData.csv  
+**File format:** CSV + metadata CSV  
+**Reference period:** 2001–2023  
+**Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
+**Date downloaded:** 2026-10-01  
+**Downloaded by:** Project team  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_dynamics/`  
+**Repository location:** data/raw/statcan/business_dynamics/  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired and audited
 
-### Important Limitation
+### Notes / Limitations
 
-A recorded business exit must not automatically be interpreted as a succession-related closure.
+The dataset contains 27,324 rows and 16 columns.
+
+It provides annual business-dynamics measures by industry and province/territory, including active employer businesses, entrants, incumbents, exits, entry rates and exit rates.
+
+Business exits are defined using employee presence across consecutive years. An exit must not automatically be interpreted as owner retirement, ownership transfer, succession planning, or succession-related closure.
+
+The dataset contains multiple NAICS versions across the historical period. Business counts are rounded to units of ten, and the private-sector total is not necessarily additive across industry categories.
+
+Direct succession variables such as owner age, retirement intention, succession plan, successor, ownership transfer, planned exit date, reason for closure, and succession-related closure are not provided.
+
+**Audit decision:** KEEP WITH LIMITATIONS
 
 ---
 
-# 4. Business Dynamics by Firm Size â€” 33-10-0088-01
+# 4. Business Dynamics by Firm Size — 33-10-0088-01
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0088-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310008801  
+**Original downloaded filename:** 33100088-eng.zip  
+**Extracted raw data:** 33100088.csv  
+**Metadata:** 33100088_MetaData.csv  
+**File format:** CSV + metadata CSV  
+**Reference period:** 2001–2023  
+**Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
+**Date downloaded:** 2026-10-01  
+**Downloaded by:** Project team  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_dynamics/`  
+**Repository location:** data/raw/statcan/business_dynamics/  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired and audited
+
+### Notes / Limitations
+
+The dataset contains 9,108 rows and 16 columns.
+
+It provides annual business-dynamics measures by firm size and province/territory, including active employer businesses, entrants, incumbents and exits.
+
+Business exits use an employee-based operational definition and must not automatically be interpreted as succession events.
+
+The firm-size categories include overlapping/nested categories such as 50 employees or more, 50 to less than 100 employees, and 100 employees or more. These categories must not be treated as mutually exclusive in later analysis.
+
+The dataset contains status-coded observations with missing numeric values. These observations must not automatically be treated as zero.
+
+Direct succession variables such as owner age, retirement intention, succession plan, successor, ownership transfer, planned exit date, reason for closure, and succession-related closure are not provided.
+
+**Audit decision:** KEEP WITH LIMITATIONS
 
 ---
-
 # 5. Census Age Data â€” 98-10-0022-01
 
 **Provider:** Statistics Canada  
@@ -217,3 +246,4 @@ Every dataset used in the final **4.1 Aggregated Data Layer** must be traceable 
 **Original Source â†’ Raw File â†’ Interim/Cleaned Data â†’ Processed/Aggregated Data â†’ Analysis/Model**
 
 This ensures that another person can understand where our data came from and reproduce the major stages of our work.
+

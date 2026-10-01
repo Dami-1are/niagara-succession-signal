@@ -94,3 +94,16 @@ Risks will be reviewed as we move through:
 **Data Collection → Data Audit → Cleaning → EDA → Problem Framing → Feature Engineering → Modelling → Evaluation → Recommendations**
 
 New risks will be added when discovered, and existing risks will be updated when they are resolved or better evidence becomes available.
+
+## Business Dynamics Audit Risks
+
+- **Business exit is not a direct succession indicator.** The Business Dynamics datasets define exits based on the presence of employees across consecutive years. An exit does not establish owner retirement, ownership transfer, succession planning, or succession-related closure. Any later use of exit measures as a succession proxy must document this limitation and supporting evidence.
+
+- **Geography is not Niagara-specific.** The Business Dynamics datasets provide provincial and territorial geography, including Ontario, but do not directly identify Niagara. These data therefore cannot by themselves establish Niagara-specific business succession patterns.
+
+- **NAICS classifications vary across the time series.** The industry classification system changes across reference periods. Any later longitudinal industry comparison must account for the applicable NAICS version.
+
+- **Firm-size categories include nested groups.** Dataset 33-10-0088-01 contains overlapping firm-size categories such as "50 employees or more" alongside "50 to less than 100 employees" and "100 employees or more." These categories must not be summed as if they were mutually exclusive.
+
+- **Some Business Dynamics observations are status-coded rather than numeric.** Missing VALUE observations occur alongside status codes. The status information must be preserved and interpreted according to the official Statistics Canada metadata rather than treated as ordinary zero values.
+
