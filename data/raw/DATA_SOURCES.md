@@ -69,17 +69,17 @@ The actual fields will be confirmed during the Week 3 audit.
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-1176-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from downloaded table/metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310117601
+**Original filename:** 33101176-eng.csv  
+**File format:** CSV + metadata included
+**Reference period:** June 2026  
+**Geographic coverage:** Census metropolitan areas and census subdivisions  
+**Date downloaded:** October 1, 2026  
+**Downloaded by:** Theophilus and Feranmi  
 **Licence:** Statistics Canada Open Licence  
 **Repository location:** `data/raw/statcan/business_counts/`  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Downloaded and Audited (Week 3)
 
 ---
 
