@@ -336,9 +336,9 @@ For example, some NEI_ID values were observed across:
 - 2024
 - 2025
 
-This indicates that `NEI_ID` can function as a reference to a business across historical NEI observations rather than uniquely identifying each row.
+Repeated `NEI_ID` values across years suggest that `NEI_ID` may support longitudinal tracking of businesses across historical NEI observations. However, this should be confirmed before using `NEI_ID` as a business-level identifier across years.
 
-Therefore, `NEI_ID` should not be treated as a unique row-level key without incorporating the observation year or another appropriate field.
+Therefore, `NEI_ID` should not be treated as a unique row-level key, and its suitability as a business-level identifier across years should be confirmed before use.
 
 No new identifier was created.
 

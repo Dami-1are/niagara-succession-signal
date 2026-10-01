@@ -48,7 +48,7 @@ For every raw dataset collected, record:
 **Official source link:** https://open.niagararegion.ca/datasets/d23f4f781add4584904bc78b94c869b3_45/explore 
 **Original filename:** OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv 
 **File format:** CSV 
-**Reference period:** Historical NEI data; exact year coverage to be confirmed during Week 3 audit  
+**Reference period:** 2016–2019 and 2022–2025
 **Geographic coverage:** Niagara Region  
 **Date downloaded:** September 28, 2026  
 **Downloaded by:** Stephen Ayankoso 
