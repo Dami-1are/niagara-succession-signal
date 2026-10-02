@@ -1,163 +1,462 @@
-# Canadian Business Counts — Data Audit
+import csv
+import os
+import re
+from collections import Counter, defaultdict
 
-**Auditors:** Theophilus and Ruth  
-**Date downloaded:** October 1, 2026  
-**Date audited:** October 2, 2026
+# ---------------------------------------------------------
+# FILE PATHS
+# ---------------------------------------------------------
 
-**Dataset:** Statistics Canada Table 33-10-1176-01 — *Canadian Business Counts, with employees, census metropolitan areas and census subdivisions, June 2026* (cube title as given in the downloaded metadata).
+DATA_FILE = "data/raw/33101176.csv"
+METADATA_FILE = "data/raw/33101176_MetaData.csv"
 
-**Files audited:** `33101176.csv` (raw data) and `33101176_MetaData.csv` (cube metadata), stored in `data/raw/`.
+NAICS_COLUMN = "North American Industry Classification System (NAICS)"
 
-**How the findings were produced:** every number below comes from `audit_script.py`, run against the unmodified raw CSV. The full output is saved in `docs/data_audits/audit_script_output.txt`. The raw file was not cleaned, filtered or changed.
+# These are the 12 Niagara Region municipalities.
+NIAGARA_MUNICIPALITIES = [
+    "Fort Erie",
+    "Grimsby",
+    "Lincoln",
+    "Niagara Falls",
+    "Niagara-on-the-Lake",
+    "Pelham",
+    "Port Colborne",
+    "St. Catharines",
+    "Thorold",
+    "Wainfleet",
+    "Welland",
+    "West Lincoln",
+]
 
----
+# Niagara census division code = 3526.
+NIAGARA_CSD_PREFIX = "2021A00053526"
 
-## 1. Dataset Structure
+# St. Catharines - Niagara CMA DGUID.
+NIAGARA_CMA_DGUID = "2021S0503539"
 
-- **Rows:** 1,047,957 (excluding the header row)
-- **Columns:** 16
-- **Column names:** `REF_DATE`, `GEO`, `DGUID`, `Employment size`, `North American Industry Classification System (NAICS)`, `UOM`, `UOM_ID`, `SCALAR_FACTOR`, `SCALAR_ID`, `VECTOR`, `COORDINATE`, `VALUE`, `STATUS`, `SYMBOL`, `TERMINATED`, `DECIMALS`
-- **Important identifiers:** `REF_DATE`, `GEO`, `DGUID`, `Employment size`, NAICS. A row is uniquely identified by the combination of these five fields (0 duplicates, see Section 4). `VECTOR` + `COORDINATE` is also unique per row (0 duplicates).
-- **Important measure:** `VALUE` (number of businesses). Range 1 to 262,535. `UOM` is "Number" and `SCALAR_FACTOR` is "units" on every row.
-- **Metadata:** the cube metadata reports 3 dimensions.
 
-## 2. Geography
+# ---------------------------------------------------------
+# STORAGE
+# ---------------------------------------------------------
 
-- **Unique `GEO` names:** 3,163. **Unique `DGUID` values:** 3,348. The two differ because 167 `GEO` names map to more than one `DGUID` (see Section 8).
-- **Geographic levels present (by DGUID type prefix):**
-  - `2021A0005`: 3,307 DGUIDs — census subdivisions
-  - `2021S0503`: 41 DGUIDs — census metropolitan areas
-  
-  These two levels match the table title (census metropolitan areas and census subdivisions). No other level appears: there is **no census-division or Niagara Region total row** and no province or national row.
-- **Can Niagara be identified?** Yes. All 12 Niagara Region municipalities are present as census subdivisions, plus the St. Catharines - Niagara CMA. Every Niagara subdivision DGUID contains the Niagara census division code 3526.
+row_count = 0
+columns = []
 
-| Municipality (`GEO`) | `DGUID` |
-|---|---|
-| Fort Erie | 2021A00053526003 |
-| Grimsby | 2021A00053526065 |
-| Lincoln | 2021A00053526057 |
-| Niagara Falls | 2021A00053526043 |
-| Niagara-on-the-Lake | 2021A00053526047 |
-| Pelham | 2021A00053526028 |
-| Port Colborne | 2021A00053526011 |
-| St. Catharines | 2021A00053526053 |
-| Thorold | 2021A00053526037 |
-| Wainfleet | 2021A00053526014 |
-| Welland | 2021A00053526032 |
-| West Lincoln | 2021A00053526021 |
-| *CMA:* St. Catharines - Niagara | 2021S0503539 |
+geo_values = set()
+dguids = set()
+geo_to_dguid = defaultdict(set)
 
-All 12 municipalities were found; none are missing.
+employment_sizes = Counter()
+naics_values = set()
+ref_dates = Counter()
 
-- **Geographic limitations:** a second `GEO` called "Lincoln" exists (`DGUID` 2021A00051303008). Its code starts with 13, a different province, so it is not Niagara. Niagara must be selected by `DGUID`, never by the `GEO` name. The CMA overlaps the municipal subdivisions, so the two levels describe overlapping areas. Because there is no Niagara Region row, any regional total would have to be built from the 12 municipalities.
+missing = Counter()
 
-## 3. Business Information
+status_values = Counter()
+symbol_values = Counter()
+terminated_values = Counter()
 
-- **Business counts:** present, in `VALUE`.
-- **Employment-size categories (9, with row counts):**
+uom_values = Counter()
+scalar_factor_values = Counter()
 
-| Category | Rows |
-|---|---|
-| Total, with employees | 333,598 |
-| 1 to 4 employees | 233,140 |
-| 5 to 9 employees | 154,851 |
-| 10 to 19 employees | 124,786 |
-| 20 to 49 employees | 95,784 |
-| 50 to 99 employees | 50,891 |
-| 100 to 199 employees | 28,886 |
-| 200 to 499 employees | 17,288 |
-| 500 plus employees | 8,733 |
+exact_rows = set()
+exact_duplicates = 0
 
-  "Total, with employees" is an aggregate category; the other eight are size bands. The row counts reconcile: 333,598 + 714,359 = 1,047,957.
-- **Micro / small businesses:** no category is labelled "micro" or "small". The smallest band in the file is "1 to 4 employees". How micro and small businesses are defined from these bands is a later project decision.
-- **Indeterminate businesses / businesses without employees:** not present. The script confirmed that no category contains "without employees" or "indeterminate". The table covers employer businesses only.
-- **NAICS / industry:** present. 445 unique NAICS values, hierarchical, with the code written inside the label in brackets (for example `Retail trade [44-45]`). Code depth: 3 values with a 1-digit code, 20 with 2-digit, 99 with 3-digit, 323 with 4-digit. **No 5- or 6-digit codes are present.** Every value has a bracketed code. The 3 values with a 1-digit code are Total, all industries [1], Unclassified [2] and Sub-total, classified [3]. These are aggregate or catch-all categories, not specific industries. Examples of sectors: Agriculture, forestry, fishing and hunting [11]; Arts, entertainment and recreation [71]; Accommodation and food services [72].
-- 
-## 4. Data Quality
-- **Missing values:** 0 blank cells in `REF_DATE`, `GEO`, `DGUID`, `Employment size`, NAICS, `VALUE` and every other column except three. `STATUS`, `SYMBOL` and `TERMINATED` are blank in all 1,047,957 rows.
-- **Suppressed values / quality flags:** `STATUS` and `SYMBOL` are empty in every row, so no suppression or quality-flag symbols are recorded in these fields in the downloaded file. This does not prove that nothing was withheld: there are no zero counts in `VALUE` (minimum 1), so a missing combination cannot be distinguished from a true zero or an unpublished value based on this file alone.
-- **Duplicate records:** 0 exact duplicate rows (entire row identical). 0 duplicates on `REF_DATE + GEO + DGUID + NAICS + Employment size`. 0 on `VECTOR + COORDINATE`. Using only `REF_DATE + GEO + NAICS + Employment size` (leaving out `DGUID`) gives 83,212 duplicates, because 167 `GEO` names are shared by more than one `DGUID`; adding `DGUID` removes all of them.
-- **Unusual values:** none found in `VALUE` (0 non-numeric, 0 negative, 0 zero). `UOM` and `SCALAR_FACTOR` have a single value each.
-- **Unclear categories:** 22 industry names appear under more than one NAICS code (a parent and a child level share the same name), for example "Educational services" [61] and [611], "Heritage institutions" [712] and [7121], and "Business-to-business electronic markets, and agents and brokers" [419] and [4191]. The full list is in the script output.
-- **Other concerns:** see Section 8
-- 
-## 5. Time Coverage
+dimension_keys = set()
+dimension_duplicates = 0
 
-- **Reference period in the data:** one value only, `REF_DATE` = `2026-01` (all 1,047,957 rows). The metadata gives Start and End Reference Period both as 2026-01-01.
-- **Cube title discrepancy:** the cube title says "June 2026", but the data and the metadata reference period are January 2026. This file does not explain the difference, so it is recorded here as unresolved.
-- **Frequency:** "Semi-annual", from the `Frequency` field of `33101176_MetaData.csv`.
-- **Time limitations:** the download is a single snapshot, so it contains no trend. In addition, a metadata note says counts can shift between reference periods because of method changes (for example how inactive units are identified), so the figures do not only reflect changes in the business population, and Statistics Canada advises against using them as a time series.
+keys_without_dguid = set()
+duplicates_without_dguid = 0
 
-## 6. Possible Future Joining Keys
+vector_coordinate_keys = set()
+vector_coordinate_duplicates = 0
 
-The following fields may support future comparison or joining with other Niagara Succession Signal datasets. These are potential keys only; compatibility must be checked during cleaning before any datasets are joined.
+value_non_numeric = 0
+value_negative = 0
+value_zero = 0
+value_min = None
+value_max = None
 
-- **`DGUID` / geography** — `DGUID` is the reliable geography identifier in this dataset because `GEO` names are not unique. The CBC contains 2021-vintage DGUIDs for census subdivisions and census metropolitan areas. This may support geographic alignment with Statistics Canada Census datasets that use compatible 2021 geographic identifiers.
 
-- **Niagara Employment Inventory (NEI)** — the NEI contains Niagara municipality information, but the CBC uses census-subdivision DGUIDs. A direct join should not be assumed. Municipality names or an approved municipality-to-DGUID crosswalk may be needed after geographic compatibility is verified.
+# ---------------------------------------------------------
+# READ RAW CSV
+# ---------------------------------------------------------
 
-- **NAICS / industry** — the CBC contains NAICS information embedded in the industry label and uses codes from 1 to 4 digits. NAICS may support future comparison with the NEI, Business Dynamics and other project datasets containing industry information. Before joining, the NAICS code must be extracted and the datasets must be aligned to a compatible NAICS level and classification.
+with open(DATA_FILE, "r", encoding="utf-8-sig", newline="") as file:
+    reader = csv.DictReader(file)
 
-- **`Employment size`** — the CBC contains nine text categories: one aggregate category (`Total, with employees`) and eight employment-size bands. This field may support comparison with the NEI or Business Dynamics firm-size information, but the category definitions are not automatically equivalent. Size bands must be checked and mapped before any comparison or join.
+    columns = reader.fieldnames
 
-- **`REF_DATE`** — the CBC contains one reference period, `2026-01`. Year/reference period may support temporal alignment with other datasets, but datasets from different periods, such as the 2021 Census, cannot be treated as representing the same point in time.
+    for row in reader:
+        row_count += 1
 
-- **Provincial Business Dynamics data** — the Business Dynamics datasets provide provincial/territorial geography, including Ontario, rather than Niagara census-subdivision geography. Their provincial geography therefore cannot be directly joined to Niagara-level CBC records. Any later use should treat them as broader Ontario context unless an appropriate aggregation strategy is established.
+        # Missing values
+        for column in columns:
+            if row[column] is None or row[column].strip() == "":
+                missing[column] += 1
 
-No datasets were merged during Week 3.
+        ref_date = row["REF_DATE"].strip()
+        geo = row["GEO"].strip()
+        dguid = row["DGUID"].strip()
+        employment_size = row["Employment size"].strip()
+        naics = row[NAICS_COLUMN].strip()
 
-## 7. Succession-Data Gap
+        geo_values.add(geo)
+        dguids.add(dguid)
+        geo_to_dguid[geo].add(dguid)
 
-No column in the downloaded Canadian Business Counts file directly contains succession information. The following variables were checked and were not found:
+        employment_sizes[employment_size] += 1
+        naics_values.add(naics)
+        ref_dates[ref_date] += 1
 
-- Owner age: absent
-- Retirement intention: absent
-- Planned exit: absent
-- Succession-plan status: absent
-- Identified successor: absent
-- Ownership transfer information: absent
-- Reason for closure: absent
+        status_values[row["STATUS"].strip()] += 1
+        symbol_values[row["SYMBOL"].strip()] += 1
+        terminated_values[row["TERMINATED"].strip()] += 1
 
-`TERMINATED` is a Statistics Canada series-status field, not a business-closure reason, and it is empty in every row.
+        uom_values[row["UOM"].strip()] += 1
+        scalar_factor_values[row["SCALAR_FACTOR"].strip()] += 1
 
-This confirms the Week 2 expectation that Canadian Business Counts does not directly measure business succession. No succession variables were created or inferred during Week 3.
+        # Exact duplicate rows
+        exact_key = tuple(row[column] for column in columns)
 
-## 8. New Findings and Limitations
+        if exact_key in exact_rows:
+            exact_duplicates += 1
+        else:
+            exact_rows.add(exact_key)
 
-New findings from inspecting the actual downloaded file include:
+        # Main identifying dimensions
+        dimension_key = (
+            ref_date,
+            geo,
+            dguid,
+            employment_size,
+            naics,
+        )
 
-1. **Reference-period discrepancy:** the cube title says June 2026, while `REF_DATE` is `2026-01` and the metadata Start and End Reference Period are `2026-01-01`. The downloaded files do not explain this difference, so it remains documented as unresolved.
+        if dimension_key in dimension_keys:
+            dimension_duplicates += 1
+        else:
+            dimension_keys.add(dimension_key)
 
-2. **Single-period dataset:** only one reference period is present. In addition, the Statistics Canada metadata advises against treating these data as a time series because methodological changes can affect counts between reference periods.
+        # Test what happens when DGUID is omitted
+        no_dguid_key = (
+            ref_date,
+            geo,
+            naics,
+            employment_size,
+        )
 
-3. **`GEO` names are not unique:** 167 geographic names map to more than one `DGUID`. Therefore, `GEO` names alone should not be used as geographic joining keys. `DGUID` should be used where compatible geographic identifiers are available.
+        if no_dguid_key in keys_without_dguid:
+            duplicates_without_dguid += 1
+        else:
+            keys_without_dguid.add(no_dguid_key)
 
-4. **NAICS structure:** NAICS codes are embedded in the industry labels and range from 1 to 4 digits. Twenty-two industry names occur at more than one hierarchy level. NAICS hierarchy must therefore be handled carefully during later cleaning and comparison.
+        # VECTOR + COORDINATE uniqueness
+        vector_coordinate = (
+            row["VECTOR"].strip(),
+            row["COORDINATE"].strip(),
+        )
 
-5. **No suppression or quality flags are recorded in the relevant fields:** `STATUS`, `SYMBOL` and `TERMINATED` are empty in all rows, while the minimum `VALUE` is 1. Therefore, based on this file alone, an absent combination cannot be distinguished from a true zero or an unpublished combination.
+        if vector_coordinate in vector_coordinate_keys:
+            vector_coordinate_duplicates += 1
+        else:
+            vector_coordinate_keys.add(vector_coordinate)
 
-6. **Employer businesses only:** the dataset does not contain categories for businesses without employees or indeterminate businesses. Businesses with no employees are therefore outside the scope of this table.
+        # VALUE checks
+        value_text = row["VALUE"].strip()
 
-7. **No Niagara Region total row:** the dataset contains the 12 Niagara municipalities as census subdivisions and the St. Catharines - Niagara CMA, but no Niagara Region/census-division total row.
+        try:
+            value = float(value_text)
 
-8. **Potential aggregation overlap:** the dataset includes aggregate and detailed categories, including `Total, with employees` alongside individual employment-size bands and broad NAICS totals alongside more detailed industries. These categories must not be summed without first accounting for their hierarchy and possible overlap.
+            if value < 0:
+                value_negative += 1
 
-Confirmed from Week 2: Canadian Business Counts contains no direct succession variables.
+            if value == 0:
+                value_zero += 1
 
-## 9. Historical CBC Data
+            if value_min is None or value < value_min:
+                value_min = value
 
-No additional historical Canadian Business Counts files were acquired during Week 3.
+            if value_max is None or value > value_max:
+                value_max = value
 
-Therefore, no comparison of historical columns, geography, NAICS classifications, employment-size definitions, reference periods or categories was performed, and no historical CBC tables were combined.
+        except ValueError:
+            value_non_numeric += 1
 
-If historical CBC data are considered later, comparability must first be established before combining them with the current dataset.
 
-## 10. Final Dataset Decision
+# ---------------------------------------------------------
+# GEOGRAPHY CHECKS
+# ---------------------------------------------------------
 
-**Decision: KEEP WITH LIMITATIONS**
+geo_name_duplicates = {
+    geo: values
+    for geo, values in geo_to_dguid.items()
+    if len(values) > 1
+}
 
-**Reason:** The Canadian Business Counts dataset provides useful business-count information for all 12 Niagara Region municipalities and the St. Catharines - Niagara CMA, with industry information through NAICS and employment-size information for employer businesses.
+dguid_prefix_counts = Counter()
 
-However, the dataset contains only one reference period and no direct succession variables. It also has important limitations relating to geographic hierarchy, non-unique `GEO` names, NAICS hierarchy, employment-size aggregation, employer-business scope, and the absence of recorded suppression/quality flags.
+for dguid in dguids:
+    dguid_prefix_counts[dguid[:9]] += 1
 
-The dataset can therefore contribute to the Niagara Succession Signal project as a source of business-population context, but it cannot by itself identify succession risk or succession-related business closures. Its documented limitations must be carried forward into later project phases.
+
+# Only accept Niagara CSD records whose DGUID contains
+# Niagara census division code 3526.
+niagara_municipality_results = {}
+
+for municipality in NIAGARA_MUNICIPALITIES:
+    matches = []
+
+    for geo, geo_dguids in geo_to_dguid.items():
+        if geo.lower() == municipality.lower():
+
+            for dguid in geo_dguids:
+                if dguid.startswith(NIAGARA_CSD_PREFIX):
+                    matches.append((geo, dguid))
+
+    niagara_municipality_results[municipality] = matches
+
+
+# Niagara CMA check
+niagara_cma_present = NIAGARA_CMA_DGUID in dguids
+
+
+# ---------------------------------------------------------
+# NAICS CHECKS
+# ---------------------------------------------------------
+
+naics_depth = Counter()
+naics_without_code = []
+
+industry_name_to_codes = defaultdict(set)
+
+for label in naics_values:
+
+    match = re.search(r"\[([0-9-]+)\]\s*$", label)
+
+    if match:
+        code = match.group(1)
+
+        # Count digits only, so 31-33 is handled separately.
+        digits = re.sub(r"\D", "", code)
+
+        if "-" not in code:
+            naics_depth[len(digits)] += 1
+
+        industry_name = re.sub(r"\s*\[[^\]]+\]\s*$", "", label)
+
+        industry_name_to_codes[industry_name].add(code)
+
+    else:
+        naics_without_code.append(label)
+
+
+repeated_industry_names = {
+    name: codes
+    for name, codes in industry_name_to_codes.items()
+    if len(codes) > 1
+}
+
+
+# ---------------------------------------------------------
+# SUCCESSION COLUMN CHECK
+# ---------------------------------------------------------
+
+succession_terms = [
+    "owner age",
+    "retirement",
+    "succession",
+    "successor",
+    "ownership transfer",
+    "planned exit",
+    "closure reason",
+    "reason for closure",
+]
+
+succession_columns = []
+
+for column in columns:
+    column_lower = column.lower()
+
+    if any(term in column_lower for term in succession_terms):
+        succession_columns.append(column)
+
+
+# ---------------------------------------------------------
+# OUTPUT
+# ---------------------------------------------------------
+
+print("=" * 70)
+print(f"FILE: {DATA_FILE}")
+
+print("\n1. STRUCTURE")
+print(f"Rows (excluding header): {row_count:,}")
+print(f"Columns: {len(columns)}")
+print(f"Column names: {columns}")
+
+print("\n2. GEOGRAPHY")
+print(f"Unique GEO values: {len(geo_values):,}")
+print(f"Unique DGUID values: {len(dguids):,}")
+
+print("DGUID prefixes:")
+for prefix, count in sorted(dguid_prefix_counts.items()):
+    print(f"  - {prefix}: {count:,}")
+
+print(
+    f"GEO names that map to more than one DGUID: "
+    f"{len(geo_name_duplicates):,}"
+)
+
+print("\nNiagara Region municipality verification:")
+
+for municipality in NIAGARA_MUNICIPALITIES:
+    matches = niagara_municipality_results[municipality]
+
+    if matches:
+        print(f"  - {municipality}: {matches}")
+    else:
+        print(f"  - {municipality}: NOT FOUND")
+
+print(
+    f"\nSt. Catharines - Niagara CMA present: "
+    f"{niagara_cma_present}"
+)
+
+print("\n3. BUSINESS INFORMATION")
+
+print(
+    f"Employment size categories "
+    f"({len(employment_sizes)}):"
+)
+
+for category, count in sorted(employment_sizes.items()):
+    print(f"  - {category}: {count:,} rows")
+
+print(
+    "Contains 'without employees'?",
+    any(
+        "without employees" in category.lower()
+        for category in employment_sizes
+    ),
+)
+
+print(
+    "Contains 'indeterminate'?",
+    any(
+        "indeterminate" in category.lower()
+        for category in employment_sizes
+    ),
+)
+
+print(f"Unique NAICS values: {len(naics_values):,}")
+
+print("NAICS code depth:")
+for depth, count in sorted(naics_depth.items()):
+    print(f"  - {depth}-digit: {count:,}")
+
+print(
+    "NAICS values with no bracketed code:",
+    len(naics_without_code),
+)
+
+print(
+    "Industry names appearing under more than one code:",
+    len(repeated_industry_names),
+)
+
+print("\n4. DATA QUALITY")
+
+print("Missing cells per column:")
+for column in columns:
+    print(f"  - {column}: {missing[column]:,}")
+
+print(
+    f"Exact duplicate rows: "
+    f"{exact_duplicates:,}"
+)
+
+print(
+    f"Duplicates on identifying dimensions: "
+    f"{dimension_duplicates:,}"
+)
+
+print(
+    "Duplicates without DGUID: "
+    f"{duplicates_without_dguid:,}"
+)
+
+print(
+    "Duplicates on VECTOR + COORDINATE: "
+    f"{vector_coordinate_duplicates:,}"
+)
+
+print(
+    "VALUE:",
+    f"non-numeric={value_non_numeric:,},",
+    f"negative={value_negative:,},",
+    f"zero={value_zero:,},",
+    f"min={value_min},",
+    f"max={value_max}",
+)
+
+print(f"STATUS values: {dict(status_values)}")
+print(f"SYMBOL values: {dict(symbol_values)}")
+print(f"TERMINATED values: {dict(terminated_values)}")
+
+print(f"UOM values: {dict(uom_values)}")
+print(
+    f"SCALAR_FACTOR values: "
+    f"{dict(scalar_factor_values)}"
+)
+
+print("\n5. TIME COVERAGE")
+
+for date, count in sorted(ref_dates.items()):
+    print(f"  - {date}: {count:,} rows")
+
+
+# ---------------------------------------------------------
+# METADATA
+# ---------------------------------------------------------
+
+print("\n6. METADATA")
+
+if os.path.exists(METADATA_FILE):
+
+    print(f"Metadata file: {METADATA_FILE}")
+
+    with open(
+        METADATA_FILE,
+        "r",
+        encoding="utf-8-sig",
+        errors="replace",
+    ) as metadata:
+
+        for line in metadata:
+
+            if (
+                "Cube Title" in line
+                or "Business Counts" in line
+                or "Frequency" in line
+                or "Start Reference Period" in line
+                or "End Reference Period" in line
+                or "time series" in line.lower()
+                or "Fluctuations in these figures" in line
+            ):
+                print(line.strip())
+
+else:
+    print("Metadata file not found.")
+
+
+print("\n7. SUCCESSION VARIABLES")
+
+if succession_columns:
+    print(
+        "Columns whose names suggest succession information:",
+        succession_columns,
+    )
+else:
+    print(
+        "Columns whose names suggest succession information: NONE"
+    )
