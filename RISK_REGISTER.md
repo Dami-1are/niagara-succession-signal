@@ -1,4 +1,4 @@
-# Niagara Succession Signal — Risk Register
+<img width="711" height="297" alt="image" src="https://github.com/user-attachments/assets/5749ce90-5dc8-4893-b766-f9af4e3b108e" /><img width="689" height="316" alt="image" src="https://github.com/user-attachments/assets/7c85b91a-223a-40e6-9cfa-95e708bea8b5" /># Niagara Succession Signal — Risk Register
 
 This risk register records the main risks, limitations and data gaps identified during the Niagara Succession Signal project.
 
@@ -15,7 +15,6 @@ The register will be updated as the project progresses and new information becom
 ---
 
 ## Current Risk Register
-
 | ID | Risk / Data Gap | Level | Why It Matters | How We Will Manage It | Review |
 |---|---|---|---|---|---|
 | R01 | Public access to the 2026 NEI succession responses has not been confirmed | 🔴 High | These responses may contain some of the most direct Niagara-specific succession information available to the project | Investigate whether the succession-specific responses can be accessed through Niagara Region/Economic Development or another official release. Do not assume the data is available until confirmed | Week 3 |
@@ -36,6 +35,7 @@ The register will be updated as the project progresses and new information becom
 | R16 | Joining datasets from different sources may not be straightforward | 🔴 High | Sources may not share a reliable business-level identifier | Do not force business-level joins. First identify valid common keys such as geography, NAICS, year or size category and document the level at which sources can legitimately be combined | Weeks 3–6 |
 | R17 | Proxy variables could be mistaken for direct evidence of succession risk | 🔴 High | This could lead us to claim more than the evidence supports | Clearly distinguish direct variables, proxy indicators and contextual variables in the methodology | Throughout project |
 | R18 | Raw data could accidentally be changed during cleaning | 🟡 Medium | We need the original data for reproducibility and auditing | Preserve original downloads unchanged in `data/raw/`. Perform cleaning in later stages and save resulting files separately | Weeks 3–4 |
+| R19 | Canadian Business Counts has a single `2026-01` reference period, while the cube title says "June 2026"; the metadata also advises against using the series as a time series | 🟡 Medium | The reference-period discrepancy could cause incorrect time alignment with other datasets, and the single snapshot cannot establish trends in Niagara business counts | Treat CBC as a single-period aggregate business-count source. Record `2026-01` as the reference period supported by the downloaded data and metadata, retain the unresolved "June 2026" title discrepancy in documentation, do not use this file alone for trend analysis, and verify time periods before comparison with other datasets | Weeks 3–5 |
 
 ---
 
