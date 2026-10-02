@@ -1,5 +1,5 @@
 ﻿======================================================================
-FILE: data/raw/statcan/business_counts/33101176-eng/33101176.csv
+FILE: data/raw/33101176.csv
 1. STRUCTURE
 Rows (excluding header): 1,047,957
 Columns: 16
@@ -563,7 +563,7 @@ Unique REF_DATE values: ['2026-01']
   - 2026-01: 1,047,957 rows
 
 6. METADATA (frequency / release info, if a metadata file is present in data/raw/)
-  Metadata file: data/raw/statcan/business_counts/33101176-eng\33101176_MetaData.csv
+  Metadata file: data/raw\33101176_MetaData.csv
     "Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
     "not available for a specific reference period","..",
     3,"Fluctuations in these figures from one reference period to another can come from methodological changes (for example, changes to the method for identifying inactive units or in business industrial classification strategies). As a result, these data do not only represent changes in the business population over time. Statistics Canada advises users not to use these data as a time series."
