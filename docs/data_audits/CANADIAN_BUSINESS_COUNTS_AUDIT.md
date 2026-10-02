@@ -301,8 +301,8 @@ New findings (not previously documented in Week 2): items 1, 2, 3, 4 and 5. Conf
 
 # 17. Dataset Decision
 
-- [ ] **KEEP — Core:** Important dataset for the main analysis
-- [x] **KEEP — Supporting:** Useful for context or validation
+- [x] **KEEP — Core:** Important dataset for the main analysis
+- [ ] **KEEP — Supporting:** Useful for context or validation
 - [ ] **CONDITIONAL:** May be useful depending on later analysis
 - [ ] **DO NOT USE:** Not suitable for the project
 
@@ -310,7 +310,7 @@ New findings (not previously documented in Week 2): items 1, 2, 3, 4 and 5. Conf
 
 ### Reason for decision
 
-The dataset will contribute business counts by geography (all 12 Niagara municipalities and the St. Catharines - Niagara CMA), industry (NAICS, up to 4 digits) and employment size (eight bands plus a total) for employer businesses at a single reference period. It contains no direct succession variables, so it cannot by itself identify succession risk in Niagara businesses. Its limitations must stay documented: single period and a metadata warning against time-series use, employer businesses only, non-unique `GEO` names, NAICS codes embedded in labels, and no flag information.
+`docs/DATA_ACQUISITION_PLAN.md` lists this table under "Priority A — Must Download". The dataset will contribute business counts by geography (all 12 Niagara municipalities and the St. Catharines - Niagara CMA), industry (NAICS, up to 4 digits) and employment size (eight bands plus a total) for employer businesses at a single reference period. It contains no direct succession variables, so it cannot by itself identify succession risk in Niagara businesses. Its limitations must stay documented: single period and a metadata warning against time-series use, employer businesses only, non-unique `GEO` names, NAICS codes embedded in labels, and no flag information.
 
 ---
 
