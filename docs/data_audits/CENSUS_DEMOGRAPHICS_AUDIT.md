@@ -23,7 +23,7 @@ Where a finding was not established from the audit evidence, it is marked **Not 
 | Provider | Statistics Canada |
 | Table/Dataset number | 98-10-0022-01 |
 | Official source link | https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002201 |
-| Original filename | `98-10-0022-01.csv` |
+| Original filename | 98100022.csv |
 | File format | CSV |
 | SHA-256 of audited file (`98100022.csv`, 95,336,523 bytes) | `b7a6a987157c2617fee59a38c18086b0bcc72fd6c832f09d0804af49fb001ec1` |
 | Date downloaded | 2026-10-01 |
@@ -349,8 +349,9 @@ Use this dataset as a demographic/context layer and clearly distinguish populati
 **Provider:** Statistics Canada  
 **Table/Dataset number:** 98-10-0592-01 (reference 98100592)  
 **Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810059201  
-**Original filename:** Statistics Canada Table 98-10-0592-01  
-**File format:** CSV  
+| Original filename | 98100592-eng.zip |
+**File format:** ZIP archive containing CSV data + separate metadata CSV
+**Reference period:** Not established — actual `REF_DATE` values must be confirmed from the dataset.
 **Date downloaded:** 2026-10-01  
 **Downloaded/Audited by:** Precious Ubanwa and Lucky  
 **Repository location:** `data/raw/statcan/census/`  
