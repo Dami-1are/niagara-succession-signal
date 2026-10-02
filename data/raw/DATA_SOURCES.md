@@ -130,10 +130,10 @@ A recorded business exit must not automatically be interpreted as a succession-r
 **Provider:** Statistics Canada
 **Table:** 98-10-0022-01
 **Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002201
-**Original filename:** 98100022.csv (metadata file: 9810002201_MetaData.csv)
+**Original filename:** 98100022.csv (metadata file: 98100022_MetaData.csv)
 **File format:** CSV + metadata
 **Reference period:** 2021 Census (2016 Census also included)
-**Geographic coverage:** Canada, 13 provinces/territories, 293 census divisions, 5,161 census subdivisions (5,468 geographies). **Niagara (CD 3526) and its 12 municipalities are included.
+**Geographic coverage:** Canada, 13 provinces/territories, 293 census divisions, 5,161 census subdivisions (5,468 geographies). Niagara (CD 3526) and its 12 municipalities are included.
 **Date downloaded:** October 1, 2026
 **Downloaded by:** Precious and Lucky
 **Licence:** Statistics Canada Open Licence
@@ -148,9 +148,7 @@ Population age must not automatically be treated as business-owner age.
 Population counts by single year of age, with average age and median age, for Total, Men+ and Women+. 1,399,808 rows and 12 columns. SHA-256: b7a6a987157c2617fee59a38c18086b0bcc72fd6c832f09d0804af49fb001ec1.
 REF_DATE is 2021 on every row, including the 2016 rows, so use the "Census year (2)" column for the period. Symbol x marks suppressed values (blank) and symbol ... marks not-applicable values, which are shown as 0. The full findings are in docs/data_audits/CENSUS_DEMOGRAPHICS_AUDIT.md.
 
-### Important Limitation
 
-Population age must not automatically be treated as business-owner age.
 
 ---
 
@@ -166,7 +164,6 @@ Population age must not automatically be treated as business-owner age.
 **Downloaded/Audited by:** Precious Ubanwa and Lucky  
 **Repository location:** data/raw/statcan/census/98100592-eng.zip
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/census/`  
 **Raw file modified:** No  
 **Status:** Acquired for Week 3 audit
 
