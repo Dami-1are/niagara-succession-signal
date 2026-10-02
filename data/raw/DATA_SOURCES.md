@@ -206,6 +206,309 @@ Self-employment is a proxy and must not automatically be treated as direct evide
 
 ---
 
+# 7. Business Succession Intentions — 33-10-1196-01
+
+**Provider:** Statistics Canada
+
+**Table:** 33-10-1196-01
+
+**Dataset:** Intentions for businesses to sell or transfer ownership within the next 10 years
+
+**Original downloaded filename:** 33101196-eng.zip
+
+**Extracted raw data:** 33101196.csv
+
+**Metadata:** 33101196_MetaData.csv
+
+**File format:** ZIP + CSV + metadata CSV
+
+**Reference period:** 2026
+
+**Geographic coverage:** Canada and provinces/territories, including Ontario; Niagara Region is not separately identified
+
+**Date downloaded:** October 2, 2026
+
+**Licence:** Statistics Canada Open Licence
+
+**Repository location:** `data/raw/statcan/succession/`
+
+**Raw file modified:** No
+
+**Status:** Acquired and audited (Week 3)
+
+### Notes / Limitations
+
+This dataset directly measures whether businesses intend to sell or transfer ownership within the next 10 years and includes expected timelines within 2 years, 3 to 5 years, and 6 to 10 years.
+
+It contains business characteristics including NAICS industry, employment size, business age, urban/rural classification, and majority ownership characteristics, including majority ownership by a person aged 65 or older.
+
+The dataset contains 6,664 rows. It includes Ontario-level information but does not separately identify Niagara Region.
+
+It is aggregate survey evidence and must not be interpreted as the known succession intention or succession probability of an individual Niagara business.
+
+**Audit decision:** KEEP — HIGH RELEVANCE
+
+See `docs/data_audits/SUCCESSION_DATA_AUDIT.md` for the full audit.
+
+---
+
+# 8. Expectations Related to Selling or Transferring a Business — 33-10-1197-01
+
+**Provider:** Statistics Canada
+
+**Table:** 33-10-1197-01
+
+**Dataset:** Expectations related to selling or transferring of the business
+
+**Original downloaded filename:** 33101197-eng.zip
+
+**Extracted raw data:** 33101197.csv
+
+**Metadata:** 33101197_MetaData.csv
+
+**File format:** ZIP + CSV + metadata CSV
+
+**Reference period:** 2026
+
+**Geographic coverage:** Canada and provinces/territories, including Ontario; Niagara Region is not separately identified
+
+**Date downloaded:** October 2, 2026
+
+**Licence:** Statistics Canada Open Licence
+
+**Repository location:** `data/raw/statcan/succession/`
+
+**Raw file modified:** No
+
+**Status:** Acquired and audited (Week 3)
+
+### Notes / Limitations
+
+This dataset measures expectations surrounding the sale or transfer of a business.
+
+Measures include whether qualified buyers are likely to be available, whether a fair market price would be received, whether sufficient time and resources are available to pursue a sale or transfer, whether professional or advisory support would be consulted, and whether government programs or supports would be used.
+
+The dataset contains 6,664 rows and includes business characteristics such as NAICS industry, employment size, business age, urban/rural classification and ownership characteristics.
+
+Ontario is available, but Niagara Region is not separately identified.
+
+The dataset provides contextual evidence about conditions that may support or hinder successful succession. It does not identify individual Niagara businesses experiencing succession risk.
+
+**Audit decision:** KEEP — HIGH RELEVANCE
+
+See `docs/data_audits/SUCCESSION_DATA_AUDIT.md` for the full audit.
+
+---
+
+# 9. Considerations Related to Sale or Transfer — 33-10-1198-01
+
+**Provider:** Statistics Canada
+
+**Table:** 33-10-1198-01
+
+**Dataset:** Considerations related to the sale or transfer of the business
+
+**Original downloaded filename:** 33101198-eng.zip
+
+**Extracted raw data:** 33101198.csv
+
+**Metadata:** 33101198_MetaData.csv
+
+**File format:** ZIP + CSV + metadata CSV
+
+**Reference period:** 2026
+
+**Geographic coverage:** Canada and provinces/territories, including Ontario; Niagara Region is not separately identified
+
+**Date downloaded:** October 2, 2026
+
+**Licence:** Statistics Canada Open Licence
+
+**Repository location:** `data/raw/statcan/succession/`
+
+**Raw file modified:** No
+
+**Status:** Acquired and audited (Week 3)
+
+### Notes / Limitations
+
+This dataset measures considerations affecting the sale or transfer of businesses.
+
+The considerations include:
+
+- finding a buyer in Canada;
+- protecting employees;
+- maintaining a presence in the local community;
+- obtaining the highest price; and
+- preserving the business's culture or values.
+
+Each consideration is classified by level of importance.
+
+The dataset contains 19,040 rows and provides breakdowns including NAICS industry, employment size and ownership characteristics.
+
+Ontario is available, but Niagara Region is not separately identified.
+
+This dataset provides supporting context for understanding business succession decisions but is less direct as a succession-risk indicator than Tables 33-10-1196-01 and 33-10-1199-01.
+
+**Audit decision:** KEEP — SUPPORTING CONTEXT
+
+See `docs/data_audits/SUCCESSION_DATA_AUDIT.md` for the full audit.
+
+---
+
+# 10. Scenarios When a Suitable Buyer or Successor Cannot Be Found — 33-10-1199-01
+
+**Provider:** Statistics Canada
+
+**Table:** 33-10-1199-01
+
+**Dataset:** Various scenarios if business is unable to find a suitable buyer or successor
+
+**Original downloaded filename:** 33101199-eng.zip
+
+**Extracted raw data:** 33101199.csv
+
+**Metadata:** 33101199_MetaData.csv
+
+**File format:** ZIP + CSV + metadata CSV
+
+**Reference period:** 2026
+
+**Geographic coverage:** Canada and provinces/territories, including Ontario; Niagara Region is not separately identified
+
+**Date downloaded:** October 2, 2026
+
+**Licence:** Statistics Canada Open Licence
+
+**Repository location:** `data/raw/statcan/succession/`
+
+**Raw file modified:** No
+
+**Status:** Acquired and audited (Week 3)
+
+### Notes / Limitations
+
+This dataset examines what businesses may do if they are unable to find a suitable buyer or successor.
+
+The scenarios are:
+
+1. Continue operating under current ownership.
+2. Sell at a reduced value or under less favourable terms, including to a less preferred buyer.
+3. Scale down or close operations.
+
+The dataset contains 14,280 rows. Likelihood is reported as very likely, somewhat likely, somewhat unlikely, very unlikely or unknown.
+
+The table also provides breakdowns including NAICS industry, employment size and ownership characteristics.
+
+This is one of the most directly relevant datasets for the project because it explicitly connects inability to find a suitable buyer or successor with the possibility of scaling down or closing operations.
+
+However, Ontario-level aggregate percentages must not be assigned directly to individual Niagara businesses.
+
+**Audit decision:** KEEP — VERY HIGH RELEVANCE
+
+See `docs/data_audits/SUCCESSION_DATA_AUDIT.md` for the full audit.
+
+---
+
+# 11. CFIB Succession Tsunami Report
+
+**Provider:** Canadian Federation of Independent Business (CFIB)
+
+**Report:** Succession Tsunami: Preparing for a Decade of Small Business Transitions in Canada
+
+**Original filename:** CFIB_Succession_Tsunami.pdf
+
+**File format:** PDF
+
+**Survey period:** June 27 to August 17, 2022
+
+**Geographic coverage:** Canada
+
+**Date downloaded:** October 2, 2026
+
+**Repository location:** `data/raw/cfib/succession/CFIB_Succession_Tsunami.pdf`
+
+**Raw file modified:** No
+
+**Status:** Acquired and reviewed (Week 3)
+
+### Notes / Limitations
+
+The report is based on the CFIB Business Succession Planning Survey of 2,479 small-business owners in Canada.
+
+Key findings relevant to the project include:
+
+- 76% of Canada's business owners planned to exit their business within the next 10 years.
+- 49% planned to sell to buyer(s) unrelated to their family.
+- 24% planned to sell to family member(s).
+- 23% planned to sell to employee(s).
+- 21% planned to transfer to family member(s).
+- 9% had a formal written succession plan.
+- 45% had an informal/unwritten succession plan.
+- 46% had no succession plan.
+- 54% identified finding a buyer or suitable successor as the top obstacle encountered when developing a succession plan.
+
+The report provides national contextual evidence and does not provide Niagara-specific or individual-business succession measurements.
+
+It should therefore be used as supporting evidence rather than as a direct measure of succession risk for individual Niagara businesses.
+
+**Audit decision:** KEEP — CONTEXTUAL EVIDENCE
+
+See `docs/data_audits/SUCCESSION_DATA_AUDIT.md` for the full audit.
+
+---
+
+# Additional Dataset Template
+
+Copy this section whenever another dataset is approved and collected.
+
+## Dataset Name
+
+**Provider:**  
+**Table/Dataset Number:**  
+**Official source link:**  
+**Original filename:**  
+**File format:**  
+**Reference period:**  
+**Geographic coverage:**  
+**Date downloaded:**  
+**Downloaded by:**  
+**Licence:**  
+**Repository location:**  
+**Raw file modified:** No  
+**Status:**  
+
+### Notes / Limitations
+
+Add any important information about the dataset here.
+
+---
+
+# Week 3 Update Rule
+
+Immediately after downloading a dataset, the team member responsible should update this file with the **actual**:
+
+1. source link;
+2. filename;
+3. format;
+4. reference period;
+5. geographic coverage;
+6. download date;
+7. name of the person who downloaded it; and
+8. repository location.
+
+Do not leave these fields as **"To be recorded"** after the dataset has been collected.
+
+---
+
+# Traceability Rule
+
+Every dataset used in the final **4.1 Aggregated Data Layer** must be traceable from:
+
+**Original Source → Raw File → Interim/Cleaned Data → Processed/Aggregated Data → Analysis/Model**
+
+This ensures that another person can understand where our data came from and reproduce the major stages of our work.
+
 # Additional Dataset Template
 
 Copy this section whenever another dataset is approved and collected.
@@ -256,4 +559,6 @@ Every dataset used in the final **4.1 Aggregated Data Layer** must be traceable 
 **Original Source â†’ Raw File â†’ Interim/Cleaned Data â†’ Processed/Aggregated Data â†’ Analysis/Model**
 
 This ensures that another person can understand where our data came from and reproduce the major stages of our work.
+
+
 
