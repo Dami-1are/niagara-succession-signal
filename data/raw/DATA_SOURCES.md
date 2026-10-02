@@ -70,18 +70,24 @@ The downloaded CSV has been preserved in its original form in `data/raw/`.
 # 2. Canadian Business Counts — 33-10-1176-01
 
 **Provider:** Statistics Canada  
+**Dataset:** Canadian Business Counts, with employees, census metropolitan areas and census subdivisions, June 2026  
 **Table:** 33-10-1176-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from downloaded table/metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310117601  
+**Original filename:** 33101176.csv (metadata file: 33101176_MetaData.csv)  
+**File format:** CSV + cube metadata (CSV)  
+**Reference period:** 2026-01 (REF_DATE; metadata start and end 2026-01-01). The cube title says "June 2026"; this difference is documented in the audit.  
+**Frequency:** Semi-annual (from the downloaded metadata)  
+**Geographic coverage:** 3,348 DGUIDs: 3,307 census subdivisions and 41 census metropolitan areas, including all 12 Niagara Region municipalities and the St. Catharines - Niagara CMA  
+**Date downloaded:** October 1, 2026  
+**Downloaded by:** Theophilus and Ruth  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_counts/`  
+**Repository location:** `data/raw/`  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Downloaded and Audited (Week 3)
+
+### Notes
+
+Business counts for employer businesses by geography, NAICS industry and employment size (1,047,957 rows, 16 columns). The raw CSV and cube metadata are stored in `data/raw/` using Git LFS because of file size (run `git lfs pull` after cloning). Neither file has been modified. See `docs/data_audits/CANADIAN_BUSINESS_COUNTS_AUDIT.md` for findings and limitations.
 
 ---
 
