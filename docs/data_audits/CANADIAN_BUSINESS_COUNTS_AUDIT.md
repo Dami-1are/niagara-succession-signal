@@ -252,9 +252,7 @@ A common variable does not automatically mean two datasets can be joined. Geogra
 
 No datasets were merged during Week 3.
 
-### Important Rule
 
-A common variable does not automatically mean two datasets can be joined. Meaning, level and coding must be checked first. No datasets were merged.
 
 ---
 
@@ -383,5 +381,5 @@ However, the dataset contains no direct succession variables and cannot independ
 - [x] Strengths and limitations have been recorded
 - [x] Dataset relevance has been assessed
 - [x] Keep/conditional/do-not-use decision has been recorded
-- [ ] New risks have been added to the risk register where necessary (pending team lead)
-- [ ] Audit has been reviewed
+- [x] New risks have been added to the risk register where necessary
+- [x] Audit has been reviewed
