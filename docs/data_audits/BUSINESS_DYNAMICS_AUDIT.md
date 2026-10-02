@@ -2,25 +2,25 @@
 
 ## 1. Dataset Identification
 
-### Dataset 1 — Business Dynamics by Industry
+### Dataset 1 â€” Business Dynamics by Industry
 
 - **Statistics Canada table:** 33-10-0087-01
 - **Raw file:** data/raw/statcan/business_dynamics/33100087.csv
 - **Metadata file:** data/raw/statcan/business_dynamics/33100087_MetaData.csv
 - **Format:** CSV
-- **Reference period:** 2001–2023
+- **Reference period:** 2001â€“2023
 - **Geography:** Canadian provinces and territories
 - **Relevant geography:** Ontario is included, but Niagara is not separately identified.
 - **Primary dimensions:** Reference date, geography, business dynamics measure, NAICS industry
 - **Measures:** Active employer businesses, entrants, incumbents, exits, entry rate, exit rate
 
-### Dataset 2 — Business Dynamics by Firm Size
+### Dataset 2 â€” Business Dynamics by Firm Size
 
 - **Statistics Canada table:** 33-10-0088-01
 - **Raw file:** data/raw/statcan/business_dynamics/33100088.csv
 - **Metadata file:** data/raw/statcan/business_dynamics/33100088_MetaData.csv
 - **Format:** CSV
-- **Reference period:** 2001–2023
+- **Reference period:** 2001â€“2023
 - **Geography:** Canadian provinces and territories
 - **Relevant geography:** Ontario is included, but Niagara is not separately identified.
 - **Primary dimensions:** Reference date, geography, employment dynamics, firm size
@@ -40,13 +40,13 @@ The raw files have not been cleaned, transformed, merged, or feature-engineered 
 
 ---
 
-# 3. Dataset 33-10-0087-01 — Business Dynamics by Industry
+# 3. Dataset 33-10-0087-01 â€” Business Dynamics by Industry
 
 ## 3.1 Structure
 
 - **Rows:** 27,324
 - **Columns:** 16
-- **Data type of VALUE:** loat64
+- **Data type of VALUE:** float64
 - **Non-numeric VALUE entries:** 0
 - **Duplicate rows:** 0
 
@@ -135,10 +135,10 @@ The dataset contains 18 industry categories, including:
 
 The metadata indicates that different NAICS versions apply across the historical period:
 
-- 1997 NAICS — 2001
-- 2002 NAICS — 2002–2006
-- 2007 NAICS — 2007–2011
-- 2012 NAICS — 2012 onward
+- 1997 NAICS â€” 2001
+- 2002 NAICS â€” 2002â€“2006
+- 2007 NAICS â€” 2007â€“2011
+- 2012 NAICS â€” 2012 onward
 
 Longitudinal industry comparisons must therefore account for classification changes.
 
@@ -185,13 +185,16 @@ These variables must therefore be recorded as **not available in this dataset**,
 
 ## 3.9 Potential Joining Keys
 
-Potential fields that could align this dataset with 33-10-0088-01 include:
+Potential fields for future alignment with other project datasets include:
 
 - REF_DATE
 - GEO
 - DGUID
+- North American Industry Classification System (NAICS) / industry
 
-These fields were found to contain matching reference periods and geographic identifiers across the two datasets.
+REF_DATE, GEO, and DGUID may support alignment with 33-10-0088-01, while NAICS/industry may support future comparison or alignment with other project datasets that contain compatible industry classifications.
+
+These are only potential joining or alignment fields. Compatibility must be verified before any future merge.
 
 No merge is performed during this audit.
 
@@ -205,13 +208,13 @@ However, its provincial/territorial geography prevents direct Niagara-level anal
 
 ---
 
-# 4. Dataset 33-10-0088-01 — Business Dynamics by Firm Size
+# 4. Dataset 33-10-0088-01 â€” Business Dynamics by Firm Size
 
 ## 4.1 Structure
 
 - **Rows:** 9,108
 - **Columns:** 16
-- **Data type of VALUE:** loat64
+- **Data type of VALUE:** float64
 - **Non-numeric VALUE entries:** 0
 - **Duplicate rows:** 0
 
@@ -285,7 +288,7 @@ There are **4,179 missing VALUE observations**.
 
 There are **4,179 observations with STATUS = x**.
 
-This indicates that the missing numeric observations are associated with status-coded records. The exact meaning of the status code should be taken from the official Statistics Canada metadata rather than treating these observations as zero.
+According to the Statistics Canada metadata, `x` means the value was suppressed to meet the confidentiality requirements of the Statistics Act. Therefore, the 4,179 missing VALUE observations associated with `STATUS = x` are suppressed values and must not be treated as zero.
 
 SYMBOL and TERMINATED are entirely missing.
 
@@ -306,13 +309,16 @@ These should not be inferred from firm size, entry, or exit measures.
 
 ## 4.8 Potential Joining Keys
 
-Potential alignment fields with 33-10-0087-01 are:
+Potential fields for future alignment with other project datasets include:
 
 - REF_DATE
 - GEO
 - DGUID
+- Firm size
 
-The two datasets share the same reference years, geographic categories, and DGUID values.
+REF_DATE, GEO, and DGUID may support alignment with 33-10-0087-01, while firm-size categories may support future comparison or alignment with other project datasets that contain compatible business-size classifications.
+
+These are only potential joining or alignment fields. Compatibility must be verified before any future merge.
 
 No merge is performed during this audit.
 
@@ -333,7 +339,7 @@ However, it is not Niagara-specific and does not contain direct succession varia
 | Focus | Industry | Firm size |
 | Rows | 27,324 | 9,108 |
 | Columns | 16 | 16 |
-| Years | 2001–2023 | 2001–2023 |
+| Years | 2001â€“2023 | 2001â€“2023 |
 | Geography | Provinces/territories | Provinces/territories |
 | Niagara directly identified | No | No |
 | Entry data | Yes | Yes |
@@ -343,7 +349,7 @@ However, it is not Niagara-specific and does not contain direct succession varia
 | Firm-size detail | No | Yes |
 | Direct succession variables | No | No |
 | Duplicate rows | 0 | 0 |
-| Potential alignment fields | REF_DATE, GEO, DGUID | REF_DATE, GEO, DGUID |
+| Potential alignment fields | REF_DATE, GEO/DGUID, NAICS/industry | REF_DATE, GEO/DGUID, firm-size category |
 | Audit decision | KEEP WITH LIMITATIONS | KEEP WITH LIMITATIONS |
 
 ---
@@ -378,13 +384,13 @@ The audit identified the following important limitations:
 
 # 8. Final Audit Decision
 
-### 33-10-0087-01 — Business Dynamics by Industry
+### 33-10-0087-01 â€” Business Dynamics by Industry
 
 **Decision: KEEP WITH LIMITATIONS**
 
 Retain as contextual evidence of business entry, exit, active businesses, and industry dynamics. Do not treat business exits as direct succession events or use the dataset as though it provides Niagara-level observations.
 
-### 33-10-0088-01 — Business Dynamics by Firm Size
+### 33-10-0088-01 â€” Business Dynamics by Firm Size
 
 **Decision: KEEP WITH LIMITATIONS**
 
@@ -411,7 +417,7 @@ Retain as contextual evidence of business entry, exit, active businesses, and fi
 - [x] Dataset relevance assessed
 - [x] Keep/conditional/do-not-use decision recorded
 - [x] New risks added to the risk register
-- [ ] Final audit reviewed by project team
+- [x] Final audit reviewed by project team
 
 ---
 
