@@ -1,4 +1,4 @@
-# Niagara Succession Signal — Raw Data Source Log
+# Niagara Succession Signal â€” Raw Data Source Log
 
 ## Purpose
 
@@ -6,7 +6,7 @@ This file records the origin of every raw dataset collected for the Niagara Succ
 
 It allows us to trace each file back to its original source and supports transparency and reproducibility.
 
-This log will be completed during **Week 3 — Data Collection and Audit** as datasets are actually downloaded.
+This log will be completed during **Week 3 â€” Data Collection and Audit** as datasets are actually downloaded.
 
 ---
 
@@ -52,7 +52,7 @@ For every raw dataset collected, record:
 **Geographic coverage:** Niagara Region  
 **Date downloaded:** To be recorded  
 **Downloaded by:** To be recorded  
-**Licence:** Open Government Licence 2.0 — Niagara Region, subject to confirmation on the dataset page at download  
+**Licence:** Open Government Licence 2.0 â€” Niagara Region, subject to confirmation on the dataset page at download  
 **Repository location:** `data/raw/nei/`  
 **Raw file modified:** No  
 **Status:** Planned for Week 3 acquisition
@@ -65,7 +65,7 @@ The actual fields will be confirmed during the Week 3 audit.
 
 ---
 
-# 2. Canadian Business Counts — 33-10-1176-01
+# 2. Canadian Business Counts â€” 33-10-1176-01
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-1176-01  
@@ -83,7 +83,7 @@ The actual fields will be confirmed during the Week 3 audit.
 
 ---
 
-# 3. Business Dynamics by Industry � 33-10-0087-01
+# 3. Business Dynamics by Industry — 33-10-0087-01
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0087-01  
@@ -92,7 +92,7 @@ The actual fields will be confirmed during the Week 3 audit.
 **Extracted raw data:** 33100087.csv  
 **Metadata:** 33100087_MetaData.csv  
 **File format:** CSV + metadata CSV  
-**Reference period:** 2001�2023  
+**Reference period:** 2001–2023  
 **Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
 **Date downloaded:** 2026-10-01  
 **Downloaded by:** Project team  
@@ -117,7 +117,7 @@ Direct succession variables such as owner age, retirement intention, succession 
 
 ---
 
-# 4. Business Dynamics by Firm Size � 33-10-0088-01
+# 4. Business Dynamics by Firm Size — 33-10-0088-01
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0088-01  
@@ -126,7 +126,7 @@ Direct succession variables such as owner age, retirement intention, succession 
 **Extracted raw data:** 33100088.csv  
 **Metadata:** 33100088_MetaData.csv  
 **File format:** CSV + metadata CSV  
-**Reference period:** 2001�2023  
+**Reference period:** 2001–2023  
 **Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
 **Date downloaded:** 2026-10-01  
 **Downloaded by:** Project team  
@@ -145,14 +145,14 @@ Business exits use an employee-based operational definition and must not automat
 
 The firm-size categories include overlapping/nested categories such as 50 employees or more, 50 to less than 100 employees, and 100 employees or more. These categories must not be treated as mutually exclusive in later analysis.
 
-The dataset contains status-coded observations with missing numeric values. These observations must not automatically be treated as zero.
+The dataset contains 4,179 missing VALUE observations associated with `STATUS = x`. According to the Statistics Canada metadata, `x` indicates values suppressed to meet confidentiality requirements. These suppressed observations must not be treated as zero.
 
 Direct succession variables such as owner age, retirement intention, succession plan, successor, ownership transfer, planned exit date, reason for closure, and succession-related closure are not provided.
 
 **Audit decision:** KEEP WITH LIMITATIONS
 
 ---
-# 5. Census Age Data — 98-10-0022-01
+# 5. Census Age Data â€” 98-10-0022-01
 
 **Provider:** Statistics Canada  
 **Table:** 98-10-0022-01  
@@ -174,7 +174,7 @@ Population age must not automatically be treated as business-owner age.
 
 ---
 
-# 6. Census Class of Worker / Self-Employment — 98-10-0592-01
+# 6. Census Class of Worker / Self-Employment â€” 98-10-0592-01
 
 **Provider:** Statistics Canada  
 **Table:** 98-10-0592-01  
@@ -243,7 +243,7 @@ Do not leave these fields as **"To be recorded"** after the dataset has been col
 
 Every dataset used in the final **4.1 Aggregated Data Layer** must be traceable from:
 
-**Original Source → Raw File → Interim/Cleaned Data → Processed/Aggregated Data → Analysis/Model**
+**Original Source â†’ Raw File â†’ Interim/Cleaned Data â†’ Processed/Aggregated Data â†’ Analysis/Model**
 
 This ensures that another person can understand where our data came from and reproduce the major stages of our work.
 
