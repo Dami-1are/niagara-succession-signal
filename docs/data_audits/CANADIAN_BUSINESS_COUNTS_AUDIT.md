@@ -229,17 +229,28 @@ This confirms the Week 2 expectation that CBC does not directly measure successi
 **Found:** business counts (`VALUE`) by geography (`GEO`, `DGUID`), industry (NAICS) and employment size (`Employment size`) at one reference period.
 
 ---
-
 # 12. Possible Joining Keys
 
 | Possible Key | Present? | Example | Notes |
 |---|---|---|---|
-| Geography | Yes | `DGUID` 2021A00053526043 (Niagara Falls) | Use `DGUID`, not `GEO`: 167 names map to more than one `DGUID`. All DGUIDs carry the 2021 vintage, matching 2021 Census geography. |
-| Year | Yes | 2026-01 | A single value. Datasets from other periods (for example the 2021 Census) will not align by date. |
-| NAICS | Yes | `Accommodation and food services [72]` | The code is inside the label and must be extracted. Only 1- to 4-digit codes exist, so other datasets must be matched at 4 digits or higher levels. |
-| Industry | Yes | The NAICS label | Same names appear at more than one level (22 cases). |
-| Business size | Yes | `1 to 4 employees` | Nine text categories; other datasets' size bands would need mapping to these. |
-| Business identifier | No | None | The file holds aggregate counts, not individual businesses. |
+| Geography | Yes | `DGUID` 2021A00053526043 (Niagara Falls) | Use `DGUID`, not `GEO`: 167 names map to more than one `DGUID`. The CBC uses 2021-vintage DGUIDs, which may support alignment with Statistics Canada Census datasets using compatible 2021 geography. |
+| Year / reference period | Yes | `2026-01` | A single value. Datasets from other periods, such as the 2021 Census, cannot be treated as representing the same point in time. |
+| NAICS | Yes | `Accommodation and food services [72]` | The NAICS code is embedded in the label and must be extracted before joining. Other datasets must be aligned to a compatible NAICS level and classification before comparison or joining. |
+| Industry | Yes | The NAICS label | Industry labels may support comparison, but the same industry name can occur at more than one NAICS hierarchy level. |
+| Business size | Yes | `1 to 4 employees` | Other datasets' employment-size categories must be checked and mapped before comparison or joining. |
+| Business identifier | No | None | The file contains aggregate counts, not individual business records. |
+
+### Potential connections with other project datasets
+
+- **2021 Census datasets:** compatible 2021 geographic identifiers may support geographic alignment through `DGUID`, subject to checking that the geographic level is the same.
+- **Niagara Employment Inventory (NEI):** municipality, NAICS/industry and employment-size information may support future comparison. A direct join should not be assumed; geographic and category definitions must first be aligned.
+- **Business Dynamics datasets:** NAICS/industry, firm-size categories and reference period may support broader comparison where definitions align. However, the Business Dynamics datasets use provincial/territorial geography. Provincial `GEO`/`DGUID` therefore cannot be directly joined to Niagara-level CBC records and should be treated as broader Ontario context unless an appropriate aggregation strategy is established.
+
+### Important Rule
+
+A common variable does not automatically mean two datasets can be joined. Geographic level, meaning, coding, category definitions and reference period must be checked first.
+
+No datasets were merged during Week 3.
 
 ### Important Rule
 
@@ -255,7 +266,7 @@ A common variable does not automatically mean two datasets can be joined. Meanin
 2. **Not suitable as a time series** per the Statistics Canada metadata note, and only one period is present.
 3. **`GEO` names are not unique:** 167 names map to more than one `DGUID`. Filtering and joining must use `DGUID`, and the Niagara DGUIDs in Section 6 are the ones to use in Week 4 (data cleaning). No filtering was done in Week 3.
 4. **NAICS structure:** the code is embedded in the label, depth is 1 to 4 digits only, and 22 industry names appear at two hierarchy levels.
-5. **No flags and no zero counts:** `STATUS`, `SYMBOL` and `TERMINATED` are entirely empty and the minimum `VALUE` is 1, so true zeros and unpublished combinations are indistinguishable. This is not proof that nothing was withheld.
+5. **No suppression or quality flags are recorded in the relevant fields:** `STATUS`, `SYMBOL` and `TERMINATED` are entirely empty, while the minimum `VALUE` is 1. Therefore, based on this file alone, an absent combination cannot be distinguished from a true zero or an unpublished combination. This is not proof that nothing was withheld.
 6. **Aggregate and overlapping rows:** "Total, with employees" with the size bands, the NAICS levels (including "Total, all industries [1]", "Sub-total, classified [3]" and "Unclassified [2]"), and CMA with subdivision rows overlap. The labels indicate overlap that was not tested in Week 3 and must be handled in Week 4.
 7. **No unusual values** in `VALUE` (0 non-numeric, 0 negative, 0 zero). `UOM` and `SCALAR_FACTOR` each have one value.
 
@@ -298,19 +309,24 @@ New findings (not previously documented in Week 2): items 1, 2, 3, 4 and 5. Conf
 **How could this dataset help?** It can supply business counts by municipality, industry and employment size as baseline context for the aggregated data layer, exploratory visuals and local-economy analysis.
 
 ---
-
 # 17. Dataset Decision
+
+After completing the audit, select one:
 
 - [x] **KEEP — Core:** Important dataset for the main analysis
 - [ ] **KEEP — Supporting:** Useful for context or validation
 - [ ] **CONDITIONAL:** May be useful depending on later analysis
 - [ ] **DO NOT USE:** Not suitable for the project
 
-**Final decision (task Step 13): KEEP WITH LIMITATIONS**
-
 ### Reason for decision
 
-`docs/DATA_ACQUISITION_PLAN.md` lists this table under "Priority A — Must Download". The dataset will contribute business counts by geography (all 12 Niagara municipalities and the St. Catharines - Niagara CMA), industry (NAICS, up to 4 digits) and employment size (eight bands plus a total) for employer businesses at a single reference period. It contains no direct succession variables, so it cannot by itself identify succession risk in Niagara businesses. Its limitations must stay documented: single period and a metadata warning against time-series use, employer businesses only, non-unique `GEO` names, NAICS codes embedded in labels, and no flag information.
+**Decision: KEEP — Core**
+
+The Canadian Business Counts dataset is retained as a core dataset because it provides business counts by geography, NAICS industry and employment size, including coverage of all 12 Niagara Region municipalities and the St. Catharines - Niagara CMA.
+
+It can support the project's main analysis by providing an aggregate view of the Niagara business population across industries and employment-size categories.
+
+However, the dataset contains no direct succession variables and cannot independently identify succession risk. Its documented limitations — including the single reference period, employer-business-only coverage, non-unique `GEO` names, NAICS hierarchy issues and the unresolved June 2026 versus `2026-01` reference-period discrepancy — must be considered in later analysis.
 
 ---
 
@@ -327,11 +343,11 @@ New findings (not previously documented in Week 2): items 1, 2, 3, 4 and 5. Conf
 
 **Yes**
 
-**Risk / gap:** the file is a single snapshot and its metadata advises against use as a time series; there are no succession variables and only employer businesses are covered.
+**Risk / gap:** The dataset is a single snapshot, and its metadata advises against using Canadian Business Counts as a time series. It contains no direct succession variables and covers employer businesses only. There is also an unresolved reference-period discrepancy: the cube title says "June 2026", while the downloaded data and metadata report `2026-01`.
 
-**Why it matters:** trends in Niagara business counts cannot be measured from this file, and succession risk cannot be derived from it directly.
+**Why it matters:** Trends in Niagara business counts cannot be measured reliably from this file alone, and succession risk cannot be derived from it directly. The employer-business-only coverage also means businesses without employees are not represented. The unresolved reference-period discrepancy must be considered when aligning this dataset with other sources.
 
-**Action required:** treat the data as baseline context only, find other sources for succession-related variables, and ask the team lead whether this should be added to `RISK_REGISTER.md`.
+**Action required:** Use this dataset as a core aggregate business-count source within its documented limitations. Do not use it alone to infer succession risk or business-count trends. Use other approved datasets for succession-related indicators and document the reference-period discrepancy when the CBC data is used or compared with other datasets. Record the relevant data limitations in `RISK_REGISTER.md` where they affect later analysis.
 
 ---
 
@@ -341,11 +357,11 @@ New findings (not previously documented in Week 2): items 1, 2, 3, 4 and 5. Conf
 
 **Date audit completed:** October 2, 2026  
 
-**Reviewed by:** Pending (team lead)  
+**Reviewed by:** Joyce Ebruphiyo Etata (Team Lead)  
 
-**Review date:** Pending  
+**Review date:** October 2, 2026  
 
-**Audit status:** Needs Review  
+**Audit status:** Reviewed — Approved with documented limitations 
 
 ---
 
