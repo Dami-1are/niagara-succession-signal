@@ -45,41 +45,51 @@ For every raw dataset collected, record:
 
 **Provider:** Niagara Region  
 **Dataset:** Consolidated Niagara Employment Inventory  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV planned  
-**Reference period:** To be confirmed from downloaded data/metadata  
+**Official source link:** https://open.niagararegion.ca/datasets/d23f4f781add4584904bc78b94c869b3_45/explore 
+**Original filename:** OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv 
+**File format:** CSV 
+**Reference period:** 2016–2019 and 2022–2025
 **Geographic coverage:** Niagara Region  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
-**Licence:** Open Government Licence 2.0 â€” Niagara Region, subject to confirmation on the dataset page at download  
-**Repository location:** `data/raw/nei/`  
+
+**Date downloaded:** September 28, 2026  
+**Downloaded by:** Stephen Ayankoso 
+**Licence:** No license provided on the Consolidated NEI dataset page at the time of download 
+**Repository location:** `data/raw/OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv` 
+
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired for Week 3 audit
 
 ### Notes
 
-The NEI is expected to provide important local business information such as municipality, industry/NAICS and employment size.
+The Consolidated NEI provides local business information including municipality, business information, NAICS, sector, industry, business opening information, and employee-size categories.
 
-The actual fields will be confirmed during the Week 3 audit.
+The actual record count, fields, categories, missing values, geographic coverage, identifiers, and succession-related variables will be verified during the Week 3 data audit.
+
+The downloaded CSV has been preserved in its original form in `data/raw/`.
 
 ---
 
 # 2. Canadian Business Counts â€” 33-10-1176-01
 
 **Provider:** Statistics Canada  
+**Dataset:** Canadian Business Counts, with employees, census metropolitan areas and census subdivisions, June 2026  
 **Table:** 33-10-1176-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from downloaded table/metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310117601  
+**Original filename:** 33101176.csv (metadata file: 33101176_MetaData.csv)  
+**File format:** CSV + cube metadata (CSV)  
+**Reference period:** 2026-01 (REF_DATE; metadata start and end 2026-01-01). The cube title says "June 2026"; this difference is documented in the audit.  
+**Frequency:** Semi-annual (from the downloaded metadata)  
+**Geographic coverage:** 3,348 DGUIDs: 3,307 census subdivisions and 41 census metropolitan areas, including all 12 Niagara Region municipalities and the St. Catharines - Niagara CMA  
+**Date downloaded:** October 1, 2026  
+**Downloaded by:** Theophilus and Ruth  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_counts/`  
+**Repository location:** `data/raw/`  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Downloaded and Audited (Week 3)
+
+### Notes
+
+Business counts for employer businesses by geography, NAICS industry and employment size (1,047,957 rows, 16 columns). The raw CSV and cube metadata are stored in `data/raw/` using Git LFS because of file size (run `git lfs pull` after cloning). Neither file has been modified. See `docs/data_audits/CANADIAN_BUSINESS_COUNTS_AUDIT.md` for findings and limitations.
 
 ---
 
