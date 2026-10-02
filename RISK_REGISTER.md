@@ -105,5 +105,4 @@ New risks will be added when discovered, and existing risks will be updated when
 
 - **Firm-size categories include nested groups.** Dataset 33-10-0088-01 contains overlapping firm-size categories such as "50 employees or more" alongside "50 to less than 100 employees" and "100 employees or more." These categories must not be summed as if they were mutually exclusive.
 
-- **Some Business Dynamics observations are status-coded rather than numeric.** Missing VALUE observations occur alongside status codes. The status information must be preserved and interpreted according to the official Statistics Canada metadata rather than treated as ordinary zero values.
-
+- **Dataset 33-10-0088-01 contains suppressed observations.** There are 4,179 missing `VALUE` observations associated with `STATUS = x`. According to the Statistics Canada metadata, `x` means the values were suppressed to meet the confidentiality requirements of the Statistics Act. These suppressed observations must not be treated as zero and must be handled appropriately during later cleaning and analysis.
