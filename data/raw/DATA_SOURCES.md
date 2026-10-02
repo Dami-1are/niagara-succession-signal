@@ -1,4 +1,4 @@
-# Niagara Succession Signal — Raw Data Source Log
+# Niagara Succession Signal â€” Raw Data Source Log
 
 ## Purpose
 
@@ -6,7 +6,7 @@ This file records the origin of every raw dataset collected for the Niagara Succ
 
 It allows us to trace each file back to its original source and supports transparency and reproducibility.
 
-This log will be completed during **Week 3 — Data Collection and Audit** as datasets are actually downloaded.
+This log will be completed during **Week 3 â€” Data Collection and Audit** as datasets are actually downloaded.
 
 ---
 
@@ -50,10 +50,12 @@ For every raw dataset collected, record:
 **File format:** CSV 
 **Reference period:** 2016–2019 and 2022–2025
 **Geographic coverage:** Niagara Region  
+
 **Date downloaded:** September 28, 2026  
 **Downloaded by:** Stephen Ayankoso 
 **Licence:** No license provided on the Consolidated NEI dataset page at the time of download 
 **Repository location:** `data/raw/OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv` 
+
 **Raw file modified:** No  
 **Status:** Acquired for Week 3 audit
 
@@ -67,7 +69,7 @@ The downloaded CSV has been preserved in its original form in `data/raw/`.
 
 ---
 
-# 2. Canadian Business Counts — 33-10-1176-01
+# 2. Canadian Business Counts â€” 33-10-1176-01
 
 **Provider:** Statistics Canada  
 **Dataset:** Canadian Business Counts, with employees, census metropolitan areas and census subdivisions, June 2026  
@@ -95,21 +97,33 @@ Business counts for employer businesses by geography, NAICS industry and employm
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0087-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310008701  
+**Original downloaded filename:** 33100087-eng.zip  
+**Extracted raw data:** 33100087.csv  
+**Metadata:** 33100087_MetaData.csv  
+**File format:** CSV + metadata CSV  
+**Reference period:** 2001–2023  
+**Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
+**Date downloaded:** 2026-10-01  
+**Downloaded by:** Project team  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_dynamics/`  
+**Repository location:** data/raw/statcan/business_dynamics/  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired and audited
 
-### Important Limitation
+### Notes / Limitations
 
-A recorded business exit must not automatically be interpreted as a succession-related closure.
+The dataset contains 27,324 rows and 16 columns.
+
+It provides annual business-dynamics measures by industry and province/territory, including active employer businesses, entrants, incumbents, exits, entry rates and exit rates.
+
+Business exits are defined using employee presence across consecutive years. An exit must not automatically be interpreted as owner retirement, ownership transfer, succession planning, or succession-related closure.
+
+The dataset contains multiple NAICS versions across the historical period. Business counts are rounded to units of ten, and the private-sector total is not necessarily additive across industry categories.
+
+Direct succession variables such as owner age, retirement intention, succession plan, successor, ownership transfer, planned exit date, reason for closure, and succession-related closure are not provided.
+
+**Audit decision:** KEEP WITH LIMITATIONS
 
 ---
 
@@ -117,21 +131,38 @@ A recorded business exit must not automatically be interpreted as a succession-r
 
 **Provider:** Statistics Canada  
 **Table:** 33-10-0088-01  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV + metadata planned  
-**Reference period:** To be recorded  
-**Geographic coverage:** To be confirmed from metadata  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
+**Official source link:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310008801  
+**Original downloaded filename:** 33100088-eng.zip  
+**Extracted raw data:** 33100088.csv  
+**Metadata:** 33100088_MetaData.csv  
+**File format:** CSV + metadata CSV  
+**Reference period:** 2001–2023  
+**Geographic coverage:** Canadian provinces and territories, including Ontario; Niagara is not separately identified  
+**Date downloaded:** 2026-10-01  
+**Downloaded by:** Project team  
 **Licence:** Statistics Canada Open Licence  
-**Repository location:** `data/raw/statcan/business_dynamics/`  
+**Repository location:** data/raw/statcan/business_dynamics/  
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired and audited
+
+### Notes / Limitations
+
+The dataset contains 9,108 rows and 16 columns.
+
+It provides annual business-dynamics measures by firm size and province/territory, including active employer businesses, entrants, incumbents and exits.
+
+Business exits use an employee-based operational definition and must not automatically be interpreted as succession events.
+
+The firm-size categories include overlapping/nested categories such as 50 employees or more, 50 to less than 100 employees, and 100 employees or more. These categories must not be treated as mutually exclusive in later analysis.
+
+The dataset contains 4,179 missing VALUE observations associated with `STATUS = x`. According to the Statistics Canada metadata, `x` indicates values suppressed to meet confidentiality requirements. These suppressed observations must not be treated as zero.
+
+Direct succession variables such as owner age, retirement intention, succession plan, successor, ownership transfer, planned exit date, reason for closure, and succession-related closure are not provided.
+
+**Audit decision:** KEEP WITH LIMITATIONS
 
 ---
-
-# 5. Census Age Data — 98-10-0022-01
+# 5. Census Age Data â€” 98-10-0022-01
 
 **Provider:** Statistics Canada  
 **Table:** 98-10-0022-01  
@@ -153,7 +184,7 @@ Population age must not automatically be treated as business-owner age.
 
 ---
 
-# 6. Census Class of Worker / Self-Employment — 98-10-0592-01
+# 6. Census Class of Worker / Self-Employment â€” 98-10-0592-01
 
 **Provider:** Statistics Canada  
 **Table:** 98-10-0592-01  
@@ -222,6 +253,7 @@ Do not leave these fields as **"To be recorded"** after the dataset has been col
 
 Every dataset used in the final **4.1 Aggregated Data Layer** must be traceable from:
 
-**Original Source → Raw File → Interim/Cleaned Data → Processed/Aggregated Data → Analysis/Model**
+**Original Source â†’ Raw File â†’ Interim/Cleaned Data â†’ Processed/Aggregated Data â†’ Analysis/Model**
 
 This ensures that another person can understand where our data came from and reproduce the major stages of our work.
+
