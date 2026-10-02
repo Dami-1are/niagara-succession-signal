@@ -45,23 +45,25 @@ For every raw dataset collected, record:
 
 **Provider:** Niagara Region  
 **Dataset:** Consolidated Niagara Employment Inventory  
-**Official source link:** To be recorded at download  
-**Original filename:** To be recorded  
-**File format:** CSV planned  
-**Reference period:** To be confirmed from downloaded data/metadata  
+**Official source link:** https://open.niagararegion.ca/datasets/d23f4f781add4584904bc78b94c869b3_45/explore 
+**Original filename:** OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv 
+**File format:** CSV 
+**Reference period:** 2016–2019 and 2022–2025
 **Geographic coverage:** Niagara Region  
-**Date downloaded:** To be recorded  
-**Downloaded by:** To be recorded  
-**Licence:** Open Government Licence 2.0 — Niagara Region, subject to confirmation on the dataset page at download  
-**Repository location:** `data/raw/nei/`  
+**Date downloaded:** September 28, 2026  
+**Downloaded by:** Stephen Ayankoso 
+**Licence:** No license provided on the Consolidated NEI dataset page at the time of download 
+**Repository location:** `data/raw/OpenData_Consolidated_NEI_Opendata_-482263215789080610.csv` 
 **Raw file modified:** No  
-**Status:** Planned for Week 3 acquisition
+**Status:** Acquired for Week 3 audit
 
 ### Notes
 
-The NEI is expected to provide important local business information such as municipality, industry/NAICS and employment size.
+The Consolidated NEI provides local business information including municipality, business information, NAICS, sector, industry, business opening information, and employee-size categories.
 
-The actual fields will be confirmed during the Week 3 audit.
+The actual record count, fields, categories, missing values, geographic coverage, identifiers, and succession-related variables will be verified during the Week 3 data audit.
+
+The downloaded CSV has been preserved in its original form in `data/raw/`.
 
 ---
 
