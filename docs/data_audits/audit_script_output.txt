@@ -1,5 +1,6 @@
 ﻿======================================================================
 FILE: data/raw/33101176.csv
+
 1. STRUCTURE
 Rows (excluding header): 1,047,957
 Columns: 16
@@ -9,30 +10,31 @@ Identifying dimension columns used for uniqueness: ['REF_DATE', 'GEO', 'DGUID', 
 2. GEOGRAPHY
 Unique GEO values: 3,163
 Unique DGUID values: 3,348
-Geographic levels: unique DGUIDs by first 9 characters (vintage + type + schema).
-  Confirm what each prefix means in StatCan's DGUID documentation, e.g. ...0005 = census
-  subdivision, S0503 = CMA/CA:
+Geographic levels: unique DGUIDs by first 9 characters:
   - 2021A0005: 3,307
   - 2021S0503: 41
 GEO names that map to more than one DGUID: 167
-Niagara Region municipality check (case-insensitive match on GEO; verify manually):
+
+Niagara Region municipality check using exact GEO names and Niagara DGUIDs:
   - Fort Erie: GEO='Fort Erie' | DGUID=['2021A00053526003']
   - Grimsby: GEO='Grimsby' | DGUID=['2021A00053526065']
-  - Lincoln: GEO='Lincoln' | DGUID=['2021A00051303008', '2021A00053526057']
-  - Lincoln: GEO='West Lincoln' | DGUID=['2021A00053526021']
+  - Lincoln: GEO='Lincoln' | DGUID=['2021A00053526057']
   - Niagara Falls: GEO='Niagara Falls' | DGUID=['2021A00053526043']
   - Niagara-on-the-Lake: GEO='Niagara-on-the-Lake' | DGUID=['2021A00053526047']
   - Pelham: GEO='Pelham' | DGUID=['2021A00053526028']
   - Port Colborne: GEO='Port Colborne' | DGUID=['2021A00053526011']
   - St. Catharines: GEO='St. Catharines' | DGUID=['2021A00053526053']
-  - St. Catharines: GEO='St. Catharines - Niagara' | DGUID=['2021S0503539']
   - Thorold: GEO='Thorold' | DGUID=['2021A00053526037']
   - Wainfleet: GEO='Wainfleet' | DGUID=['2021A00053526014']
   - Welland: GEO='Welland' | DGUID=['2021A00053526032']
   - West Lincoln: GEO='West Lincoln' | DGUID=['2021A00053526021']
-  (Check each match is actually the Niagara one: Niagara census division code is 3526,
-   so Niagara CSD DGUIDs should contain it. 'Lincoln' also matches non-Niagara places.)
-All GEO values containing 'Niagara' or 'St. Catharines':
+
+Niagara municipalities found: 12/12
+
+Niagara municipality names that also appear under a non-Niagara DGUID:
+  - 'Lincoln': non-Niagara DGUID=['2021A00051303008']
+
+Other GEO values containing 'Niagara' or 'St. Catharines':
   - 'Niagara Falls' | DGUID=['2021A00053526043']
   - 'Niagara-on-the-Lake' | DGUID=['2021A00053526047']
   - 'St. Catharines' | DGUID=['2021A00053526053']
@@ -52,7 +54,7 @@ Employment size categories in 'Employment size' (9):
 Contains 'without employees'? False
 Contains 'indeterminate'? False
 Unique NAICS values: 445
-NAICS code depth (digits in the bracketed code) -> number of unique NAICS values:
+NAICS code depth (digits in bracketed code) -> number of unique values:
   - 1-digit: 3
   - 2-digit: 20
   - 3-digit: 99
@@ -562,7 +564,7 @@ Distinct values in SCALAR_FACTOR: {'units': 1047957}
 Unique REF_DATE values: ['2026-01']
   - 2026-01: 1,047,957 rows
 
-6. METADATA (frequency / release info, if a metadata file is present in data/raw/)
+6. METADATA (frequency / reference-period information)
   Metadata file: data/raw\33101176_MetaData.csv
     "Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
     "not available for a specific reference period","..",

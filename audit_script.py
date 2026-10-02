@@ -490,7 +490,7 @@ def main():
 
 
     # -----------------------------------------------------
-    # OUTPUT — STRUCTURE
+    # OUTPUT ΓÇö STRUCTURE
     # -----------------------------------------------------
 
     print("=" * 70)
@@ -523,7 +523,7 @@ def main():
 
 
     # -----------------------------------------------------
-    # OUTPUT — GEOGRAPHY
+    # OUTPUT ΓÇö GEOGRAPHY
     # -----------------------------------------------------
 
     print("\n2. GEOGRAPHY")
@@ -648,6 +648,40 @@ def main():
         f"{len(NIAGARA_MUNICIPALITIES)}"
     )
 
+    # Niagara names that also exist outside Niagara
+    # (shows why DGUID, not GEO name, must be used)
+    print(
+        "\nNiagara municipality names that also appear "
+        "under a non-Niagara DGUID:"
+    )
+
+    shared_found = False
+
+    for municipality in NIAGARA_MUNICIPALITIES:
+
+        for geo, dguids in sorted(geo_dguid.items()):
+
+            if geo.strip().lower() == municipality.lower():
+
+                outside = sorted(
+                    dguid
+                    for dguid in dguids
+                    if NIAGARA_CD_CODE not in dguid
+                )
+
+                if outside:
+
+                    shared_found = True
+
+                    print(
+                        f"  - '{geo}': "
+                        f"non-Niagara DGUID={outside}"
+                    )
+
+    if not shared_found:
+
+        print("  - none")
+
 
     # ---------------------------------------------
     # NIAGARA / ST CATHARINES GEO LABELS
@@ -678,7 +712,7 @@ def main():
 
 
     # -----------------------------------------------------
-    # OUTPUT — BUSINESS INFORMATION
+    # OUTPUT ΓÇö BUSINESS INFORMATION
     # -----------------------------------------------------
 
     print(
@@ -866,7 +900,7 @@ def main():
 
 
     # -----------------------------------------------------
-    # OUTPUT — DATA QUALITY
+    # OUTPUT ΓÇö DATA QUALITY
     # -----------------------------------------------------
 
     print(
@@ -965,7 +999,7 @@ def main():
 
 
     # -----------------------------------------------------
-    # OUTPUT — TIME COVERAGE
+    # OUTPUT ΓÇö TIME COVERAGE
     # -----------------------------------------------------
 
     print(
