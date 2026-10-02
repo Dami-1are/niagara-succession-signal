@@ -1,95 +1,137 @@
-Canadian Business Counts — Data Audit
-Auditor: Theophilus / Ruth
+# Canadian Business Counts — Data Audit
 
-Date: October 1, 2026
+**Auditors:** Theophilus and Ruth  
+**Date downloaded:** October 1, 2026  
+**Date audited:** October 2, 2026
 
-Dataset: Statistics Canada Table 33-10-1176-01 (Canadian Business Counts, with employees, census metropolitan areas and census subdivisions)
+**Dataset:** Statistics Canada Table 33-10-1176-01 — *Canadian Business Counts, with employees, census metropolitan areas and census subdivisions, June 2026* (cube title as given in the downloaded metadata).
 
-1. Dataset Structure
-Number of rows: 1,047,957
+**Files audited:** `33101176.csv` (raw data) and `33101176_MetaData.csv` (cube metadata), stored in `data/raw/`.
 
-Number of columns: 16
+**How the findings were produced:** every number below comes from `audit_script.py`, run against the unmodified raw CSV. The full output is saved in `docs/data_audits/audit_script_output.txt`. The raw file was not cleaned, filtered or changed.
 
-Actual column names: 'REF_DATE', 'GEO', 'DGUID', 'Employment size', 'North American Industry Classification System (NAICS)', 'UOM', 'UOM_ID', 'SCALAR_FACTOR', 'SCALAR_ID', 'VECTOR', 'COORDINATE', 'VALUE', 'STATUS', 'SYMBOL', 'TERMINATED', 'DECIMALS'
+---
 
-Important identifiers: GEO (Geographic name), DGUID (Geographic ID code), Employment size, North American Industry Classification System (NAICS)
+## 1. Dataset Structure
 
-Important measures: VALUE (This holds the actual count of businesses)
+- **Rows:** 1,047,957 (excluding the header row)
+- **Columns:** 16
+- **Column names:** `REF_DATE`, `GEO`, `DGUID`, `Employment size`, `North American Industry Classification System (NAICS)`, `UOM`, `UOM_ID`, `SCALAR_FACTOR`, `SCALAR_ID`, `VECTOR`, `COORDINATE`, `VALUE`, `STATUS`, `SYMBOL`, `TERMINATED`, `DECIMALS`
+- **Important identifiers:** `REF_DATE`, `GEO`, `DGUID`, `Employment size`, NAICS. A row is uniquely identified by the combination of these five fields (0 duplicates, see Section 4). `VECTOR` + `COORDINATE` is also unique per row (0 duplicates).
+- **Important measure:** `VALUE` (number of businesses). Range 1 to 262,535. `UOM` is "Number" and `SCALAR_FACTOR` is "units" on every row.
+- **Metadata:** the cube metadata reports 3 dimensions.
 
-2. Geography
-Geographic levels present: 3,163 unique geographic areas.
+## 2. Geography
 
-Can Niagara be identified? Yes, Niagara-specific subdivisions and the overarching CMA were positively identified in the GEO and DGUID columns. Actual values found include:
+- **Unique `GEO` names:** 3,163. **Unique `DGUID` values:** 3,348. The two differ because 167 `GEO` names map to more than one `DGUID` (see Section 8).
+- **Geographic levels present (by DGUID type prefix):**
+  - `2021A0005`: 3,307 DGUIDs — census subdivisions
+  - `2021S0503`: 41 DGUIDs — census metropolitan areas
+  
+  These two levels match the table title (census metropolitan areas and census subdivisions). No other level appears: there is **no census-division or Niagara Region total row** and no province or national row.
+- **Can Niagara be identified?** Yes. All 12 Niagara Region municipalities are present as census subdivisions, plus the St. Catharines - Niagara CMA. Every Niagara subdivision DGUID contains the Niagara census division code 3526.
 
-St. Catharines - Niagara (DGUID: 2021S0503539)
+| Municipality (`GEO`) | `DGUID` |
+|---|---|
+| Fort Erie | 2021A00053526003 |
+| Grimsby | 2021A00053526065 |
+| Lincoln | 2021A00053526057 |
+| Niagara Falls | 2021A00053526043 |
+| Niagara-on-the-Lake | 2021A00053526047 |
+| Pelham | 2021A00053526028 |
+| Port Colborne | 2021A00053526011 |
+| St. Catharines | 2021A00053526053 |
+| Thorold | 2021A00053526037 |
+| Wainfleet | 2021A00053526014 |
+| Welland | 2021A00053526032 |
+| West Lincoln | 2021A00053526021 |
+| *CMA:* St. Catharines - Niagara | 2021S0503539 |
 
-St. Catharines (DGUID: 2021A00053526053)
+All 12 municipalities were found; none are missing.
 
-Niagara Falls (DGUID: 2021A00053526043)
+- **Geographic limitations:** a second `GEO` called "Lincoln" exists (`DGUID` 2021A00051303008). Its code starts with 13, a different province, so it is not Niagara. Niagara must be selected by `DGUID`, never by the `GEO` name. The CMA overlaps the municipal subdivisions, so the two levels describe overlapping areas. Because there is no Niagara Region row, any regional total would have to be built from the 12 municipalities.
 
-Niagara-on-the-Lake (DGUID: 2021A00053526047)
+## 3. Business Information
 
-3. Business Information
-Business counts present: Yes, stored in the VALUE column.
+- **Business counts:** present, in `VALUE`.
+- **Employment-size categories (9, with row counts):**
 
-NAICS / Industry categories: Yes, the dataset includes hierarchical industry classifications ranging from 2-digit broad sectors (e.g., Retail trade) down to detailed 6-digit NAICS codes.
+| Category | Rows |
+|---|---|
+| Total, with employees | 333,598 |
+| 1 to 4 employees | 233,140 |
+| 5 to 9 employees | 154,851 |
+| 10 to 19 employees | 124,786 |
+| 20 to 49 employees | 95,784 |
+| 50 to 99 employees | 50,891 |
+| 100 to 199 employees | 28,886 |
+| 200 to 499 employees | 17,288 |
+| 500 plus employees | 8,733 |
 
-Employee-size categories: Yes, provided in the Employment size column. The actual categories present in this dataset are strictly for businesses with employees:
+  "Total, with employees" is an aggregate category; the other eight are size bands. The row counts reconcile: 333,598 + 714,359 = 1,047,957.
+- **Micro / small businesses:** no category is labelled "micro" or "small". The smallest band in the file is "1 to 4 employees". How micro and small businesses are defined from these bands is a later project decision.
+- **Indeterminate businesses / businesses without employees:** not present. The script confirmed that no category contains "without employees" or "indeterminate". The table covers employer businesses only.
+- **NAICS / industry:** present. 445 unique NAICS values, hierarchical, with the code written inside the label in brackets (for example `Retail trade [44-45]`). Code depth: 3 values with a 1-digit code, 20 with 2-digit, 99 with 3-digit, 323 with 4-digit. **No 5- or 6-digit codes are present.** Every value has a bracketed code. The 3 values with a 1-digit code are Total, all industries [1], Unclassified [2] and Sub-total, classified [3]. These are aggregate or catch-all categories, not specific industries. Examples of sectors: Agriculture, forestry, fishing and hunting [11]; Arts, entertainment and recreation [71]; Accommodation and food services [72].
 
-Total, with employees
+## 4. Data Quality
 
-1 to 4 employees (Micro)
+- **Missing values:** 0 blank cells in `REF_DATE`, `GEO`, `DGUID`, `Employment size`, NAICS, `VALUE` and every other column except three. `STATUS`, `SYMBOL` and `TERMINATED` are blank in all 1,047,957 rows.
+- **Suppressed values / quality flags:** `STATUS` and `SYMBOL` are empty in every row, so the file contains no suppression or quality-flag symbols of any kind. This does not prove nothing was withheld: there are no zero counts in `VALUE` (minimum 1), so a missing combination cannot be told apart from a true zero or an unpublished value.
+- **Duplicate records:** 0 exact duplicate rows (entire row identical). 0 duplicates on `REF_DATE + GEO + DGUID + NAICS + Employment size`. 0 on `VECTOR + COORDINATE`. Using only `REF_DATE + GEO + NAICS + Employment size` (leaving out `DGUID`) gives 83,212 duplicates, because 167 `GEO` names are shared by more than one `DGUID`; adding `DGUID` removes all of them.
+- **Unusual values:** none found in `VALUE` (0 non-numeric, 0 negative, 0 zero). `UOM` and `SCALAR_FACTOR` have a single value each.
+- **Unclear categories:** 22 industry names appear under more than one NAICS code (a parent and a child level share the same name), for example "Educational services" [61] and [611], "Heritage institutions" [712] and [7121], "Business-to-business electronic markets, and agents and brokers" [419] and [4191]. The full list is in the script output.
+- **Other concerns:** see Section 8.
 
-5 to 9 employees
+## 5. Time Coverage
 
-10 to 19 employees
+- **Reference period in the data:** one value only, `REF_DATE` = `2026-01` (all 1,047,957 rows). The metadata gives Start and End Reference Period both as 2026-01-01.
+- **Cube title discrepancy:** the cube title says "June 2026", but the data and the metadata reference period are January 2026. This file does not explain the difference, so it is recorded here as unresolved.
+- **Frequency:** "Semi-annual", from the `Frequency` field of `33101176_MetaData.csv`.
+- **Time limitations:** the download is a single snapshot, so it contains no trend. In addition, a metadata note says counts can shift between reference periods because of method changes (for example how inactive units are identified), so the figures do not only reflect changes in the business population, and Statistics Canada advises against using them as a time series.
 
-20 to 49 employees
+## 6. Possible Future Joining Keys
 
-50 to 99 employees
+- **`DGUID`** — the reliable geography key. All DGUIDs carry the 2021 vintage, which matches 2021 Census geography. `GEO` names are not unique and must not be used to join.
+- **NAICS** — the code is embedded in the label text and would have to be extracted before joining. The file uses 1- to 4-digit codes only, so other datasets must be matched at 4 digits or higher levels.
+- **`Employment size`** — nine text categories; other datasets' size bands would need to be mapped to these.
+- **`REF_DATE`** — a single value (2026-01). Datasets from other periods (for example the 2021 Census) will not align by date.
 
-100 to 199 employees
+No datasets were merged.
 
-200 to 499 employees
+## 7. Succession-Data Gap
 
-500 plus employees
+No column in the file contains succession information (confirmed by the script's column-name check and the full column list in Section 1):
 
-Note: "Without employees" or "Indeterminate" categories were not found in this specific CSV extract.
+- Owner age: absent
+- Retirement intention: absent
+- Planned exit: absent
+- Succession-plan status: absent
+- Identified successor: absent
+- Ownership transfer information: absent
+- Reason for closure: absent
 
-4. Data Quality
-Missing values: 0 missing values found in the VALUE column.
+`TERMINATED` is a Statistics Canada series flag, not a closure reason, and it is empty in every row. This confirms the Week 2 expectation that CBC does not directly measure succession. No such variables were created or inferred.
 
-Suppressed values: 0 suppressed values found (checked for 'x', 'X', or 'F' in STATUS and SYMBOL columns).
+## 8. New Findings and Limitations
 
-Duplicate records: 0 exact row duplicates exist when factoring in the full Statistics Canada identifier columns (VECTOR or COORDINATE). However, when evaluating based only on our core business dimensions (REF_DATE, GEO, NAICS, Employment size), we found 83,212 duplicates. This confirms we must include the additional dimensions present in the file (such as UOM / Unit of Measure) to create a fully unique row identifier during the cleaning phase.
+New from inspecting the actual file:
 
-5. Time Coverage
-Actual reference period(s): The only unique REF_DATE found in the dataset is 2026-01.
+1. **Reference-period discrepancy:** cube title says June 2026; data and metadata say 2026-01.
+2. **Not suitable as a time series** per the Statistics Canada metadata note, and only one period is present.
+3. **`GEO` names are not unique:** 167 names map to more than one `DGUID` (for example a Lincoln in another province). Filtering and joining must use `DGUID`, and the Niagara DGUIDs in Section 2 are the ones to use in Week 4 (data cleaning). No filtering was done in Week 3.
+4. **NAICS structure:** codes are embedded in the label text, depth is 1 to 4 digits only, and 22 industry names appear at two hierarchy levels.
+5. **No flags and no zero counts:** `STATUS`, `SYMBOL` and `TERMINATED` are entirely empty and the minimum `VALUE` is 1, so true zeros and unpublished combinations are indistinguishable.
+6. **Employer businesses only:** no "without employees" or "indeterminate" categories, so owner-operators with no employees are not represented.
+7. **No Niagara Region total row:** only 12 municipal rows and one CMA row exist. Overlap between CMA and subdivision rows, between "Total, with employees" and the size bands, and between NAICS levels is indicated by the labels (the NAICS list includes "Total, all industries [1]", "Sub-total, classified [3]" and "Unclassified [2]" alongside the specific industries) but was not tested; it needs handling in Week 4.
 
-Update Frequency: As per the downloaded cube metadata, this data is updated semi-annually.
+Confirmed from Week 2: CBC contains no direct succession variables.
 
-6. Possible Future Joining Keys
-DGUID / GEO: To join with Census demographic data for the same municipalities.
+## 9. Historical CBC Data
 
-NAICS: To join with industry-specific risk profiles or the Niagara Employment Inventory.
+No historical CBC files were acquired in Week 3, so no comparison of columns, geography, NAICS, employment-size definitions or reference periods was made. No historical tables were combined.
 
-REF_DATE: To align with other datasets from 2026.
+## 10. Final Dataset Decision
 
-7. Confirmation of the Succession-Data Gap
-Owner age: Absent
+**Decision: KEEP WITH LIMITATIONS**
 
-Retirement intention / Planned exit: Absent
-
-Succession-plan status: Absent
-
-Ownership transfer information: Absent
-
-Reason for closure: Absent
-
-8. New Findings or Limitations
-The sheer size of the dataset (1,047,957 rows) is a finding in itself. We must strictly filter this data by Niagara's DGUID identifiers early in the data cleaning phase (Week 4/5) to make it manageable, rather than attempting to process the entire national file.
-
-9. Final Dataset Decision
-Decision: KEEP WITH LIMITATIONS
-
-Reason: This dataset is critical for establishing the baseline number and size of businesses in Niagara, but it completely lacks the demographic and succession-planning variables required to directly measure succession risk, confirming we must model this gap using other sources.
+**Reason:** The dataset will contribute business counts by geography (all 12 Niagara municipalities and the St. Catharines - Niagara CMA), industry (NAICS, up to 4 digits) and employment size (eight bands plus a total) for employer businesses at a single reference period. It contains no direct succession variables, so it cannot by itself identify succession risk in Niagara businesses. Its limitations (single period and a metadata warning against time-series use, employer businesses only, non-unique `GEO` names, NAICS codes embedded in labels, no flag information) must stay documented.
