@@ -361,7 +361,7 @@ However, the dataset contains no direct succession variables and cannot independ
 
 **Review date:** October 2, 2026  
 
-**Audit status:** Reviewed — Approved with documented limitations 
+**Audit status:** Reviewed — Approved with documented limitations
 
 ---
 
