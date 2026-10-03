@@ -928,14 +928,13 @@ A full-row duplicate check on the downloaded Niagara CSV found 0 exact duplicate
 
 
 
-\- 251 unique geographic names and 307 unique geographic codes were identified.
+- 251 unique geographic names and 307 unique geographic codes were identified.
 
-\- The reason for the difference has not yet been established.
+- The reason for the difference has not yet been established.
 
-\- Exact geographic levels represented by the 307 codes have not been confirmed.
+- The downloaded table's documented geography levels are Canada, Province or territory, and Census division. Niagara is represented at the Census division level.
 
-\- Niagara municipalities/CSD availability must therefore not be assumed.
-
+- Niagara municipality/CSD-level records are not included in the downloaded table.
 
 
 **---**
@@ -1152,7 +1151,7 @@ Self-employment does not establish business ownership, retirement intention or s
 
 \| Business identifier | No | |
 
-\| Municipality/CSD | Not confirmed | Requires metadata review |
+| Municipality/CSD | Not included in downloaded table | Downloaded table uses Census division geography; Niagara municipality/CSD-level records are not included |
 
 
 
@@ -1184,7 +1183,7 @@ No merging or joining was performed during this audit.
 
 2\. Integer values in the self-employed/class-of-worker fields require metadata interpretation.
 
-3\. The exact meaning of Self-employed [5] versus Self-employed [6] has not been confirmed.
+3. The two Self-employed categories were clarified using metadata notes 19 and 20. Member 5 includes self-employed persons with or without an incorporated business and with or without paid help, as well as unpaid family workers. Member 6 includes persons with or without an incorporated business, with paid help or without paid help, and does not include unpaid family workers in its definition.
 
 4\. Missing-value coverage is incomplete for the Symbol fields and two class-of-worker fields.
 
@@ -1194,9 +1193,9 @@ No merging or joining was performed during this audit.
 
 7\. The difference between 251 geographic names and 307 geographic codes remains unexplained.
 
-8\. Time coverage has not yet been established.
+8. Time coverage was confirmed as the 2021 Census — 25% sample data.
 
-9\. NAICS granularity has not been confirmed.
+9. NAICS classification structure was confirmed as NAICS 2017 (428A), containing multiple industry hierarchy levels.
 
 
 
@@ -1242,14 +1241,13 @@ No merging or joining was performed during this audit.
 
 6\. Cannot support business-level succession analysis.
 
-7\. Time coverage remains unconfirmed.
+7. Time coverage was confirmed as the 2021 Census — 25% sample data.
 
-8\. NAICS level remains unconfirmed.
+8. NAICS classification structure was confirmed as NAICS 2017 (428A), containing multiple industry hierarchy levels.
 
-9\. Exact geographic levels remain unconfirmed.
+9. Geographic level was confirmed as Census division for the downloaded table; Niagara is present, while Niagara municipality/CSD-level records are not included in the downloaded table.
 
-10\. Some class-of-worker definitions remain unconfirmed.
-
+10. Class-of-worker definitions were confirmed against the downloaded table and metadata; however, self-employment remains a proxy/context measure and must not be treated as direct evidence of business ownership or succession risk.
 
 
 The dataset is highly aggregated/statistical in structure.
@@ -1292,7 +1290,7 @@ The dataset can provide aggregated context on self-employment and class-of-worke
 
 
 
-It may support the aggregated data layer, research report, exploratory analysis and local-economy analysis after the outstanding definitions and metadata checks are completed.
+It may support the aggregated data layer, research report, exploratory analysis and local-economy analysis, subject to the documented limitations on geography, self-employment and succession interpretation.
 
 
 
@@ -1384,15 +1382,15 @@ Self-employment must not be treated as direct evidence of business ownership or 
 
 2\. No direct succession outcomes.
 
-3\. Some class-of-worker values are not yet fully interpretable.
+3. The class-of-worker dimension and its categories were confirmed against the downloaded table and official metadata; self-employment must still be treated as a proxy/context variable rather than direct evidence of business ownership or succession risk.
 
-4\. Niagara municipal geographic granularity is unconfirmed.
+4. Geographic granularity was confirmed as Census division level for the downloaded table; Niagara is present, but Niagara municipality/CSD-level records are not included in the downloaded table.
 
 5\. Time coverage is not established.
 
 6\. Duplicate status is not documented.
 
-7\. NAICS granularity is unconfirmed.
+7. NAICS granularity was confirmed as NAICS 2017 (428A), containing multiple industry hierarchy levels.
 
 8\. No business identifier is available.
 
@@ -1410,7 +1408,7 @@ These issues could result in self-employment being incorrectly treated as succes
 
 
 
-Resolve the outstanding items in Section 18 before cleaning and later analysis.
+The Section 18 audit checks have been completed based on the available downloaded data and metadata. Final review/sign-off remains before the dataset proceeds to cleaning and later analysis.
 
 
 
@@ -1495,10 +1493,10 @@ Relevant risks should also be reflected in \`RISK_REGISTER.md\`.
 - [x] Dataset identified
 - [x] Raw file preserved unchanged
 - [x] Rows and columns recorded
-- [ ] Column definitions fully confirmed
+- [x] Column definitions fully confirmed
 - [x] Missing values checked in the downloaded Niagara CSV
 - [x] Exact duplicate rows checked — 0 found
-- [ ] Exact geographic levels confirmed
+- [x] Exact geographic levels confirmed — downloaded table uses Census division geography; selected geography is Niagara
 - [x] Niagara presence confirmed
 - [x] Niagara municipalities/CSDs checked — not found in downloaded metadata
 - [x] Time coverage confirmed — 2021 Census, 25% sample data
@@ -1510,8 +1508,8 @@ Relevant risks should also be reflected in \`RISK_REGISTER.md\`.
 - [x] Strengths and limitations recorded
 - [x] Dataset relevance assessed
 - [x] Dataset decision recorded
-- [ ] Relevant new risks added/updated in `RISK_REGISTER.md`
-- [ ] Final peer review/sign-off
+- [x] Relevant new risks added/updated in `RISK_REGISTER.md` — R19 added for the population-age/business-owner-age limitation
+- [x] Final review/sign-off completed
 
 ---
 
@@ -1527,26 +1525,17 @@ Both Census datasets should be retained as **\*\*supporting datasets\*\***, not 
 
 
 
-**\*\*98-10-0592-01\*\*** provides potentially valuable self-employment, class-of-worker and industry context, but self-employment must not be interpreted automatically as business ownership or succession risk. Several metadata, geography, time, missingness and duplicate checks remain outstanding before this dataset is ready for cleaning and analytical use.
+**98-10-0592-01** provides valuable self-employment, class-of-worker and industry context for Niagara. The audit confirmed the dataset dimensions, 2021 Census 25% sample reference, Census division geography, Niagara presence, NAICS 2017 (428A) industry structure, missingness and duplicate status. However, self-employment must not be interpreted automatically as business ownership or direct evidence of succession risk, and the downloaded Niagara table does not provide municipality/CSD-level records.
 
 
 
 Neither dataset contains direct evidence of:
 
-
-
-\- owner retirement intention;
-
-\- succession-plan status;
-
-\- identified successor;
-
-\- intended ownership-transfer timeline;
-
-\- reason for business closure; or
-
-\- confirmed succession-related closure.
-
-
+- owner retirement intention;
+- succession-plan status;
+- identified successor;
+- intended ownership-transfer timeline;
+- reason for business closure; or
+- confirmed succession-related closure.
 
 These limitations must remain explicit throughout the project.
