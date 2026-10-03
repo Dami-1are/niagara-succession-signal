@@ -36,7 +36,7 @@ The register will be updated as the project progresses and new information becom
 | R16 | Joining datasets from different sources may not be straightforward | 🔴 High | Sources may not share a reliable business-level identifier | Do not force business-level joins. First identify valid common keys such as geography, NAICS, year or size category and document the level at which sources can legitimately be combined | Weeks 3–6 |
 | R17 | Proxy variables could be mistaken for direct evidence of succession risk | 🔴 High | This could lead us to claim more than the evidence supports | Clearly distinguish direct variables, proxy indicators and contextual variables in the methodology | Throughout project |
 | R18 | Raw data could accidentally be changed during cleaning | 🟡 Medium | We need the original data for reproducibility and auditing | Preserve original downloads unchanged in `data/raw/`. Perform cleaning in later stages and save resulting files separately | Weeks 3–4 |
-
+| R19 | Census population age is not business-owner age | 🟡 Medium | The Census age dataset describes the general population and does not identify the ages of business owners. Using older-population patterns as if they represented older business owners could create unsupported succession-risk conclusions | Use population age only as demographic context. Never treat it as direct evidence of owner age, retirement intention or succession risk | Throughout project |
 ---
 
 # Main Week 2 Data Gap
