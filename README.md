@@ -1078,10 +1078,8 @@ Detailed weekly assignments will continue to be documented as the project progre
 The Niagara Succession Signal team consists of:
 
 - Theophilus
-- OHONBA
 - Damilare
 - Precious
-- Mano
 - Lucky
 - Oluwatosin
 - Emmanuella
@@ -1258,13 +1256,15 @@ may be useful indicators or contextual information, but they will not automatica
 
 # Current Project Status
 
-**Current Phase:** Transition from Phase 1 — Understand & Plan to Phase 2 — Build the Data Foundation
+**Current Phase:** Phase 2 — Build the Data Foundation
 
 **Week 1:** Complete
 
 **Week 2:** Complete — Data Source Research, Evaluation & Planning
 
-**Next:** Week 3 — Data Collection & Audit
+**Week 3:** Complete — Data Collection, Audit & Integration Readiness
+
+**Next:** Week 4 — Data Cleaning
 
 **Current Status:** In Progress
 
@@ -1272,28 +1272,54 @@ may be useful indicators or contextual information, but they will not automatica
 
 **Internal Completion Target:** January 31, 2027
 
-### Week 3 Readiness
+### Week 3 Completion
 
-Before entering Week 3, the project now has:
+Week 3 focused on acquiring, preserving, documenting, auditing and assessing the integration readiness of the project's priority data sources.
 
-- [x] Defined research problem
-- [x] Defined research questions
-- [x] Defined objectives and scope
-- [x] Confirmed challenge deliverables 4.1–4.9
-- [x] Data-source research completed
-- [x] Major data gaps identified
-- [x] Source priorities established
-- [x] Data acquisition plan prepared
-- [x] Data dictionary template prepared
-- [x] Raw-data source tracking prepared
-- [x] Data audit template prepared
-- [x] Major data risks documented
-- [x] Data licensing documented
-- [x] Week 2 team contributions documented
-- [x] Week 2 handover prepared
-- [x] Sources mapped to challenge deliverables
+The completed Week 3 work includes:
 
-The project is therefore ready to move into **Week 3 Data Collection & Audit**, subject to final repository QA.
+- [x] Niagara Employment Inventory (NEI) acquired, preserved and audited
+- [x] Canadian Business Counts audited
+- [x] Business Dynamics / Business Entries and Exits audited
+- [x] Census and demographic datasets audited
+- [x] Succession-specific and supporting sources audited
+- [x] Dataset structures, dimensions and relevant variables reviewed
+- [x] Missing values and duplicate records assessed
+- [x] Geographic and time coverage documented
+- [x] Industry / NAICS compatibility assessed
+- [x] Business-size information reviewed
+- [x] Potential joining keys identified
+- [x] Direct succession-variable availability assessed
+- [x] Dataset strengths and limitations documented
+- [x] Keep / conditional-use decisions recorded
+- [x] Cross-source compatibility assessed
+- [x] Integration readiness matrix completed
+- [x] Integration decisions documented
+- [x] Relevant risks recorded
+- [x] Week 3 audits reviewed
+
+### Week 3 Integration Position
+
+The Week 3 audit confirmed that the project does not have a direct business-level label identifying succession-related closure in Niagara.
+
+The datasets therefore have different analytical roles:
+
+- **NEI** provides the core Niagara business-level foundation but requires transformation before later integration.
+- **Canadian Business Counts** provides aggregate business-count and size context and can be used with appropriate standardization.
+- **Business Dynamics** provides aggregate evidence on business entry and exit patterns but does not identify why a business exited.
+- **Census and demographic data** provide supporting demographic, self-employment and industry context but must not be treated as direct business-owner succession evidence.
+- **Succession-specific sources** provide direct evidence on succession intentions and related measures at broader geographic levels, but they do not provide an individual Niagara succession-closure label.
+
+Cross-source integration must therefore respect differences in geography, time coverage, NAICS classification, business-size definitions and level of aggregation.
+
+No datasets were merged during Week 3.
+
+### Week 4 Readiness
+
+With Week 3 complete, the project is ready to proceed to **Week 4 — Data Cleaning**.
+
+Week 4 will focus on preparing the approved datasets for later analysis while preserving the original raw files and maintaining clear data traceability.
+
 
 ---
 
