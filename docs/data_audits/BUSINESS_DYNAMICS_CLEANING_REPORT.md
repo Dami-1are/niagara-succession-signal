@@ -321,6 +321,19 @@ The source metadata expresses firm size using Average Labour Units (ALUs). The s
 
 The firm-size cleaned dataset retains the source fields required for analysis and validation.
 
+The original source columns were standardized to lowercase snake_case names for consistency with the cleaned industry dataset.
+
+Examples of renamed columns include:
+
+- `REF_DATE` → `ref_date`
+- `GEO` → `geo`
+- `DGUID` → `dguid`
+- `Employment dynamics` → `business_dynamics_measure`
+- `Firm size` → `firm_size`
+- `UOM` → `uom`
+- `VALUE` → `value`
+- `STATUS` → `status`
+
 A `status_interpretation` field was added to document whether an observation represents an observed numeric value or a confidentiality-suppressed value.
 
 The following technically empty source fields were removed from the cleaned output:
@@ -332,25 +345,27 @@ These fields were not removed from the raw source file.
 
 `TERMINATED` was not interpreted as a business-closure indicator because it is a technical source field rather than a direct succession or exit variable.
 
-## 3.7 VALUE validation
+## 3.7 Value validation
 
-The cleaned `VALUE` field was validated for:
+The cleaned `value` field was validated for:
 
-- numeric consistency
-- non-numeric values
-- negative values
-- missing values
-- unit consistency
+- Numeric consistency
+- Non-numeric values
+- Negative values
+- Missing values
+- Unit consistency
 
-Results:
+**Validation results:**
 
 - Numeric conversion issues: 0
 - Negative values: 0
 - Missing/suppressed values: 196
-- UOM: Number
-- Scalar factor: units
+- Unit of measure (`uom`): Number
+- Scalar factor (`scalar_factor`): units
 
-Suppressed observations remain missing.
+The 196 confidentiality-suppressed observations, identified by the status code `x`, were retained with missing values in the `value` column.
+
+Suppressed observations were not replaced with zero, imputed, or estimated.
 
 No values were manufactured to complete the dataset.
 
