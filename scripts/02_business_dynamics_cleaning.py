@@ -209,6 +209,24 @@ firm_size_clean = firm_size_clean.drop(
     columns=["SYMBOL", "TERMINATED"]
 )
 
+# Standardize firm-size column names for consistency
+firm_size_clean = firm_size_clean.rename(columns={
+    "REF_DATE": "ref_date",
+    "GEO": "geo",
+    "DGUID": "dguid",
+    "Employment dynamics": "business_dynamics_measure",
+    "Firm size": "firm_size",
+    "UOM": "uom",
+    "UOM_ID": "uom_id",
+    "SCALAR_FACTOR": "scalar_factor",
+    "SCALAR_ID": "scalar_id",
+    "VECTOR": "vector",
+    "COORDINATE": "coordinate",
+    "VALUE": "value",
+    "STATUS": "status",
+    "DECIMALS": "decimals"
+})
+
 # ============================================================
 # 6. VALIDATE BUSINESS-DYNAMICS MEASURES
 # ============================================================
@@ -243,7 +261,7 @@ validate(
 expected_years = set(range(2001, 2024))
 
 industry_years = set(industry_clean["ref_date"].dropna().unique())
-firm_size_years = set(firm_size_clean["REF_DATE"].dropna().unique())
+firm_size_years = set(firm_size_clean["ref_date"].dropna().unique())
 
 validate(
     industry_years == expected_years,
@@ -319,7 +337,7 @@ validate(
 # 10. VALIDATE FIRM-SIZE SUPPRESSION
 # ============================================================
 
-firm_suppressed = firm_size_clean["STATUS"].eq("x")
+firm_suppressed = firm_size_clean["status"].eq("x")
 
 validate(
     firm_suppressed.sum() == 196,
@@ -327,19 +345,19 @@ validate(
 )
 
 validate(
-    firm_size_clean.loc[firm_suppressed, "VALUE"].isna().all(),
+    firm_size_clean.loc[firm_suppressed, "value"].isna().all(),
     "Suppressed firm-size observations should have missing VALUE.",
 )
 
 validate(
-    firm_size_clean["VALUE"].isna().sum() == 196,
+    firm_size_clean["value"].isna().sum() == 196,
     "Expected 196 missing firm-size VALUE observations.",
 )
 
 validate(
     (
         firm_size_clean["status_interpretation"].str.startswith("suppressed")
-        & firm_size_clean["VALUE"].eq(0)
+        & firm_size_clean["value"].eq(0)
     ).sum()
     == 0,
     "Suppressed firm-size observations were represented as zero.",
@@ -360,20 +378,23 @@ industry_non_numeric = (
 )
 
 firm_size_non_numeric = (
-    pd.to_numeric(firm_size_clean["VALUE"], errors="coerce").isna()
-    & firm_size_clean["VALUE"].notna()
+    pd.to_numeric(firm_size_clean["value"], errors="coerce").isna()
+    & firm_size_clean["value"].notna()
 )
 
+# Check for non-numeric industry values
 validate(
     industry_non_numeric.sum() == 0,
     "Non-numeric industry VALUE observations found.",
 )
 
+# Check for non-numeric firm-size values
 validate(
     firm_size_non_numeric.sum() == 0,
     "Non-numeric firm-size VALUE observations found.",
 )
 
+# Check for negative industry values
 validate(
     (
         industry_clean["value"].notna()
@@ -383,10 +404,11 @@ validate(
     "Negative industry VALUE observations found.",
 )
 
+# Check for negative firm-size values
 validate(
     (
-        firm_size_clean["VALUE"].notna()
-        & firm_size_clean["VALUE"].lt(0)
+        firm_size_clean["value"].notna()
+        & firm_size_clean["value"].lt(0)
     ).sum()
     == 0,
     "Negative firm-size VALUE observations found.",
@@ -423,7 +445,7 @@ validate(
 )
 
 validate(
-    firm_size_clean["UOM"].eq("Number").all(),
+    firm_size_clean["uom"].eq("Number").all(),
     "Unexpected firm-size UOM value found.",
 )
 
@@ -464,12 +486,12 @@ validate(
 # ============================================================
 
 validate(
-    firm_size_clean["Firm size"].nunique() == 9,
+    firm_size_clean["firm_size"].nunique() == 9,
     "Expected 9 firm-size categories.",
 )
 
 validate(
-    firm_size_clean["Firm size"].value_counts().eq(92).all(),
+    firm_size_clean["firm_size"].value_counts().eq(92).all(),
     "Each firm-size category should contain 92 observations.",
 )
 
@@ -557,7 +579,7 @@ validate(
 )
 
 validate(
-    set(firm_size_output_check["REF_DATE"].dropna().unique())
+    set(firm_size_output_check["ref_date"].dropna().unique())
     == expected_years,
     "Final firm-size output does not cover 2001–2023.",
 )
@@ -568,7 +590,7 @@ validate(
 )
 
 validate(
-    firm_size_output_check["GEO"].eq("Ontario").all(),
+    firm_size_output_check["geo"].eq("Ontario").all(),
     "Final firm-size output contains non-Ontario records.",
 )
 
@@ -593,12 +615,12 @@ validate(
 )
 
 validate(
-    firm_size_output_check["STATUS"].eq("x").sum() == 196,
+    firm_size_output_check["status"].eq("x").sum() == 196,
     "Final firm-size output has unexpected suppressed count.",
 )
 
 validate(
-    firm_size_output_check["VALUE"].isna().sum() == 196,
+    firm_size_output_check["value"].isna().sum() == 196,
     "Final firm-size output has unexpected missing VALUE count.",
 )
 
