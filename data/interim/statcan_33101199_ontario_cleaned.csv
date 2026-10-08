@@ -1,0 +1,1021 @@
+REF_DATE,GEO,DGUID,Business characteristics,Various scenarios if business is unable to find a suitable buyer or successor,Likelihood,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,TERMINATED,DECIMALS
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010483,7.1.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010484,7.1.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010485,7.1.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010486,7.1.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010487,7.1.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010488,7.1.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010489,7.1.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010490,7.1.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010491,7.1.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010492,7.1.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Scale down or close operations,Very likely,Percent,239,units,0,v1937010493,7.1.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010494,7.1.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010495,7.1.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010496,7.1.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"North American Industry Classification System (NAICS), all industries",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010497,7.1.3.5,21.0,C,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010648,7.2.1.1,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010649,7.2.1.2,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010650,7.2.1.3,5.9,D,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010651,7.2.1.4,9.2,E,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010652,7.2.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010653,7.2.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010654,7.2.2.2,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010655,7.2.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010656,7.2.2.4,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010657,7.2.2.5,9.2,E,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Scale down or close operations,Very likely,Percent,239,units,0,v1937010658,7.2.3.1,15.1,E,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010659,7.2.3.2,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010660,7.2.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010661,7.2.3.4,,F,,1
+2026,Ontario,2021A000235,"Agriculture, forestry, fishing and hunting [11]",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010662,7.2.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010813,7.3.1.1,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010814,7.3.1.2,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010815,7.3.1.3,0.6,A,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010816,7.3.1.4,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010817,7.3.1.5,6.4,C,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010818,7.3.2.1,6.4,B,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010819,7.3.2.2,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010820,7.3.2.3,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010821,7.3.2.4,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010822,7.3.2.5,6.4,C,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Scale down or close operations,Very likely,Percent,239,units,0,v1937010823,7.3.3.1,3.7,B,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010824,7.3.3.2,9.1,D,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010825,7.3.3.3,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010826,7.3.3.4,,F,,1
+2026,Ontario,2021A000235,"Mining, quarrying, and oil and gas extraction [21]",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010827,7.3.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010978,7.4.1.1,5.4,C,,1
+2026,Ontario,2021A000235,Construction [23],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010979,7.4.1.2,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010980,7.4.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010981,7.4.1.4,,F,,1
+2026,Ontario,2021A000235,Construction [23],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010982,7.4.1.5,,F,,1
+2026,Ontario,2021A000235,Construction [23],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010983,7.4.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010984,7.4.2.2,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010985,7.4.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010986,7.4.2.4,,F,,1
+2026,Ontario,2021A000235,Construction [23],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010987,7.4.2.5,,F,,1
+2026,Ontario,2021A000235,Construction [23],Scale down or close operations,Very likely,Percent,239,units,0,v1937010988,7.4.3.1,11.3,D,,1
+2026,Ontario,2021A000235,Construction [23],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010989,7.4.3.2,,F,,1
+2026,Ontario,2021A000235,Construction [23],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010990,7.4.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Construction [23],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010991,7.4.3.4,1.1,A,,1
+2026,Ontario,2021A000235,Construction [23],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010992,7.4.3.5,,F,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011143,7.5.1.1,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011144,7.5.1.2,100.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011145,7.5.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011146,7.5.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011147,7.5.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011148,7.5.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011149,7.5.2.2,100.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011150,7.5.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011151,7.5.2.4,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011152,7.5.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Scale down or close operations,Very likely,Percent,239,units,0,v1937011153,7.5.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011154,7.5.3.2,,F,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011155,7.5.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011156,7.5.3.4,,F,,1
+2026,Ontario,2021A000235,Manufacturing [31-33],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011157,7.5.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011308,7.6.1.1,,F,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011309,7.6.1.2,12.1,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011310,7.6.1.3,3.4,B,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011311,7.6.1.4,11.8,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011312,7.6.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Wholesale trade [41],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011313,7.6.2.1,11.8,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011314,7.6.2.2,12.1,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011315,7.6.2.3,,F,,1
+2026,Ontario,2021A000235,Wholesale trade [41],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011316,7.6.2.4,0.0,A,,1
+2026,Ontario,2021A000235,Wholesale trade [41],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011317,7.6.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Scale down or close operations,Very likely,Percent,239,units,0,v1937011318,7.6.3.1,11.8,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011319,7.6.3.2,3.5,B,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011320,7.6.3.3,,F,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011321,7.6.3.4,12.1,E,,1
+2026,Ontario,2021A000235,Wholesale trade [41],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011322,7.6.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011458,7.7.1.1,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011459,7.7.1.2,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011460,7.7.1.3,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011461,7.7.1.4,0.3,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011462,7.7.1.5,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011463,7.7.2.1,0.1,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011464,7.7.2.2,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011465,7.7.2.3,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011466,7.7.2.4,0.2,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011467,7.7.2.5,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Scale down or close operations,Very likely,Percent,239,units,0,v1937011468,7.7.3.1,0.4,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011469,7.7.3.2,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011470,7.7.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011471,7.7.3.4,,F,,1
+2026,Ontario,2021A000235,Retail trade [44-45],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011472,7.7.3.5,,F,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011473,7.8.1.1,,F,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011474,7.8.1.2,0.6,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011475,7.8.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011476,7.8.1.4,,F,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011477,7.8.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011478,7.8.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011479,7.8.2.2,98.4,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011480,7.8.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011481,7.8.2.4,1.6,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011482,7.8.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Scale down or close operations,Very likely,Percent,239,units,0,v1937011483,7.8.3.1,,F,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011484,7.8.3.2,0.4,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011485,7.8.3.3,,F,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011486,7.8.3.4,1.7,A,,1
+2026,Ontario,2021A000235,Transportation and warehousing [48-49],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011487,7.8.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011488,7.9.1.1,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011489,7.9.1.2,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011490,7.9.1.3,6.1,C,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011491,7.9.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011492,7.9.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011493,7.9.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011494,7.9.2.2,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011495,7.9.2.3,1.7,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011496,7.9.2.4,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011497,7.9.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Scale down or close operations,Very likely,Percent,239,units,0,v1937011498,7.9.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011499,7.9.3.2,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011500,7.9.3.3,,F,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011501,7.9.3.4,20.8,E,,1
+2026,Ontario,2021A000235,Information and cultural industries [51],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011502,7.9.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010498,7.10.1.1,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010499,7.10.1.2,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010500,7.10.1.3,9.7,E,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010501,7.10.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010502,7.10.1.5,90.3,E,,1
+2026,Ontario,2021A000235,Finance and insurance [52],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010503,7.10.2.1,7.5,D,,1
+2026,Ontario,2021A000235,Finance and insurance [52],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010504,7.10.2.2,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010505,7.10.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010506,7.10.2.4,2.2,B,,1
+2026,Ontario,2021A000235,Finance and insurance [52],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010507,7.10.2.5,90.3,E,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Scale down or close operations,Very likely,Percent,239,units,0,v1937010508,7.10.3.1,7.5,D,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010509,7.10.3.2,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010510,7.10.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010511,7.10.3.4,2.2,B,,1
+2026,Ontario,2021A000235,Finance and insurance [52],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010512,7.10.3.5,90.3,E,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010513,7.11.1.1,,F,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010514,7.11.1.2,5.2,C,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010515,7.11.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010516,7.11.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010517,7.11.1.5,,F,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010518,7.11.2.1,,F,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010519,7.11.2.2,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010520,7.11.2.3,9.9,E,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010521,7.11.2.4,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010522,7.11.2.5,,F,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Scale down or close operations,Very likely,Percent,239,units,0,v1937010523,7.11.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010524,7.11.3.2,5.2,C,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010525,7.11.3.3,9.9,E,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010526,7.11.3.4,0.0,A,,1
+2026,Ontario,2021A000235,Real estate and rental and leasing [53],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010527,7.11.3.5,84.8,E,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010528,7.12.1.1,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010529,7.12.1.2,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010530,7.12.1.3,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010531,7.12.1.4,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010532,7.12.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010533,7.12.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010534,7.12.2.2,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010535,7.12.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010536,7.12.2.4,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010537,7.12.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Scale down or close operations,Very likely,Percent,239,units,0,v1937010538,7.12.3.1,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010539,7.12.3.2,,F,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010540,7.12.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010541,7.12.3.4,17.3,E,,1
+2026,Ontario,2021A000235,"Professional, scientific and technical services [54]",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010542,7.12.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010543,7.13.1.1,,F,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010544,7.13.1.2,6.7,D,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010545,7.13.1.3,,F,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010546,7.13.1.4,0.4,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010547,7.13.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010548,7.13.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010549,7.13.2.2,,F,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010550,7.13.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010551,7.13.2.4,,F,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010552,7.13.2.5,0.4,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Scale down or close operations,Very likely,Percent,239,units,0,v1937010553,7.13.3.1,7.1,D,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010554,7.13.3.2,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010555,7.13.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010556,7.13.3.4,,F,,1
+2026,Ontario,2021A000235,"Administrative and support, waste management and remediation services [56]",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010557,7.13.3.5,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010558,7.14.1.1,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010559,7.14.1.2,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010560,7.14.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010561,7.14.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010562,7.14.1.5,10.7,E,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010563,7.14.2.1,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010564,7.14.2.2,13.4,E,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010565,7.14.2.3,6.9,C,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010566,7.14.2.4,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010567,7.14.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Scale down or close operations,Very likely,Percent,239,units,0,v1937010568,7.14.3.1,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010569,7.14.3.2,0.0,A,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010570,7.14.3.3,,F,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010571,7.14.3.4,6.9,C,,1
+2026,Ontario,2021A000235,Health care and social assistance [62],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010572,7.14.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010573,7.15.1.1,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010574,7.15.1.2,8.3,D,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010575,7.15.1.3,8.0,D,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010576,7.15.1.4,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010577,7.15.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010578,7.15.2.1,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010579,7.15.2.2,0.0,A,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010580,7.15.2.3,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010581,7.15.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010582,7.15.2.5,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Scale down or close operations,Very likely,Percent,239,units,0,v1937010583,7.15.3.1,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010584,7.15.3.2,16.3,E,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010585,7.15.3.3,11.9,E,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010586,7.15.3.4,,F,,1
+2026,Ontario,2021A000235,"Arts, entertainment and recreation [71]",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010587,7.15.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010588,7.16.1.1,41.8,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010589,7.16.1.2,41.8,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010590,7.16.1.3,6.2,B,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010591,7.16.1.4,10.2,C,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010592,7.16.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010593,7.16.2.1,49.2,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010594,7.16.2.2,9.6,C,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010595,7.16.2.3,23.7,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010596,7.16.2.4,16.4,D,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010597,7.16.2.5,1.0,A,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Scale down or close operations,Very likely,Percent,239,units,0,v1937010598,7.16.3.1,15.1,D,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010599,7.16.3.2,13.7,D,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010600,7.16.3.3,26.9,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010601,7.16.3.4,41.5,E,,1
+2026,Ontario,2021A000235,Accommodation and food services [72],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010602,7.16.3.5,2.8,B,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010603,7.17.1.1,20.6,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010604,7.17.1.2,31.2,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010605,7.17.1.3,0.2,A,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010606,7.17.1.4,,F,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010607,7.17.1.5,6.5,C,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010608,7.17.2.1,0.2,A,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010609,7.17.2.2,33.8,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010610,7.17.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010611,7.17.2.4,59.6,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010612,7.17.2.5,6.5,C,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Scale down or close operations,Very likely,Percent,239,units,0,v1937010613,7.17.3.1,,F,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010614,7.17.3.2,18.0,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010615,7.17.3.3,2.3,A,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010616,7.17.3.4,31.5,E,,1
+2026,Ontario,2021A000235,Other services (except public administration) [81],Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010617,7.17.3.5,6.5,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010618,7.18.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010619,7.18.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010620,7.18.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010621,7.18.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010622,7.18.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010623,7.18.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010624,7.18.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010625,7.18.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010626,7.18.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010627,7.18.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Scale down or close operations,Very likely,Percent,239,units,0,v1937010628,7.18.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010629,7.18.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010630,7.18.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010631,7.18.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Business or organization size of employment, all employment sizes",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010632,7.18.3.5,21.0,C,,1
+2026,Ontario,2021A000235,1 to 4 employees,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010633,7.19.1.1,28.7,D,,1
+2026,Ontario,2021A000235,1 to 4 employees,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010634,7.19.1.2,13.1,C,,1
+2026,Ontario,2021A000235,1 to 4 employees,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010635,7.19.1.3,12.9,C,,1
+2026,Ontario,2021A000235,1 to 4 employees,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010636,7.19.1.4,40.4,E,,1
+2026,Ontario,2021A000235,1 to 4 employees,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010637,7.19.1.5,4.9,B,,1
+2026,Ontario,2021A000235,1 to 4 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010638,7.19.2.1,10.8,B,,1
+2026,Ontario,2021A000235,1 to 4 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010639,7.19.2.2,31.3,D,,1
+2026,Ontario,2021A000235,1 to 4 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010640,7.19.2.3,4.1,B,,1
+2026,Ontario,2021A000235,1 to 4 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010641,7.19.2.4,47.4,E,,1
+2026,Ontario,2021A000235,1 to 4 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010642,7.19.2.5,6.4,B,,1
+2026,Ontario,2021A000235,1 to 4 employees,Scale down or close operations,Very likely,Percent,239,units,0,v1937010643,7.19.3.1,52.1,E,,1
+2026,Ontario,2021A000235,1 to 4 employees,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010644,7.19.3.2,20.5,E,,1
+2026,Ontario,2021A000235,1 to 4 employees,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010645,7.19.3.3,6.7,B,,1
+2026,Ontario,2021A000235,1 to 4 employees,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010646,7.19.3.4,13.7,C,,1
+2026,Ontario,2021A000235,1 to 4 employees,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010647,7.19.3.5,7.0,B,,1
+2026,Ontario,2021A000235,5 to 19 employees,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010663,7.20.1.1,17.5,C,,1
+2026,Ontario,2021A000235,5 to 19 employees,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010664,7.20.1.2,39.7,E,,1
+2026,Ontario,2021A000235,5 to 19 employees,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010665,7.20.1.3,2.3,A,,1
+2026,Ontario,2021A000235,5 to 19 employees,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010666,7.20.1.4,5.5,B,,1
+2026,Ontario,2021A000235,5 to 19 employees,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010667,7.20.1.5,35.0,E,,1
+2026,Ontario,2021A000235,5 to 19 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010668,7.20.2.1,24.6,D,,1
+2026,Ontario,2021A000235,5 to 19 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010669,7.20.2.2,25.3,D,,1
+2026,Ontario,2021A000235,5 to 19 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010670,7.20.2.3,5.0,C,,1
+2026,Ontario,2021A000235,5 to 19 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010671,7.20.2.4,9.0,B,,1
+2026,Ontario,2021A000235,5 to 19 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010672,7.20.2.5,36.1,E,,1
+2026,Ontario,2021A000235,5 to 19 employees,Scale down or close operations,Very likely,Percent,239,units,0,v1937010673,7.20.3.1,9.7,C,,1
+2026,Ontario,2021A000235,5 to 19 employees,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010674,7.20.3.2,3.7,B,,1
+2026,Ontario,2021A000235,5 to 19 employees,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010675,7.20.3.3,16.8,D,,1
+2026,Ontario,2021A000235,5 to 19 employees,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010676,7.20.3.4,34.1,E,,1
+2026,Ontario,2021A000235,5 to 19 employees,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010677,7.20.3.5,35.7,E,,1
+2026,Ontario,2021A000235,20 to 99 employees,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010678,7.21.1.1,,F,,1
+2026,Ontario,2021A000235,20 to 99 employees,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010679,7.21.1.2,0.4,A,,1
+2026,Ontario,2021A000235,20 to 99 employees,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010680,7.21.1.3,10.0,C,,1
+2026,Ontario,2021A000235,20 to 99 employees,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010681,7.21.1.4,1.5,A,,1
+2026,Ontario,2021A000235,20 to 99 employees,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010682,7.21.1.5,,F,,1
+2026,Ontario,2021A000235,20 to 99 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010683,7.21.2.1,3.7,B,,1
+2026,Ontario,2021A000235,20 to 99 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010684,7.21.2.2,12.6,E,,1
+2026,Ontario,2021A000235,20 to 99 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010685,7.21.2.3,,F,,1
+2026,Ontario,2021A000235,20 to 99 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010686,7.21.2.4,12.7,D,,1
+2026,Ontario,2021A000235,20 to 99 employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010687,7.21.2.5,,F,,1
+2026,Ontario,2021A000235,20 to 99 employees,Scale down or close operations,Very likely,Percent,239,units,0,v1937010688,7.21.3.1,4.5,B,,1
+2026,Ontario,2021A000235,20 to 99 employees,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010689,7.21.3.2,6.4,E,,1
+2026,Ontario,2021A000235,20 to 99 employees,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010690,7.21.3.3,,F,,1
+2026,Ontario,2021A000235,20 to 99 employees,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010691,7.21.3.4,33.0,E,,1
+2026,Ontario,2021A000235,20 to 99 employees,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010692,7.21.3.5,,F,,1
+2026,Ontario,2021A000235,100 or more employees,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010693,7.22.1.1,97.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010694,7.22.1.2,0.6,A,,1
+2026,Ontario,2021A000235,100 or more employees,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010695,7.22.1.3,0.3,A,,1
+2026,Ontario,2021A000235,100 or more employees,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010696,7.22.1.4,2.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010697,7.22.1.5,0.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010698,7.22.2.1,2.3,A,,1
+2026,Ontario,2021A000235,100 or more employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010699,7.22.2.2,1.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010700,7.22.2.3,,F,,1
+2026,Ontario,2021A000235,100 or more employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010701,7.22.2.4,,F,,1
+2026,Ontario,2021A000235,100 or more employees,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010702,7.22.2.5,7.4,C,,1
+2026,Ontario,2021A000235,100 or more employees,Scale down or close operations,Very likely,Percent,239,units,0,v1937010703,7.22.3.1,1.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010704,7.22.3.2,0.6,A,,1
+2026,Ontario,2021A000235,100 or more employees,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010705,7.22.3.3,1.3,A,,1
+2026,Ontario,2021A000235,100 or more employees,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010706,7.22.3.4,97.0,A,,1
+2026,Ontario,2021A000235,100 or more employees,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010707,7.22.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010708,7.23.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010709,7.23.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010710,7.23.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010711,7.23.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010712,7.23.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010713,7.23.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010714,7.23.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010715,7.23.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010716,7.23.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010717,7.23.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Scale down or close operations,Very likely,Percent,239,units,0,v1937010718,7.23.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010719,7.23.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010720,7.23.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010721,7.23.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Business or organization type, all businesses or organizations",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010722,7.23.3.5,21.0,C,,1
+2026,Ontario,2021A000235,Government agencies,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010723,7.24.1.1,,..,,1
+2026,Ontario,2021A000235,Government agencies,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010724,7.24.1.2,,..,,1
+2026,Ontario,2021A000235,Government agencies,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010725,7.24.1.3,,..,,1
+2026,Ontario,2021A000235,Government agencies,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010726,7.24.1.4,,..,,1
+2026,Ontario,2021A000235,Government agencies,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010727,7.24.1.5,,..,,1
+2026,Ontario,2021A000235,Government agencies,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010728,7.24.2.1,,..,,1
+2026,Ontario,2021A000235,Government agencies,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010729,7.24.2.2,,..,,1
+2026,Ontario,2021A000235,Government agencies,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010730,7.24.2.3,,..,,1
+2026,Ontario,2021A000235,Government agencies,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010731,7.24.2.4,,..,,1
+2026,Ontario,2021A000235,Government agencies,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010732,7.24.2.5,,..,,1
+2026,Ontario,2021A000235,Government agencies,Scale down or close operations,Very likely,Percent,239,units,0,v1937010733,7.24.3.1,,..,,1
+2026,Ontario,2021A000235,Government agencies,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010734,7.24.3.2,,..,,1
+2026,Ontario,2021A000235,Government agencies,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010735,7.24.3.3,,..,,1
+2026,Ontario,2021A000235,Government agencies,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010736,7.24.3.4,,..,,1
+2026,Ontario,2021A000235,Government agencies,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010737,7.24.3.5,,..,,1
+2026,Ontario,2021A000235,Private sector businesses,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010738,7.25.1.1,31.2,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010739,7.25.1.2,21.8,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010740,7.25.1.3,7.9,B,,1
+2026,Ontario,2021A000235,Private sector businesses,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010741,7.25.1.4,19.4,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010742,7.25.1.5,19.8,C,,1
+2026,Ontario,2021A000235,Private sector businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010743,7.25.2.1,15.2,B,,1
+2026,Ontario,2021A000235,Private sector businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010744,7.25.2.2,25.4,C,,1
+2026,Ontario,2021A000235,Private sector businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010745,7.25.2.3,11.9,C,,1
+2026,Ontario,2021A000235,Private sector businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010746,7.25.2.4,26.5,C,,1
+2026,Ontario,2021A000235,Private sector businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010747,7.25.2.5,21.0,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Scale down or close operations,Very likely,Percent,239,units,0,v1937010748,7.25.3.1,26.4,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010749,7.25.3.2,11.1,B,,1
+2026,Ontario,2021A000235,Private sector businesses,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010750,7.25.3.3,15.0,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010751,7.25.3.4,26.6,C,,1
+2026,Ontario,2021A000235,Private sector businesses,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010752,7.25.3.5,21.0,C,,1
+2026,Ontario,2021A000235,Non-profit organizations,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010753,7.26.1.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010754,7.26.1.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010755,7.26.1.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010756,7.26.1.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010757,7.26.1.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010758,7.26.2.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010759,7.26.2.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010760,7.26.2.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010761,7.26.2.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010762,7.26.2.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Scale down or close operations,Very likely,Percent,239,units,0,v1937010763,7.26.3.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010764,7.26.3.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010765,7.26.3.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010766,7.26.3.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010767,7.26.3.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010768,7.27.1.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010769,7.27.1.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010770,7.27.1.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010771,7.27.1.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010772,7.27.1.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010773,7.27.2.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010774,7.27.2.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010775,7.27.2.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010776,7.27.2.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010777,7.27.2.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Scale down or close operations,Very likely,Percent,239,units,0,v1937010778,7.27.3.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010779,7.27.3.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010780,7.27.3.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010781,7.27.3.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving households or individuals,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010782,7.27.3.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010783,7.28.1.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010784,7.28.1.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010785,7.28.1.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010786,7.28.1.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010787,7.28.1.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010788,7.28.2.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010789,7.28.2.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010790,7.28.2.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010791,7.28.2.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010792,7.28.2.5,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Scale down or close operations,Very likely,Percent,239,units,0,v1937010793,7.28.3.1,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010794,7.28.3.2,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010795,7.28.3.3,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010796,7.28.3.4,,..,,1
+2026,Ontario,2021A000235,Non-profit organizations serving businesses,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010797,7.28.3.5,,..,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010798,7.29.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010799,7.29.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010800,7.29.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010801,7.29.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010802,7.29.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010803,7.29.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010804,7.29.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010805,7.29.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010806,7.29.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010807,7.29.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Scale down or close operations,Very likely,Percent,239,units,0,v1937010808,7.29.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010809,7.29.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010810,7.29.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010811,7.29.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, all ages",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010812,7.29.3.5,21.0,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010828,7.30.1.1,5.1,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010829,7.30.1.2,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010830,7.30.1.3,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010831,7.30.1.4,26.5,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010832,7.30.1.5,13.2,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010833,7.30.2.1,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010834,7.30.2.2,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010835,7.30.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010836,7.30.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010837,7.30.2.5,15.3,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Scale down or close operations,Very likely,Percent,239,units,0,v1937010838,7.30.3.1,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010839,7.30.3.2,0.0,A,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010840,7.30.3.3,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010841,7.30.3.4,5.1,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, 2 years or less",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010842,7.30.3.5,13.2,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010843,7.31.1.1,21.8,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010844,7.31.1.2,14.4,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010845,7.31.1.3,3.6,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010846,7.31.1.4,13.2,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010847,7.31.1.5,47.1,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010848,7.31.2.1,19.7,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010849,7.31.2.2,15.3,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010850,7.31.2.3,1.7,A,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010851,7.31.2.4,15.2,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010852,7.31.2.5,48.1,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Scale down or close operations,Very likely,Percent,239,units,0,v1937010853,7.31.3.1,16.2,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010854,7.31.3.2,5.6,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010855,7.31.3.3,2.2,A,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010856,7.31.3.4,26.6,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 3 to 10 years old",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010857,7.31.3.5,49.4,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010858,7.32.1.1,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010859,7.32.1.2,19.4,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010860,7.32.1.3,10.7,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010861,7.32.1.4,5.7,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010862,7.32.1.5,9.5,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010863,7.32.2.1,9.6,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010864,7.32.2.2,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010865,7.32.2.3,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010866,7.32.2.4,17.1,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010867,7.32.2.5,6.6,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Scale down or close operations,Very likely,Percent,239,units,0,v1937010868,7.32.3.1,16.9,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010869,7.32.3.2,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010870,7.32.3.3,,F,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010871,7.32.3.4,17.4,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, 11 to 20 years old",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010872,7.32.3.5,11.2,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010873,7.33.1.1,36.7,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010874,7.33.1.2,22.8,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010875,7.33.1.3,7.6,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010876,7.33.1.4,24.7,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010877,7.33.1.5,8.2,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010878,7.33.2.1,8.1,B,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010879,7.33.2.2,24.5,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010880,7.33.2.3,15.9,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010881,7.33.2.4,41.3,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010882,7.33.2.5,10.3,C,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Scale down or close operations,Very likely,Percent,239,units,0,v1937010883,7.33.3.1,30.7,E,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010884,7.33.3.2,11.7,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010885,7.33.3.3,15.1,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010886,7.33.3.4,33.7,D,,1
+2026,Ontario,2021A000235,"Age of business or organization, more than 20 years old",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010887,7.33.3.5,8.8,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010888,7.34.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010889,7.34.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010890,7.34.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Geography, all geography",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010891,7.34.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010892,7.34.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Geography, all geography","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010893,7.34.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Geography, all geography","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010894,7.34.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Geography, all geography","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010895,7.34.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Geography, all geography","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010896,7.34.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Geography, all geography","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010897,7.34.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Scale down or close operations,Very likely,Percent,239,units,0,v1937010898,7.34.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010899,7.34.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Geography, all geography",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010900,7.34.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010901,7.34.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Geography, all geography",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010902,7.34.3.5,21.0,C,,1
+2026,Ontario,2021A000235,Urban,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010903,7.35.1.1,28.3,C,,1
+2026,Ontario,2021A000235,Urban,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010904,7.35.1.2,17.0,C,,1
+2026,Ontario,2021A000235,Urban,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010905,7.35.1.3,9.1,B,,1
+2026,Ontario,2021A000235,Urban,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010906,7.35.1.4,22.1,C,,1
+2026,Ontario,2021A000235,Urban,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010907,7.35.1.5,23.5,C,,1
+2026,Ontario,2021A000235,Urban,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010908,7.35.2.1,18.0,B,,1
+2026,Ontario,2021A000235,Urban,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010909,7.35.2.2,21.0,C,,1
+2026,Ontario,2021A000235,Urban,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010910,7.35.2.3,8.4,B,,1
+2026,Ontario,2021A000235,Urban,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010911,7.35.2.4,27.8,C,,1
+2026,Ontario,2021A000235,Urban,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010912,7.35.2.5,24.9,C,,1
+2026,Ontario,2021A000235,Urban,Scale down or close operations,Very likely,Percent,239,units,0,v1937010913,7.35.3.1,31.0,C,,1
+2026,Ontario,2021A000235,Urban,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010914,7.35.3.2,11.8,C,,1
+2026,Ontario,2021A000235,Urban,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010915,7.35.3.3,12.4,B,,1
+2026,Ontario,2021A000235,Urban,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010916,7.35.3.4,19.9,C,,1
+2026,Ontario,2021A000235,Urban,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010917,7.35.3.5,24.8,C,,1
+2026,Ontario,2021A000235,Rural,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010918,7.36.1.1,,F,,1
+2026,Ontario,2021A000235,Rural,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010919,7.36.1.2,,F,,1
+2026,Ontario,2021A000235,Rural,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010920,7.36.1.3,1.2,A,,1
+2026,Ontario,2021A000235,Rural,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010921,7.36.1.4,4.4,B,,1
+2026,Ontario,2021A000235,Rural,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010922,7.36.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Rural,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010923,7.36.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Rural,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010924,7.36.2.2,,F,,1
+2026,Ontario,2021A000235,Rural,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010925,7.36.2.3,,F,,1
+2026,Ontario,2021A000235,Rural,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010926,7.36.2.4,19.7,E,,1
+2026,Ontario,2021A000235,Rural,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010927,7.36.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Rural,Scale down or close operations,Very likely,Percent,239,units,0,v1937010928,7.36.3.1,1.2,A,,1
+2026,Ontario,2021A000235,Rural,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010929,7.36.3.2,7.1,C,,1
+2026,Ontario,2021A000235,Rural,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010930,7.36.3.3,,F,,1
+2026,Ontario,2021A000235,Rural,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010931,7.36.3.4,,F,,1
+2026,Ontario,2021A000235,Rural,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010932,7.36.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010933,7.37.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010934,7.37.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010935,7.37.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010936,7.37.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010937,7.37.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010938,7.37.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010939,7.37.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010940,7.37.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010941,7.37.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010942,7.37.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Scale down or close operations,Very likely,Percent,239,units,0,v1937010943,7.37.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010944,7.37.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010945,7.37.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010946,7.37.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Majority ownership, all ownerships",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010947,7.37.3.5,21.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010948,7.38.1.1,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010949,7.38.1.2,5.6,C,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010950,7.38.1.3,6.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010951,7.38.1.4,13.7,E,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010952,7.38.1.5,7.0,D,,1
+2026,Ontario,2021A000235,"Majority ownership, woman","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010953,7.38.2.1,14.1,E,,1
+2026,Ontario,2021A000235,"Majority ownership, woman","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010954,7.38.2.2,22.8,E,,1
+2026,Ontario,2021A000235,"Majority ownership, woman","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010955,7.38.2.3,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, woman","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010956,7.38.2.4,19.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, woman","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010957,7.38.2.5,7.8,D,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Scale down or close operations,Very likely,Percent,239,units,0,v1937010958,7.38.3.1,19.4,E,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010959,7.38.3.2,9.9,C,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010960,7.38.3.3,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010961,7.38.3.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, woman",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010962,7.38.3.5,7.0,D,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010963,7.39.1.1,90.7,E,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010964,7.39.1.2,0.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010965,7.39.1.3,8.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010966,7.39.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010967,7.39.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010968,7.39.2.1,8.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010969,7.39.2.2,90.1,E,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937010970,7.39.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937010971,7.39.2.4,1.4,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937010972,7.39.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Scale down or close operations,Very likely,Percent,239,units,0,v1937010973,7.39.3.1,97.2,B,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937010974,7.39.3.2,0.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937010975,7.39.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937010976,7.39.3.4,2.1,A,,1
+2026,Ontario,2021A000235,"Majority ownership, First Nations, Métis or Inuit",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937010977,7.39.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937010993,7.40.1.1,36.0,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937010994,7.40.1.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937010995,7.40.1.3,10.0,D,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937010996,7.40.1.4,5.5,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937010997,7.40.1.5,4.0,B,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937010998,7.40.2.1,20.9,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937010999,7.40.2.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011000,7.40.2.3,12.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011001,7.40.2.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011002,7.40.2.5,2.8,B,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Scale down or close operations,Very likely,Percent,239,units,0,v1937011003,7.40.3.1,20.8,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011004,7.40.3.2,10.5,E,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011005,7.40.3.3,10.3,D,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011006,7.40.3.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, immigrant to Canada",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011007,7.40.3.5,7.1,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011008,7.41.1.1,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011009,7.41.1.2,1.5,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011010,7.41.1.3,95.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011011,7.41.1.4,3.5,B,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011012,7.41.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011013,7.41.2.1,95.0,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011014,7.41.2.2,1.5,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011015,7.41.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011016,7.41.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011017,7.41.2.5,3.5,B,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Scale down or close operations,Very likely,Percent,239,units,0,v1937011018,7.41.3.1,98.5,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011019,7.41.3.2,0.8,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011020,7.41.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011021,7.41.3.4,0.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person with a disability",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011022,7.41.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011023,7.42.1.1,0.9,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011024,7.42.1.2,97.4,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011025,7.42.1.3,1.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011026,7.42.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011027,7.42.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011028,7.42.2.1,1.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011029,7.42.2.2,98.3,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011030,7.42.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011031,7.42.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011032,7.42.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Scale down or close operations,Very likely,Percent,239,units,0,v1937011033,7.42.3.1,1.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011034,7.42.3.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011035,7.42.3.3,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011036,7.42.3.4,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, 2SLGBTQ+ people",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011037,7.42.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011038,7.43.1.1,44.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011039,7.43.1.2,11.2,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011040,7.43.1.3,7.5,B,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011041,7.43.1.4,34.0,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011042,7.43.1.5,2.7,A,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011043,7.43.2.1,9.5,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011044,7.43.2.2,10.1,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011045,7.43.2.3,25.7,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011046,7.43.2.4,50.5,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011047,7.43.2.5,4.1,B,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Scale down or close operations,Very likely,Percent,239,units,0,v1937011048,7.43.3.1,42.8,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011049,7.43.3.2,17.6,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011050,7.43.3.3,18.9,E,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011051,7.43.3.4,16.5,C,,1
+2026,Ontario,2021A000235,"Majority ownership, person aged 65 or older",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011052,7.43.3.5,4.2,B,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011053,7.44.1.1,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011054,7.44.1.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011055,7.44.1.3,1.0,A,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011056,7.44.1.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011057,7.44.1.5,6.4,C,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011058,7.44.2.1,13.0,D,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011059,7.44.2.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011060,7.44.2.3,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011061,7.44.2.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011062,7.44.2.5,4.4,C,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Scale down or close operations,Very likely,Percent,239,units,0,v1937011063,7.44.3.1,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011064,7.44.3.2,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011065,7.44.3.3,10.3,E,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011066,7.44.3.4,,F,,1
+2026,Ontario,2021A000235,"Majority ownership, visible minority",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011067,7.44.3.5,7.6,C,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011068,7.45.1.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011069,7.45.1.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011070,7.45.1.3,1.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011071,7.45.1.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011072,7.45.1.5,6.4,C,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011073,7.45.2.1,13.0,D,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011074,7.45.2.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011075,7.45.2.3,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011076,7.45.2.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011077,7.45.2.5,4.4,C,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Scale down or close operations,Very likely,Percent,239,units,0,v1937011078,7.45.3.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011079,7.45.3.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011080,7.45.3.3,10.3,E,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011081,7.45.3.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, all visible minorities",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011082,7.45.3.5,7.6,C,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011083,7.46.1.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011084,7.46.1.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011085,7.46.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011086,7.46.1.4,0.1,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011087,7.46.1.5,3.6,B,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011088,7.46.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011089,7.46.2.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011090,7.46.2.3,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011091,7.46.2.4,3.8,B,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011092,7.46.2.5,0.1,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Scale down or close operations,Very likely,Percent,239,units,0,v1937011093,7.46.3.1,9.7,C,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011094,7.46.3.2,0.1,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011095,7.46.3.3,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011096,7.46.3.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, South Asian",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011097,7.46.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011098,7.47.1.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011099,7.47.1.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011100,7.47.1.3,7.4,E,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011101,7.47.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011102,7.47.1.5,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011103,7.47.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011104,7.47.2.2,7.4,E,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011105,7.47.2.3,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011106,7.47.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011107,7.47.2.5,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Scale down or close operations,Very likely,Percent,239,units,0,v1937011108,7.47.3.1,7.4,E,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011109,7.47.3.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011110,7.47.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011111,7.47.3.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Chinese",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011112,7.47.3.5,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011113,7.48.1.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011114,7.48.1.2,0.8,B,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011115,7.48.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011116,7.48.1.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011117,7.48.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011118,7.48.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011119,7.48.2.2,0.8,B,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011120,7.48.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011121,7.48.2.4,99.2,B,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011122,7.48.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Scale down or close operations,Very likely,Percent,239,units,0,v1937011123,7.48.3.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011124,7.48.3.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011125,7.48.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011126,7.48.3.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Black",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011127,7.48.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011128,7.49.1.1,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011129,7.49.1.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011130,7.49.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011131,7.49.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011132,7.49.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011133,7.49.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011134,7.49.2.2,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011135,7.49.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011136,7.49.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011137,7.49.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Scale down or close operations,Very likely,Percent,239,units,0,v1937011138,7.49.3.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011139,7.49.3.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011140,7.49.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011141,7.49.3.4,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Filipino",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011142,7.49.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011158,7.50.1.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011159,7.50.1.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011160,7.50.1.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011161,7.50.1.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011162,7.50.1.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011163,7.50.2.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011164,7.50.2.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011165,7.50.2.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011166,7.50.2.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011167,7.50.2.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Scale down or close operations,Very likely,Percent,239,units,0,v1937011168,7.50.3.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011169,7.50.3.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011170,7.50.3.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011171,7.50.3.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Latin American",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011172,7.50.3.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011173,7.51.1.1,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011174,7.51.1.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011175,7.51.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011176,7.51.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011177,7.51.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011178,7.51.2.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011179,7.51.2.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011180,7.51.2.3,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011181,7.51.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011182,7.51.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Scale down or close operations,Very likely,Percent,239,units,0,v1937011183,7.51.3.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011184,7.51.3.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011185,7.51.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011186,7.51.3.4,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Arab",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011187,7.51.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011188,7.52.1.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011189,7.52.1.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011190,7.52.1.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011191,7.52.1.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011192,7.52.1.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011193,7.52.2.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011194,7.52.2.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011195,7.52.2.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011196,7.52.2.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011197,7.52.2.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Scale down or close operations,Very likely,Percent,239,units,0,v1937011198,7.52.3.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011199,7.52.3.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011200,7.52.3.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011201,7.52.3.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Southeast Asian",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011202,7.52.3.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011203,7.53.1.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011204,7.53.1.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011205,7.53.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011206,7.53.1.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011207,7.53.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011208,7.53.2.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011209,7.53.2.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011210,7.53.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011211,7.53.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011212,7.53.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Scale down or close operations,Very likely,Percent,239,units,0,v1937011213,7.53.3.1,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011214,7.53.3.2,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011215,7.53.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011216,7.53.3.4,,F,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, West Asian",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011217,7.53.3.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011218,7.54.1.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011219,7.54.1.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011220,7.54.1.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011221,7.54.1.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011222,7.54.1.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011223,7.54.2.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011224,7.54.2.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011225,7.54.2.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011226,7.54.2.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011227,7.54.2.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Scale down or close operations,Very likely,Percent,239,units,0,v1937011228,7.54.3.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011229,7.54.3.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011230,7.54.3.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011231,7.54.3.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Korean",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011232,7.54.3.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011233,7.55.1.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011234,7.55.1.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011235,7.55.1.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011236,7.55.1.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011237,7.55.1.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011238,7.55.2.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011239,7.55.2.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011240,7.55.2.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011241,7.55.2.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011242,7.55.2.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Scale down or close operations,Very likely,Percent,239,units,0,v1937011243,7.55.3.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011244,7.55.3.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011245,7.55.3.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011246,7.55.3.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, Japanese",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011247,7.55.3.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011248,7.56.1.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011249,7.56.1.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011250,7.56.1.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011251,7.56.1.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011252,7.56.1.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011253,7.56.2.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011254,7.56.2.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011255,7.56.2.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011256,7.56.2.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011257,7.56.2.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Scale down or close operations,Very likely,Percent,239,units,0,v1937011258,7.56.3.1,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011259,7.56.3.2,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011260,7.56.3.3,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011261,7.56.3.4,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, other visible minority",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011262,7.56.3.5,,..,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011263,7.57.1.1,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011264,7.57.1.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011265,7.57.1.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011266,7.57.1.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011267,7.57.1.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011268,7.57.2.1,100.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011269,7.57.2.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011270,7.57.2.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011271,7.57.2.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011272,7.57.2.5,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Scale down or close operations,Very likely,Percent,239,units,0,v1937011273,7.57.3.1,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011274,7.57.3.2,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011275,7.57.3.3,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011276,7.57.3.4,0.0,A,,1
+2026,Ontario,2021A000235,"Ownership by visible minority, preferred not to say",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011277,7.57.3.5,100.0,A,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011278,7.58.1.1,31.2,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011279,7.58.1.2,21.8,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011280,7.58.1.3,7.9,B,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011281,7.58.1.4,19.4,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011282,7.58.1.5,19.8,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011283,7.58.2.1,15.2,B,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011284,7.58.2.2,25.4,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011285,7.58.2.3,11.9,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011286,7.58.2.4,26.5,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011287,7.58.2.5,21.0,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Scale down or close operations,Very likely,Percent,239,units,0,v1937011288,7.58.3.1,26.4,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011289,7.58.3.2,11.1,B,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011290,7.58.3.3,15.0,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011291,7.58.3.4,26.6,C,,1
+2026,Ontario,2021A000235,"Business or organization activity in the last 12 months, all business or organization activities",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011292,7.58.3.5,21.0,C,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011293,7.59.1.1,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011294,7.59.1.2,11.2,E,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011295,7.59.1.3,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011296,7.59.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011297,7.59.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011298,7.59.2.1,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011299,7.59.2.2,2.3,A,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011300,7.59.2.3,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011301,7.59.2.4,11.2,E,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011302,7.59.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011303,7.59.3.1,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011304,7.59.3.2,,F,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011305,7.59.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011306,7.59.3.4,11.2,E,,1
+2026,Ontario,2021A000235,Exported goods outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011307,7.59.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011323,7.60.1.1,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011324,7.60.1.2,5.6,C,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011325,7.60.1.3,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011326,7.60.1.4,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011327,7.60.1.5,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011328,7.60.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011329,7.60.2.2,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011330,7.60.2.3,0.2,A,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011331,7.60.2.4,0.9,A,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011332,7.60.2.5,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011333,7.60.3.1,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011334,7.60.3.2,,F,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011335,7.60.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011336,7.60.3.4,5.6,C,,1
+2026,Ontario,2021A000235,Exported services outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011337,7.60.3.5,,F,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011338,7.61.1.1,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011339,7.61.1.2,92.1,D,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011340,7.61.1.3,7.9,D,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011341,7.61.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011342,7.61.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011343,7.61.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011344,7.61.2.2,92.1,D,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011345,7.61.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011346,7.61.2.4,7.9,D,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011347,7.61.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011348,7.61.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011349,7.61.3.2,,F,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011350,7.61.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011351,7.61.3.4,,F,,1
+2026,Ontario,2021A000235,Made investments outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011352,7.61.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011353,7.62.1.1,100.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011354,7.62.1.2,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011355,7.62.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011356,7.62.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011357,7.62.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011358,7.62.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011359,7.62.2.2,100.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011360,7.62.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011361,7.62.2.4,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011362,7.62.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011363,7.62.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011364,7.62.3.2,100.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011365,7.62.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011366,7.62.3.4,0.0,A,,1
+2026,Ontario,2021A000235,Sold goods to businesses in Canada who then resold them outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011367,7.62.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011368,7.63.1.1,77.1,E,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011369,7.63.1.2,10.8,D,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011370,7.63.1.3,1.0,A,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011371,7.63.1.4,11.1,E,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011372,7.63.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011373,7.63.2.1,1.2,A,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011374,7.63.2.2,10.6,D,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011375,7.63.2.3,,F,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011376,7.63.2.4,,F,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011377,7.63.2.5,2.0,A,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011378,7.63.3.1,11.2,E,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011379,7.63.3.2,3.8,B,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011380,7.63.3.3,,F,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011381,7.63.3.4,,F,,1
+2026,Ontario,2021A000235,Imported goods from outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011382,7.63.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011383,7.64.1.1,14.9,E,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011384,7.64.1.2,3.8,B,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011385,7.64.1.3,,F,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011386,7.64.1.4,11.7,E,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011387,7.64.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011388,7.64.2.1,4.9,B,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011389,7.64.2.2,,F,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011390,7.64.2.3,4.7,C,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011391,7.64.2.4,14.7,E,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011392,7.64.2.5,6.5,C,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011393,7.64.3.1,,F,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011394,7.64.3.2,4.0,B,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011395,7.64.3.3,4.1,C,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011396,7.64.3.4,,F,,1
+2026,Ontario,2021A000235,Imported services from outside of Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011397,7.64.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011398,7.65.1.1,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011399,7.65.1.2,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011400,7.65.1.3,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011401,7.65.1.4,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011402,7.65.1.5,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011403,7.65.2.1,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011404,7.65.2.2,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011405,7.65.2.3,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011406,7.65.2.4,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011407,7.65.2.5,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Scale down or close operations,Very likely,Percent,239,units,0,v1937011408,7.65.3.1,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011409,7.65.3.2,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011410,7.65.3.3,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011411,7.65.3.4,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from another country into Canada,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011412,7.65.3.5,,..,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011413,7.66.1.1,5.7,C,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011414,7.66.1.2,94.3,C,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011415,7.66.1.3,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011416,7.66.1.4,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011417,7.66.1.5,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011418,7.66.2.1,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011419,7.66.2.2,100.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011420,7.66.2.3,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011421,7.66.2.4,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011422,7.66.2.5,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Scale down or close operations,Very likely,Percent,239,units,0,v1937011423,7.66.3.1,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011424,7.66.3.2,100.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011425,7.66.3.3,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011426,7.66.3.4,0.0,A,,1
+2026,Ontario,2021A000235,Relocated any business or organizational activities or employees from Canada to another country,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011427,7.66.3.5,0.0,A,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011428,7.67.1.1,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011429,7.67.1.2,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011430,7.67.1.3,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011431,7.67.1.4,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011432,7.67.1.5,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011433,7.67.2.1,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011434,7.67.2.2,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011435,7.67.2.3,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011436,7.67.2.4,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,"Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011437,7.67.2.5,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Scale down or close operations,Very likely,Percent,239,units,0,v1937011438,7.67.3.1,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011439,7.67.3.2,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011440,7.67.3.3,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011441,7.67.3.4,,..,,1
+2026,Ontario,2021A000235,Engaged in other international business activities,Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011442,7.67.3.5,,..,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Continue operating under current ownership,Very likely,Percent,239,units,0,v1937011443,7.68.1.1,27.0,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Continue operating under current ownership,Somewhat likely,Percent,239,units,0,v1937011444,7.68.1.2,24.6,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Continue operating under current ownership,Somewhat unlikely,Percent,239,units,0,v1937011445,7.68.1.3,7.5,B,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Continue operating under current ownership,Very unlikely,Percent,239,units,0,v1937011446,7.68.1.4,18.6,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Continue operating under current ownership,"Likelihood, unknown",Percent,239,units,0,v1937011447,7.68.1.5,22.2,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very likely,Percent,239,units,0,v1937011448,7.68.2.1,18.0,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat likely,Percent,239,units,0,v1937011449,7.68.2.2,23.1,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Somewhat unlikely,Percent,239,units,0,v1937011450,7.68.2.3,8.4,B,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other","Sell at a reduced value or under less favorable terms, including to a less preferred buyer",Very unlikely,Percent,239,units,0,v1937011451,7.68.2.4,27.1,D,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other","Sell at a reduced value or under less favorable terms, including to a less preferred buyer","Likelihood, unknown",Percent,239,units,0,v1937011452,7.68.2.5,23.5,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Scale down or close operations,Very likely,Percent,239,units,0,v1937011453,7.68.3.1,25.5,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Scale down or close operations,Somewhat likely,Percent,239,units,0,v1937011454,7.68.3.2,11.5,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Scale down or close operations,Somewhat unlikely,Percent,239,units,0,v1937011455,7.68.3.3,12.4,B,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Scale down or close operations,Very unlikely,Percent,239,units,0,v1937011456,7.68.3.4,26.9,C,,1
+2026,Ontario,2021A000235,"Business or organization activity, none or other",Scale down or close operations,"Likelihood, unknown",Percent,239,units,0,v1937011457,7.68.3.5,23.6,C,,1
