@@ -34,12 +34,13 @@ These missing values must be interpreted according to their columns, particularl
 
 ### Raw Duplicate Validation
 
-Raw-data duplicate validation should include:
+Raw-data duplicate checks were performed on the original Statistics Canada dataset before cleaning.
 
-1. Exact duplicate rows.
-2. Duplicate combinations of DGUID, Census year, and age category.
+1. **Exact duplicate rows:** 0
+2. **Duplicate DGUID–Census year–age combinations:** 0
+3. **Total raw missing values:** 3,939,072
 
-**Status:** The numerical results of these raw-data duplicate checks still need to be confirmed from the notebook.
+**Status:** Validation completed successfully. Both duplicate checks returned zero, and the raw missing-value count was confirmed by executing the notebook.
 
 ---
 
