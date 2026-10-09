@@ -1,35 +1,11 @@
-# Census Age Cleaning Report
-
-## 1. Dataset Overview
-
-This report documents the cleaning and validation of the Statistics Canada Census Age dataset used for the Niagara-focused analysis.
-
-Raw dataset:
-- `98100022.csv`
-
-Cleaned dataset:
-- `census_age_niagara_cleaned.csv`
-
-The raw Census file was not overwritten.
-
----
-
-## 2. Before Cleaning
-
-### Dataset dimensions
-
-- Rows: 1,399,808
-- Columns: 12
-
-### Census periods
 # Census Age Data Cleaning Report — Niagara
 
 ## 1. Overview
 
 This report documents the cleaning and validation of the Statistics Canada Census Age dataset for the Niagara Census Division and its 12 municipalities.
 
-**Raw dataset:** `data/raw/98100022.csv`
-**Cleaned dataset:** `census_age_niagara_cleaned.csv`
+**Raw dataset:** `data/raw/98100022.csv`  
+**Cleaned dataset:** `census_age_niagara_cleaned.csv`  
 **Census years:** 2016 and 2021
 
 The raw dataset was not overwritten.
@@ -40,15 +16,30 @@ The raw dataset was not overwritten.
 
 The raw dataset contained:
 
-* **Rows:** 1,399,808
-* **Columns:** 12
-* Multiple Canadian geographies
-* Census years including 2016 and 2021
-* 128 age labels
-* Total-Gender, Men+, and Women+ measures
-* Statistics Canada status/suppression fields
+- **Rows:** 1,399,808
+- **Columns:** 12
+- Multiple Canadian geographies
+- Census years including 2016 and 2021
+- 128 age labels
+- Total-Gender, Men+, and Women+ measures
+- Statistics Canada status/suppression fields
 
 The age field contains individual ages, age groups, broad age groups, total age, average age, and median age.
+
+### Raw Missing-Value Validation
+
+The raw dataset contained **3,939,072 missing values** across all fields.
+
+These missing values must be interpreted according to their columns, particularly the Statistics Canada status and symbol fields.
+
+### Raw Duplicate Validation
+
+Raw-data duplicate validation should include:
+
+1. Exact duplicate rows.
+2. Duplicate combinations of DGUID, Census year, and age category.
+
+**Status:** The numerical results of these raw-data duplicate checks still need to be confirmed from the notebook.
 
 ---
 
@@ -73,14 +64,14 @@ The Niagara Census Division itself was also retained.
 
 This gives **13 geography levels** in total.
 
-### DGUID validation
+### DGUID Validation
 
 DGUID was used together with GEO to correctly identify the Niagara municipalities.
 
 During validation, two different geographic units were found with the GEO name **Lincoln**. They had different DGUIDs:
 
-* `2021A00051303008`
-* `2021A00053526057`
+- `2021A00051303008`
+- `2021A00053526057`
 
 The correct Niagara municipality of Lincoln was identified as:
 
@@ -88,7 +79,7 @@ The correct Niagara municipality of Lincoln was identified as:
 
 The other Lincoln geography was excluded.
 
-After correction, each of the 13 Niagara geography levels contained 256 records, giving:
+After correction, each of the 13 Niagara geography levels contained 256 records:
 
 **13 × 256 = 3,328 rows**
 
@@ -98,10 +89,10 @@ After correction, each of the 13 Niagara geography levels contained 256 records,
 
 Both Census years were retained:
 
-* 2016
-* 2021
+- 2016
+- 2021
 
-Each year contains 1,664 Niagara records.
+Each year contains **1,664 Niagara records**.
 
 No annual values were created.
 
@@ -111,27 +102,25 @@ No interpolation, annualization, or forecasting was performed.
 
 ## 5. Age-Label Cleaning and Hierarchy
 
-The age field contains 128 different labels.
+The age field contains 128 different labels, including:
 
-These include:
+- Individual ages
+- Age groups
+- Broad age groups
+- Total age
+- Under 1 year
+- Average age
+- Median age
 
-* Individual ages
-* Age groups
-* Broad age groups
-* Total age
-* Under 1 year
-* Average age
-* Median age
+Age labels were reviewed and surrounding whitespace was removed.
 
-Age labels were reviewed and whitespace was handled during classification.
+The original age hierarchy was preserved.
 
-The age hierarchy was preserved.
+Overlapping age categories were **not added together**, because doing so would double-count the population.
 
-Overlapping age categories were **not added together** because doing so would double-count the population.
+For example, a person aged 64 may appear in both a single-year category and broader age-group categories.
 
-For example, a person aged 64 can be represented within both a single-year category and broader age-group categories.
-
-No attempt was made to create one combined population total from all age categories.
+No combined population total was created by summing all age categories.
 
 ---
 
@@ -143,11 +132,11 @@ Status information was preserved as provided by Statistics Canada.
 
 The following principles were applied:
 
-* `x` was treated as a suppression/status indicator.
-* `...` was preserved as a status indicator.
-* Suppressed values were not replaced with zero.
-* Status-coded observations were not imputed or estimated.
-* Blank Symbol fields were not treated as population values.
+- `x` was treated as a suppression/status indicator.
+- `...` was preserved as a status indicator.
+- Suppressed values were not replaced with zero.
+- Status-coded observations were not imputed or estimated.
+- Blank Symbol fields were not treated as population values.
 
 The Niagara subset did not contain `x` or `...` status codes.
 
@@ -157,9 +146,9 @@ The Niagara subset did not contain `x` or `...` status codes.
 
 The following measures were retained:
 
-* Total-Gender
-* Men+
-* Women+
+- Total-Gender
+- Men+
+- Women+
 
 The original numeric values were preserved.
 
@@ -171,34 +160,54 @@ No attempt was made to force Men+ and Women+ to sum exactly to Total-Gender beca
 
 Missing values were checked after filtering to Niagara.
 
+The cleaned dataset contained:
+
+- **Rows:** 3,328
+- **Columns:** 12
+- **Total missing values:** 9,984
+
+All 9,984 missing values occurred in the three symbol columns:
+
+- `Symbol`
+- `Symbol.1`
+- `Symbol.2`
+
+These columns were blank for all 3,328 cleaned records because there were no applicable status symbols.
+
 The following core fields contained no missing values:
 
-* GEO
-* DGUID
-* Census year
-* Age
-* Total-Gender
-* Men+
-* Women+
+- GEO
+- DGUID
+- Census year
+- Age
+- Total-Gender
+- Men+
+- Women+
 
-The Symbol fields were blank throughout the Niagara subset because there were no applicable status symbols in those records.
+Blank Symbol fields were preserved rather than converted into population values.
 
-Blank Symbol fields were therefore preserved rather than converted into population values.
+**Conclusion:** No missing population values were identified in the cleaned Niagara dataset.
 
 ---
 
 ## 9. Duplicate Validation
 
-Two duplicate checks were performed:
+Two duplicate checks were performed on the cleaned dataset:
 
-1. Exact duplicate rows
+1. Exact duplicate rows.
 2. Duplicate combinations of:
+   - DGUID
+   - Census year
+   - Age category
 
-   * DGUID
-   * Census year
-   * Age category
+### Results
 
-Both checks returned zero duplicates.
+| Validation check | Result |
+|---|---:|
+| Exact duplicate rows | 0 |
+| Duplicate DGUID/year/age combinations | 0 |
+
+**Conclusion:** No duplicate records were identified in the cleaned dataset.
 
 ---
 
@@ -206,34 +215,55 @@ Both checks returned zero duplicates.
 
 The final dataset contains exactly **13 geography levels**:
 
-* Niagara
-* Fort Erie
-* Port Colborne
-* Wainfleet
-* West Lincoln
-* Pelham
-* Welland
-* Thorold
-* Niagara Falls
-* Niagara-on-the-Lake
-* St. Catharines
-* Lincoln
-* Grimsby
+- Niagara
+- Fort Erie
+- Port Colborne
+- Wainfleet
+- West Lincoln
+- Pelham
+- Welland
+- Thorold
+- Niagara Falls
+- Niagara-on-the-Lake
+- St. Catharines
+- Lincoln
+- Grimsby
 
 All 12 Niagara municipalities are present.
+
+Each geography contains 128 age-category records for each Census year.
 
 ---
 
 ## 11. Census Total Validation
 
-The Niagara Census Division total population was validated using the `Total - Age` category.
+The Niagara Census Division total population was validated using the `Total - Age` category and the Total-Gender population field.
 
-| Census Year | Niagara Total Population |
-| ----------- | -----------------------: |
-| 2016        |                  447,890 |
-| 2021        |                  477,940 |
+| Census year | Niagara total population |
+|---|---:|
+| 2016 | 447,890 |
+| 2021 | 477,940 |
 
 These totals match the expected Census totals.
+
+### Municipality-to-Region Population Comparison
+
+The 12 Niagara municipality population totals were compared with the Niagara Census Division total for each Census year.
+
+| Census year | Sum of 12 municipalities | Niagara Census Division total | Difference |
+|---|---:|---:|---:|
+| 2016 | 447,890 | 447,890 | 0 |
+| 2021 | 477,940 | 477,940 | 0 |
+
+All 12 municipalities were represented in both Census years.
+
+The regional total was not included when summing the municipalities, preventing double-counting.
+
+The comparison uses only the `Total - Age` category rather than overlapping age categories.
+
+**Conclusion:** The municipality totals reconcile with the Niagara Census Division totals for both years.
+
+The corresponding calculation should also be included in the notebook to make this validation reproducible.
 
 ---
 
@@ -241,13 +271,14 @@ These totals match the expected Census totals.
 
 The final cleaned dataset contains:
 
-* **Rows:** 3,328
-* **Columns:** 12
-* **Geography levels:** 13
-* **Census years:** 2016 and 2021
-* **2016 records:** 1,664
-* **2021 records:** 1,664
-* **Exact duplicates:** 0
+- **Rows:** 3,328
+- **Columns:** 12
+- **Geography levels:** 13
+- **Census years:** 2016 and 2021
+- **2016 records:** 1,664
+- **2021 records:** 1,664
+- **Exact duplicates:** 0
+- **Missing population values:** 0
 
 The cleaned file was saved separately as:
 
@@ -261,17 +292,17 @@ The original raw file `98100022.csv` was not overwritten.
 
 This cleaning stage does **not** create or infer:
 
-* Business-owner age
-* Entrepreneur age
-* Retiring-owner age
-* Owner retirement intention
-* Succession plans
-* Successor information
-* Business closure reasons
-* Business opening years
-* Ownership transfers
-* Business status
-* Succession-related closures
+- Business-owner age
+- Entrepreneur age
+- Retiring-owner age
+- Owner retirement intention
+- Succession plans
+- Successor information
+- Business closure reasons
+- Business opening years
+- Ownership transfers
+- Business status
+- Succession-related closures
 
 The Census Age dataset describes the general population and should not be presented as direct business-owner information.
 
@@ -287,21 +318,21 @@ No trends or forecasts were created because only the 2016 and 2021 Census period
 
 The cleaned dataset has several limitations:
 
-* Population age is not the same as business-owner age.
-* Only two Census periods are available.
-* The data does not provide annual observations between 2016 and 2021.
-* Statistics Canada applies random rounding.
-* Some observations may contain suppression or status information.
-* Age categories overlap and cannot be summed across the hierarchy.
-* The dataset does not provide business-level information.
-* The dataset does not directly measure succession planning or retirement intentions.
-* Industry-specific business information is not included in this dataset.
+- Population age is not the same as business-owner age.
+- Only two Census periods are available.
+- The data does not provide annual observations between 2016 and 2021.
+- Statistics Canada applies random rounding.
+- Some observations may contain suppression or status information.
+- Age categories overlap and cannot be summed across the hierarchy.
+- The dataset does not provide business-level information.
+- The dataset does not directly measure succession planning or retirement intentions.
+- Industry-specific business information is not included in this dataset.
 
 ---
 
 ## 15. Deliverables
 
-The completed cleaning stage produces:
+The cleaning stage produces:
 
 1. `census_age_niagara_cleaned.csv`
 2. `02_census_age_cleaning.ipynb`
@@ -309,42 +340,26 @@ The completed cleaning stage produces:
 
 The notebook provides a reproducible record of:
 
-* Raw dataset loading
-* Initial validation
-* Census-year selection
-* Niagara geography filtering
-* DGUID validation
-* Age-category review
-* Age hierarchy handling
-* Status/suppression handling
-* Missing-value validation
-* Duplicate validation
-* Geographic validation
-* Census total validation
-* Saving the cleaned dataset
+- Raw dataset loading
+- Initial validation
+- Census-year selection
+- Niagara geography filtering
+- DGUID validation
+- Age-category review
+- Age hierarchy handling
+- Status/suppression handling
+- Missing-value validation
+- Duplicate validation
+- Geographic validation
+- Census total validation
+- Saving the cleaned dataset
 
-## Additional Validation Checks
+### Outstanding Reproducibility Checks
 
-### Before-and-After Missing-Value Checks
+Before the pull request is merged:
 
-The raw dataset contains 1,399,808 rows and 12 columns, with 3,939,072 missing values across all fields.
+1. Confirm and document the raw-data duplicate-check results.
+2. Add the municipality-to-region population reconciliation calculation to the notebook.
+3. Make the cleaned CSV output location explicit and consistent with the project repository structure.
 
-The cleaned Niagara dataset contains 3,328 rows and 12 columns, with 9,984 missing values. All 9,984 missing values occur in the three symbol columns (`Symbol`, `Symbol.1`, and `Symbol.2`), which are blank for all 3,328 cleaned records. These blank symbol fields are not missing population counts.
-
-### Before-and-After Duplicate Checks
-
-Duplicate records were checked during validation. The cleaned dataset contains:
-
-* Exact duplicate rows: 0
-* Duplicate combinations of DGUID, Census year, and age category: 0
-
-### Municipality-to-Region Population-Total Comparison
-
-The sum of the 12 Niagara municipality population totals matches the Niagara Census Division total for both Census years, using the `Total - Age` category and the total gender population field.
-
-| Census year | Sum of 12 municipalities | Niagara Census Division total | Result |
-| ----------- | -----------------------: | ----------------------------: | ------ |
-| 2016        |                  447,890 |                       447,890 | Match  |
-| 2021        |                  477,940 |                       477,940 | Match  |
-
-All 12 municipalities were present in both years. The municipality totals were compared with the regional total; the regional total was not added to the municipality totals.
+These remaining checks do not require changing the population values in the cleaned CSV.
