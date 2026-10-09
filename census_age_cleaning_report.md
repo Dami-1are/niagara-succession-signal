@@ -356,10 +356,13 @@ The notebook provides a reproducible record of:
 
 ### Outstanding Reproducibility Checks
 
-Before the pull request is merged:
+The following improvements have been made to the cleaning notebook:
 
-1. Confirm and document the raw-data duplicate-check results.
-2. Add the municipality-to-region population reconciliation calculation to the notebook.
-3. Make the cleaned CSV output location explicit and consistent with the project repository structure.
+1. **Raw-data duplicate validation:** Added checks for exact duplicate rows and duplicate DGUID–Census year–age combinations. The numerical results still need to be confirmed using the original raw dataset.
+2. **Municipality-to-region population reconciliation:** Added the calculation to the notebook. The saved cleaned CSV was independently checked, confirming that municipality totals match Niagara Region for both 2016 and 2021, with zero differences.
+3. **Cleaned CSV output location:** Updated the notebook to save `census_age_niagara_cleaned.csv` in the repository root, consistent with the existing tracked file.
 
+**Remaining requirement before merging:** Run the updated notebook from beginning to end using the original Statistics Canada raw dataset, confirm the raw duplicate-check results, and verify that all validation cells execute successfully.
+
+No changes to the cleaned population values were required.
 These remaining checks do not require changing the population values in the cleaned CSV.
