@@ -1,4 +1,3 @@
-report = """
 # Census Age Cleaning Report
 
 ## 1. Dataset Overview
@@ -20,7 +19,7 @@ The raw Census file was not overwritten.
 ### Dataset dimensions
 
 - Rows: 1,399,808
-- Columns: 14
+- Columns: 12
 
 ### Census periods
 # Census Age Data Cleaning Report — Niagara
@@ -29,7 +28,7 @@ The raw Census file was not overwritten.
 
 This report documents the cleaning and validation of the Statistics Canada Census Age dataset for the Niagara Census Division and its 12 municipalities.
 
-**Raw dataset:** `data/98100022.csv`
+**Raw dataset:** `data/raw/98100022.csv`
 **Cleaned dataset:** `census_age_niagara_cleaned.csv`
 **Census years:** 2016 and 2021
 
@@ -42,7 +41,7 @@ The raw dataset was not overwritten.
 The raw dataset contained:
 
 * **Rows:** 1,399,808
-* **Columns:** 14
+* **Columns:** 12
 * Multiple Canadian geographies
 * Census years including 2016 and 2021
 * 128 age labels
@@ -323,3 +322,29 @@ The notebook provides a reproducible record of:
 * Geographic validation
 * Census total validation
 * Saving the cleaned dataset
+
+## Additional Validation Checks
+
+### Before-and-After Missing-Value Checks
+
+The raw dataset contains 1,399,808 rows and 12 columns, with 3,939,072 missing values across all fields.
+
+The cleaned Niagara dataset contains 3,328 rows and 12 columns, with 9,984 missing values. All 9,984 missing values occur in the three symbol columns (`Symbol`, `Symbol.1`, and `Symbol.2`), which are blank for all 3,328 cleaned records. These blank symbol fields are not missing population counts.
+
+### Before-and-After Duplicate Checks
+
+Duplicate records were checked during validation. The cleaned dataset contains:
+
+* Exact duplicate rows: 0
+* Duplicate combinations of DGUID, Census year, and age category: 0
+
+### Municipality-to-Region Population-Total Comparison
+
+The sum of the 12 Niagara municipality population totals matches the Niagara Census Division total for both Census years, using the `Total - Age` category and the total gender population field.
+
+| Census year | Sum of 12 municipalities | Niagara Census Division total | Result |
+| ----------- | -----------------------: | ----------------------------: | ------ |
+| 2016        |                  447,890 |                       447,890 | Match  |
+| 2021        |                  477,940 |                       477,940 | Match  |
+
+All 12 municipalities were present in both years. The municipality totals were compared with the regional total; the regional total was not added to the municipality totals.
