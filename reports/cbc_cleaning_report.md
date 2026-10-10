@@ -1,7 +1,7 @@
 # Cleaning Report - Canadian Business Counts (Niagara), Week 4
 
 **Source:** Statistics Canada table 33-10-1176-01 | **Raw file:** `data/raw/33101176.csv` (unchanged; SHA-256 `25900b137bf79991719bb4516014317807255338936f59e9ddc1566282f1c8d8`)
-**Notebook:** `notebooks/02_cbc_cleaning.ipynb` | **Outputs:** `canadian_business_counts_niagara_cleaned.csv`, `canadian_business_counts_niagara_cma_reference.csv`
+**Notebook:** `scripts/02_cbc_cleaning.ipynb` | **Outputs:** `canadian_business_counts_niagara_cleaned.csv`, `canadian_business_counts_niagara_cma_reference.csv`
 
 ## 1. Before cleaning
 | Check | Result | Week 3 audit |
