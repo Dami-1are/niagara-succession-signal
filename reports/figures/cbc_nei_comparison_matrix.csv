@@ -1,0 +1,6 @@
+Dimension,StatCan Canadian Business Counts,Niagara Employment Inventory (NEI)
+Geographic Unit,12 Census Subdivisions (CSDs),Municipal points / address parcels
+Target Entity,Employer business registry locations,Surveyed local physical establishments
+Reference Vintage,Snapshot: 2026-01,Annual municipal survey cycles
+Industry Scheme,NAICS 2022 (hierarchical),NAICS / Local land-use codes
+Granularity,Aggregated counts by size/NAICS,Establishment-level microdata
