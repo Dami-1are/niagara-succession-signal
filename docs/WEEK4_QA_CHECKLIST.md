@@ -11,7 +11,7 @@ Status values: Approved / Approved after correction / Needs correction / Pending
 | Stephen | NEI cleaning | #15 | #24, #40 | Yes | Verified (re-run gives identical content) | Approved after correction |
 | Lucky | Canadian Business Counts | not yet recorded | #29 | Yes | Verified (both CSVs identical on re-run) | Approved after correction |
 | Damilare | Business Dynamics | not yet recorded | #26 | Yes | Verified (both CSVs identical on re-run) | Approved after correction |
-| Precious | Census Age | not yet recorded | #28 | Yes (no modification found) | NOT verified: raw file missing, notebook reads a non-existent path | Needs correction |
+| Precious | Census Age | not yet recorded | #28 | Yes (no modification found) | Verified (raw file restored, notebook re-run gives identical CSV) | Approved after correction |
 | Ruth | Self-Employment | not yet recorded | #30 | Yes | Not re-run; raw file is excluded only locally | Approved after correction |
 | Oluwatosin | StatCan succession (1196-1199) | #20 | #27 | Yes | Not re-run | Approved (data checks) |
 | Emmanuella | CFIB evidence | not yet recorded | #25 | Yes | n/a (manual extraction, pages recorded) | Approved after correction |
@@ -62,3 +62,21 @@ PASS. Only 4 non-merge commits on `main` since 2026-09-25, all by Joyce (README,
 - `data/processed/README.md` calls the folder "analysis-ready" (Step 4).
 - Steps 13-19 cross-checks are summarised in the handover.
 - Project status update only after the corrections above are resolved.
+---
+
+## Corrections update (2026-10-13, branch week4-corrections)
+
+Done:
+- Precious: Census Age notebook, report and CSV moved to notebooks/02_data_cleaning/, docs/data_audits/CENSUS_AGE_CLEANING_REPORT.md and data/interim/. Notebook paths fixed. Raw file restored locally and added to .gitignore. Re-run produced an identical CSV. Report documents overlapping ages, random rounding and suppression handling.
+- Stephen: docs/data_audits/NEI_CLEANING_REPORT.md added; nei_id_conflict and postal_code_status defined in the data dictionary.
+- Lucky: report path text fixed in the notebook template. Notebook and report stay in scripts/ and reports/ (moving the notebook would break its repo-root detection).
+- Damilare: report contains the NAICS-version and overlapping firm-size notes. Outputs stay in data/processed/ (moving them would break the script).
+- Emmanuella: 1 value spot-checked against the PDF (Figure 8, formal written plan 9%, matches). Output stays in data/processed/; data/processed/README.md rewritten to say these are not final analytical datasets.
+- Ruth: download source and local-only exclusion documented in data/raw/DATA_SOURCES.md.
+- Theophilus: NEI flags and the two Census raw files added to docs/DATA_DICTIONARY.md (by Joyce).
+
+Still open (non-critical, record only):
+- Issue numbers and PRs #31-#38 not yet recorded.
+- Ruth and Oluwatosin notebooks not re-run by QA.
+- Only 1 of 13 CFIB values checked against the PDF.
+- Lucky notebook and report remain in non-standard folders.

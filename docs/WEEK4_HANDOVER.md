@@ -46,3 +46,8 @@ Possible later alignment: Canadian Business Counts, Census Age (DGUID), Self-Emp
 
 ## Week 5 Entry Conditions
 Week 5 may start for a dataset when: its corrections above are resolved or recorded as non-critical; raw data is available or its download source is documented; the data dictionary and inventory match the approved outputs; the final `git status` is clean. Census Age and Self-Employment analysis should wait for their raw-file documentation. Status: not yet met. Week 4 should not be marked complete until the items above are closed.
+---
+
+## Corrections update (2026-10-13)
+
+The Outstanding Issues above were addressed on branch week4-corrections, except: issue numbers and PRs #31-#38 not recorded; the CFIB spot-check covers 1 value; Lucky's notebook and report remain in scripts/ and reports/. See docs/WEEK4_QA_CHECKLIST.md for details. The Census Age and Self-Employment raw files are not in the repository; download steps are in data/raw/DATA_SOURCES.md.
