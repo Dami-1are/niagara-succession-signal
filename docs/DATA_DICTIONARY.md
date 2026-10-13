@@ -251,3 +251,23 @@ A derived succession-risk feature will not be presented as an observed variable.
 # Relationship to Required Deliverable 4.1
 
 The challenge requires an **Aggregated Data Layer**: a cleaned, documented, aggregated dataset joining relevant open sources at appropriate sector and municipal levels. This dictionary, with `WEEK4_DATA_DOCUMENTATION.md`, documents the datasets that feed it.
+
+---
+
+## Week 4 additions (added 2026-10-13)
+
+### NEI cleaned file: `data/interim/nei_cleaned.csv` (98,065 rows x 22 columns)
+Two flag columns were added to the 20 original NEI columns. Flags only mark records; no rows were removed or altered.
+
+| Column | Type | Meaning | Counts |
+|---|---|---|---|
+| `postal_code_status` | text | Quality flag for `business_postal_code`. Includes `Missing` and `Invalid - Review`; the validation rule is in `notebooks/02_data_cleaning/02_nei_cleaning.ipynb`. | 127 Missing; 153 Invalid - Review |
+| `nei_id_conflict` | True/False | True when the same `nei_id` in the same survey `year` appears under more than one distinct `business_name`. Every row in such a group is flagged. Missing names count as their own value. | 278 True; 97,787 False |
+
+Note: repeated `nei_id` values across different years are longitudinal observations of the same business and are not flagged.
+
+### Raw files not stored in the repository
+| File | Used by | How to obtain |
+|---|---|---|
+| `data/raw/98100022.csv` (Census Table 98-10-0022-01) | Census Age cleaning (Precious) | Download from Statistics Canada; see `data/raw/DATA_SOURCES.md` |
+| `data/raw/9810059201_databaseLoadingData.csv` (Census Table 98-10-0592-01) | Self-employment cleaning (Ruth) | Download the database-loading CSV from Statistics Canada; see `data/raw/DATA_SOURCES.md` |
