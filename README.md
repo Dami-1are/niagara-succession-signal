@@ -1077,15 +1077,14 @@ Detailed weekly assignments will continue to be documented as the project progre
 
 The Niagara Succession Signal team consists of:
 
-- Theophilus
-- Damilare
-- Precious
-- Lucky
-- Oluwatosin
-- Emmanuella
-- Ruth
-- Stephen
-- Joyce
+-  Joyce Ebruphyo Etata 
+-  Adeleye Theophilus 
+-  Stephen Olusoji Ayankoso
+-  Pesilade Lucky
+-  ⁠Ani Chinaecherem Emmanuella
+-  Precious Ubanwa
+-  Oluwadare Ayomide Babatunde
+
 
 Team members collaborate across the different phases of the project, with weekly tasks assigned according to the project roadmap and the work required for each phase.
 
