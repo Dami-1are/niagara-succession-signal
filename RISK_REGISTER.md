@@ -1,4 +1,4 @@
-# Niagara Succession Signal — Risk Register
+<img width="711" height="297" alt="image" src="https://github.com/user-attachments/assets/5749ce90-5dc8-4893-b766-f9af4e3b108e" /><img width="689" height="316" alt="image" src="https://github.com/user-attachments/assets/7c85b91a-223a-40e6-9cfa-95e708bea8b5" /># Niagara Succession Signal — Risk Register
 
 This risk register records the main risks, limitations and data gaps identified during the Niagara Succession Signal project.
 
@@ -15,7 +15,6 @@ The register will be updated as the project progresses and new information becom
 ---
 
 ## Current Risk Register
-
 | ID | Risk / Data Gap | Level | Why It Matters | How We Will Manage It | Review |
 |---|---|---|---|---|---|
 | R01 | Public access to the 2026 NEI succession responses has not been confirmed | 🔴 High | These responses may contain some of the most direct Niagara-specific succession information available to the project | Investigate whether the succession-specific responses can be accessed through Niagara Region/Economic Development or another official release. Do not assume the data is available until confirmed | Week 3 |
@@ -36,7 +35,8 @@ The register will be updated as the project progresses and new information becom
 | R16 | Joining datasets from different sources may not be straightforward | 🔴 High | Sources may not share a reliable business-level identifier | Do not force business-level joins. First identify valid common keys such as geography, NAICS, year or size category and document the level at which sources can legitimately be combined | Weeks 3–6 |
 | R17 | Proxy variables could be mistaken for direct evidence of succession risk | 🔴 High | This could lead us to claim more than the evidence supports | Clearly distinguish direct variables, proxy indicators and contextual variables in the methodology | Throughout project |
 | R18 | Raw data could accidentally be changed during cleaning | 🟡 Medium | We need the original data for reproducibility and auditing | Preserve original downloads unchanged in `data/raw/`. Perform cleaning in later stages and save resulting files separately | Weeks 3–4 |
-
+| R19 | Census population age is not business-owner age | 🟡 Medium | The Census age dataset describes the general population and does not identify the ages of business owners. Using older-population patterns as if they represented older business owners could create unsupported succession-risk conclusions | Use population age only as demographic context. Never treat it as direct evidence of owner age, retirement intention or succession risk | Throughout project |
+| R20 | Canadian Business Counts has a single `2026-01` reference period, while the cube title says "June 2026"; the metadata also advises against using the series as a time series | 🟡 Medium | The reference-period discrepancy could cause incorrect time alignment with other datasets, and the single snapshot cannot establish trends in Niagara business counts | Treat CBC as a single-period aggregate business-count source. Record `2026-01` as the reference period supported by the downloaded data and metadata, retain the unresolved "June 2026" title discrepancy in documentation, do not use this file alone for trend analysis, and verify time periods before comparison with other datasets | Weeks 3–5 |
 ---
 
 # Main Week 2 Data Gap
@@ -94,3 +94,15 @@ Risks will be reviewed as we move through:
 **Data Collection → Data Audit → Cleaning → EDA → Problem Framing → Feature Engineering → Modelling → Evaluation → Recommendations**
 
 New risks will be added when discovered, and existing risks will be updated when they are resolved or better evidence becomes available.
+
+## Business Dynamics Audit Risks
+
+- **Business exit is not a direct succession indicator.** The Business Dynamics datasets define exits based on the presence of employees across consecutive years. An exit does not establish owner retirement, ownership transfer, succession planning, or succession-related closure. Any later use of exit measures as a succession proxy must document this limitation and supporting evidence.
+
+- **Geography is not Niagara-specific.** The Business Dynamics datasets provide provincial and territorial geography, including Ontario, but do not directly identify Niagara. These data therefore cannot by themselves establish Niagara-specific business succession patterns.
+
+- **NAICS classifications vary across the time series.** The industry classification system changes across reference periods. Any later longitudinal industry comparison must account for the applicable NAICS version.
+
+- **Firm-size categories include nested groups.** Dataset 33-10-0088-01 contains overlapping firm-size categories such as "50 employees or more" alongside "50 to less than 100 employees" and "100 employees or more." These categories must not be summed as if they were mutually exclusive.
+
+- **Dataset 33-10-0088-01 contains suppressed observations.** There are 4,179 missing `VALUE` observations associated with `STATUS = x`. According to the Statistics Canada metadata, `x` means the values were suppressed to meet the confidentiality requirements of the Statistics Act. These suppressed observations must not be treated as zero and must be handled appropriately during later cleaning and analysis.
